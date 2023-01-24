@@ -1,5 +1,9 @@
-import "./Navbar.css";
+// import "./Navbar.css";
 
+/* TODO
+    -> Create an icon
+    -> Figma mockup
+*/
 const Navbar = () => {
     return (
         <nav className="navbar">
@@ -10,8 +14,6 @@ const Navbar = () => {
                 <a href="/#experiences">Experiences</a>
                 <a href="/#personal-projects">Personal Projects</a>
                 <a href="/#contact">Contact/Socials</a>
-                <a href="https://www.google.ca">Google</a>
-                <p>Lorem</p>
             </div>
         </nav>
     );
