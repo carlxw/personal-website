@@ -1,6 +1,6 @@
 const MyStory = () => {
     return (
-        <h1>My Story</h1>
+        <h1 id="my-story">My Story</h1>
     );
 }
 

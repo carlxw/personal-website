@@ -1,6 +1,6 @@
 const PersonalProjects = () => {
     return (
-        <h1>Personal Projects</h1>
+        <h1 id="personal-projects">Personal Projects</h1>
     );
 
     // Dynamically create a list of personal projects
