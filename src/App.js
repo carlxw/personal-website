@@ -16,6 +16,10 @@ function App() {
     return (
         <div className="app">
             <Navbar />
+            <MyStory />
+            <Experiences />
+            <PersonalProjects />
+            <Contact />
         </div>
     );
 }
