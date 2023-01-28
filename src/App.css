@@ -1,6 +1,4 @@
-html {
-	background-color: black;
-	scroll-behavior: smooth;
-}
-
 /* Style the scrollbar */
+::-webkit-scrollbar-thumb {
+	background-color: red;
+}

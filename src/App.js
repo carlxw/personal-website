@@ -9,7 +9,7 @@ import Skills from "./pages/sections_App/Skills";
 import Navbar from "./components/Navbar";
 
 // Styles
-// import "./App.css";
+import "./App.css";
 
 // import { Router, Route, Routes } from "react-router";
 
