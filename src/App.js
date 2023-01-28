@@ -1,8 +1,9 @@
 // Sections
 import Contact from "./pages/sections_App/Contact";
 import Experiences from "./pages/sections_App/Experiences";
-import MyStory from "./pages/sections_App/MyStory";
 import PersonalProjects from "./pages/sections_App/PersonalProjects";
+import Hello from "./pages/sections_App/Hello";
+import Skills from "./pages/sections_App/Skills";
 
 // Components
 import Navbar from "./components/Navbar";
@@ -16,10 +17,13 @@ function App() {
     return (
         <div className="app">
             <Navbar />
-            <MyStory />
-            <Experiences />
-            <PersonalProjects />
-            <Contact />
+                <div className="webpage">
+                    <Hello />
+                    <Skills />
+                    <Experiences />
+                    <PersonalProjects />
+                    <Contact />
+                </div>
         </div>
     );
 }
