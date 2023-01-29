@@ -1,9 +1,10 @@
 {
-    "office": [
+    "office": 
+    [
         {
             "title": "Microsoft Word",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "../../data/img/word.png"
         },
         {
             "title": "Microsoft Excel",
@@ -17,7 +18,8 @@
         }
     ],
 
-    "coding": [
+    "coding": 
+    [
         {
             "title": "Java",
             "desc": "lorem lorem lorem",
@@ -34,18 +36,14 @@
             "img": "img img img"
         },
         {
-            "title": "ReactJS",
-            "desc": "lorem lorem lorem",
-            "img": "img img img"
-        },
-        {
             "title": "JavaScript",
-            "desc": "lorem lorem lorem",
+            "desc": "ReactJS, NodeJS",
             "img": "img img img"
         }
     ],
 
-    "devTools": [
+    "devTools": 
+    [
         {
             "title": "Git",
             "desc": "lorem lorem lorem",
@@ -58,7 +56,8 @@
         }
     ],
 
-    "digitalArts": [
+    "digitalArts": 
+    [
         {
             "title": "Adobe Photoshop",
             "desc": "lorem lorem lorem",
@@ -75,18 +74,14 @@
             "img": "img img img"
         },
         {
-            "title": "Elementary Photography",
-            "desc": "lorem lorem lorem",
-            "img": "img img img"
-        },
-        {
             "title": "Vegas Pro 15",
             "desc": "lorem lorem lorem",
             "img": "img img img"
         }
     ],
 
-    "languages": [
+    "languages": 
+    [
         {
             "title": "Simplified Chinese",
             "desc": "lorem lorem lorem",

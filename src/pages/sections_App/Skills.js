@@ -1,7 +1,9 @@
 import "./Sections.css";
+
 import { useState } from "react";
 import SkillsCard from "../../components/SkillsCard";
-const json = require("../../data/json/skills.json");
+
+const jsonObj = require("../../data/json/skills.json");
 
 const Skills = () => {
     const [office, setOffice] = useState(true);
@@ -34,11 +36,11 @@ const Skills = () => {
             <button onClick={() => display(setLanguages)}>Languages</button>
 
             {/* Content */}
-            { office && <SkillsCard data={ json.office }/> }
-            { coding && <SkillsCard data={ json.coding } /> }
-            { devTools && <SkillsCard data={ json.devTools } /> }
-            { digitalArts && <SkillsCard data={ json.digitalArts } /> }
-            { languages && <SkillsCard data={ json.languages } /> }
+            { office && <SkillsCard data={ jsonObj.office }/> }
+            { coding && <SkillsCard data={ jsonObj.coding } /> }
+            { devTools && <SkillsCard data={ jsonObj.devTools } /> }
+            { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
+            { languages && <SkillsCard data={ jsonObj.languages } /> }
         </div>
     );
 }

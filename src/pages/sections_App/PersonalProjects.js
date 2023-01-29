@@ -1,13 +1,14 @@
 import "./Sections.css";
 
+import ProjCard from "../../components/ProjCard";
+const jsonArr = require("../../data/json/personal_projects.json");
+
 const PersonalProjects = () => {
     return (
         <div className="personal-projects" id="personal_projects">
             <h1>Personal Projects</h1>
             <p>A collection of things that I made or am apart of</p>
-            <h2>Project 1</h2>
-            <h2>Project 2</h2>
-            <h2>Project 3</h2>
+            <ProjCard data={jsonArr} />
         </div>
     );
 
