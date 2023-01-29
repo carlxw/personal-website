@@ -9,7 +9,7 @@ html {
     color: white;
 
     position: sticky;
-    z-index: 1;
+    z-index: auto;
     top: 0;
 
     background-color: brown;
