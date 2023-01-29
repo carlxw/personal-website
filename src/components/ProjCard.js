@@ -4,7 +4,7 @@ const ProjCard = ({ data }) => {
         render.push(
             <div key={ data[i].title }>
                 <h2 id={ data[i].title }>{ data[i].title }</h2>
-                <p>{ data[i].img }</p>
+                <img style={ { height: 100, width: 100 } }src={ require(`../data/img/${data[i].img}`) } alt="logo" />
                 <p>{ data[i].desc }</p>
             </div>
         );
