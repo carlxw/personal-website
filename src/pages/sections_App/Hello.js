@@ -1,3 +1,4 @@
+import "./Sections.css";
 import image from "../../data/img/cartoonme.png";
 
 const Hello = () => {
