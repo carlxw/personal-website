@@ -4,7 +4,7 @@ const SkillsCard = ({ data }) => {
         render.push(
             <div key={ data[i].title }>
                 <h2 id={ data[i].title }>{ data[i].title }</h2>
-                <p>{ data[i].img }</p>
+                <img style={ {width: 50, height: 50} } src={ require(`../data/img/${data[i].img}`) } alt="icon" />
                 <p>{ data[i].desc }</p>
             </div>
         );

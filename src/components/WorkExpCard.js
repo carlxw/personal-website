@@ -5,7 +5,7 @@ const WorkExpCard = ({ data }) => {
             <div key={ data[i].pos_title }>
                 <h2 id={ data[i].pos_title }>{ data[i].pos_title }</h2>
                 <p>{ data[i].company }</p>
-                <p>{ data[i].img }</p>
+                <img style={ { width: 50, height: 50 } }src={ require(`../data/img/${data[i].img}`) } alt="icon"/>
                 <p>{ data[i].desc }</p>
             </div>
         );

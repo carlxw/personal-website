@@ -4,17 +4,17 @@
         {
             "title": "Microsoft Word",
             "desc": "lorem lorem lorem",
-            "img": "../../data/img/word.png"
+            "img": "word.png"
         },
         {
             "title": "Microsoft Excel",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "excel.png"
         },
         {
             "title": "Microsoft PowerPoint",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "powerpoint.png"
         }
     ],
 
@@ -23,22 +23,22 @@
         {
             "title": "Java",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "java.png"
         },
         {
             "title": "Python",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "python.png"
         },
         {
             "title": "C++",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "cpp.png"
         },
         {
             "title": "JavaScript",
             "desc": "ReactJS, NodeJS",
-            "img": "img img img"
+            "img": "javascript.png"
         }
     ],
 
@@ -47,12 +47,12 @@
         {
             "title": "Git",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "github.png"
         },
         {
             "title": "AutoHotkey",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "ahk.png"
         }
     ],
 
@@ -61,22 +61,22 @@
         {
             "title": "Adobe Photoshop",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "photoshop.png"
         },
         {
             "title": "Figma",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "figma.png"
         },
         {
             "title": "Blender 3D",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "blender.png"
         },
         {
             "title": "Vegas Pro 15",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "vegaspro.png"
         }
     ],
 
@@ -85,12 +85,12 @@
         {
             "title": "Simplified Chinese",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "chinese.png"
         },
         {
             "title": "French",
             "desc": "lorem lorem lorem",
-            "img": "img img img"
+            "img": "french.png"
         }
     ]
 }
