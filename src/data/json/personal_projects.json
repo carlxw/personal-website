@@ -3,7 +3,7 @@
         "title": "Rrythm Music Bot",
         "img": "rrythm.png",
         "desc": "A bot coded in NodeJS using discord.js framework",
-        "github": "link to github"
+        "github": "https://github.com/carlxw/rrythm"
     },
     {
         "title": "HealthChain",
@@ -16,6 +16,6 @@
         "title": "Personal Website",
         "img": "cw.png",
         "desc": "A virtual presentation of myself, what you're seeing right now!",
-        "github": "link to github"
+        "github": "https://github.com/carlxw/personal-website"
     }
 ]
