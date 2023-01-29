@@ -1,0 +1,101 @@
+{
+    "office": [
+        {
+            "title": "Microsoft Word",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "Microsoft Excel",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "Microsoft PowerPoint",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        }
+    ],
+
+    "coding": [
+        {
+            "title": "Java",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "Python",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "C++",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "ReactJS",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "JavaScript",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        }
+    ],
+
+    "devTools": [
+        {
+            "title": "Git",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "AutoHotkey",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        }
+    ],
+
+    "digitalArts": [
+        {
+            "title": "Adobe Photoshop",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "Figma",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "Blender 3D",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "Elementary Photography",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "Vegas Pro 15",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        }
+    ],
+
+    "languages": [
+        {
+            "title": "Simplified Chinese",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        },
+        {
+            "title": "French",
+            "desc": "lorem lorem lorem",
+            "img": "img img img"
+        }
+    ]
+}
