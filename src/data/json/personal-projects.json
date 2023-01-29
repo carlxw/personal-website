@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Rrythm Music Bot",
+        "img": "img img link",
+        "desc": "A bot coded in NodeJS using discord.js framework",
+        "github": "link to github"
+    },
+    {
+        "title": "HealthChain",
+        "img": "img img link",
+        "desc": "DeltaHacks 9 hackathon submission",
+        "github": "link to github"
+    },
+    {
+        "title": "Personal Website",
+        "img": "img img link",
+        "desc": "A virtual presentation of myself, what you're seeing right now!",
+        "github": "link to github"
+    }
+]
