@@ -1,9 +1,19 @@
 const Experiences = () => {
     return (
         <div className="experiences" id="experiences">
-            <h1>Experiences</h1>
+            <h1 style={ {"padding-top": "5%"} }>Experiences</h1>
             <p>This is a visual tree that gives a good idea of my work experience</p>
             <h2>Work experience 1</h2>
+            <h2>Work experience 2</h2>
+            <h2>Work experience 2</h2>
+            <h2>Work experience 2</h2>
+            <h2>Work experience 2</h2>
+            <h2>Work experience 2</h2>
+            <h2>Work experience 2</h2>
+            <h2>Work experience 2</h2>
+            <h2>Work experience 2</h2>
+            <h2>Work experience 2</h2>
+            <h2>Work experience 2</h2>
             <h2>Work experience 2</h2>
             <h2>Work experience 3</h2>
         </div>

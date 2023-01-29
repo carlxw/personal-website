@@ -2,8 +2,3 @@
 ::-webkit-scrollbar-thumb {
 	background-color: red;
 }
-
-/* Fixes navbar scroll-to effect */
-h1 .div{
-	padding-top: 5%;
-}
