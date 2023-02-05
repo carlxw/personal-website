@@ -12,7 +12,7 @@ const Skills = () => {
     const [digitalArts, setDigitalArts] = useState(false);
     const [languages, setLanguages] = useState(false);
 
-    const funcs = [setOffice, setCoding, setDevTools, setDigitalArts, setLanguages]
+    const funcs = [setOffice, setCoding, setDevTools, setDigitalArts, setLanguages];
 
     const display = (func) => {
         // Turn off all categories
@@ -25,23 +25,25 @@ const Skills = () => {
     }
 
     return (
-        <div className="skills" id="skills">
-            <h1 className="link_header">Skills -------------------------</h1>
+        <section id="skills">
+            <div className="skills">
+                <h1 className="link_header">Skills -------------------------</h1>
 
-            {/* Buttons */}
-            <button onClick={() => display(setOffice)}>Office</button>
-            <button onClick={() => display(setCoding)}>Coding</button>
-            <button onClick={() => display(setDevTools)}>Dev Tools</button>
-            <button onClick={() => display(setDigitalArts)}>Digital Arts</button>
-            <button onClick={() => display(setLanguages)}>Languages</button>
+                {/* Buttons */}
+                <button onClick={() => display(setOffice)}>Office</button>
+                <button onClick={() => display(setCoding)}>Coding</button>
+                <button onClick={() => display(setDevTools)}>Dev Tools</button>
+                <button onClick={() => display(setDigitalArts)}>Digital Arts</button>
+                <button onClick={() => display(setLanguages)}>Languages</button>
 
-            {/* Content */}
-            { office && <SkillsCard data={ jsonObj.office }/> }
-            { coding && <SkillsCard data={ jsonObj.coding } /> }
-            { devTools && <SkillsCard data={ jsonObj.devTools } /> }
-            { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
-            { languages && <SkillsCard data={ jsonObj.languages } /> }
-        </div>
+                {/* Content */}
+                { office && <SkillsCard data={ jsonObj.office }/> }
+                { coding && <SkillsCard data={ jsonObj.coding } /> }
+                { devTools && <SkillsCard data={ jsonObj.devTools } /> }
+                { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
+                { languages && <SkillsCard data={ jsonObj.languages } /> }
+            </div>
+        </section>
     );
 }
 
