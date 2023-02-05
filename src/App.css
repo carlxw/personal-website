@@ -36,3 +36,11 @@ a {
 .cls {
 	clear: both;
 }
+
+.webpage {
+    scroll-snap-type: y mandatory;
+}
+
+.snap_child {
+    scroll-snap-align: start;
+}
