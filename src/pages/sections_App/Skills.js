@@ -1,6 +1,8 @@
 import { useState } from "react";
 import SkillsCard from "../../components/SkillsCard";
 
+import "./css/Skills.css";
+
 const jsonObj = require("../../data/json/skills.json");
 
 const Skills = () => {

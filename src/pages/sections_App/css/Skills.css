@@ -1,0 +1,12 @@
+.skills {
+    box-sizing: border-box;
+    border: 1px white solid;
+    margin-top: 20px;
+
+    height: 100%;
+}
+
+.skills h1 {
+    margin-right: 3%;
+    margin-left: 3%;
+}
