@@ -1,0 +1,45 @@
+.h1_intro {
+    font-size: 1.5rem;
+    width: 50%;
+    display: inline;
+}
+
+.Typewriter__wrapper {
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#typewriter {
+    display: inline;
+    float: right;
+}
+
+.hello {
+    padding-left: 2%;
+    padding-right: 2%;
+
+    box-sizing: border-box;
+    border: 1px white solid;
+}
+
+.hello p {
+    padding-top: 5%;
+
+    font-size: 1.5rem;
+
+    float: left;
+    display: inline;
+    width: 50%;
+}
+
+.hello img {
+    float: right;
+    border-radius: 5%;
+
+    margin-bottom: 5%;
+    margin-right: 2%;
+}

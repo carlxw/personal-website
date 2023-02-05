@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
 
-body {
+/* Fonts and background */
+* {
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	background-color:#222222;
@@ -28,6 +29,10 @@ a:active {
 }
 
 a {
-	/* Text colour */
     color: white;
+}
+
+/* Float reset */
+.cls {
+	clear: both;
 }

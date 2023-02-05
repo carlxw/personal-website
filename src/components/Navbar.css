@@ -1,43 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
 
 .navbar {
-    /* NavBar scrolling */
+    display: block;
     position: sticky;
-    z-index: auto;
+    z-index: 1;
     top: 0;
 
-    /* Positioning */
-    display: flex;
-
-    /* Resizing */
-    max-width: auto;
-
-    /* Background colour */
+    box-shadow: 5px white;
     background-color: #222222;
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 
-    border-bottom: solid 5px white;
+    white-space: nowrap;
 }
 
 .link_pages {
-    /* Position the links to the left */
-    position: relative;
-    display: block;
-    margin-left: 50%;
-    margin-top: 1.5rem;
-    max-width: fit-content;
+    float: right;
+    min-width: 75%;
+    text-align: right;
+    box-sizing: border-box;
+
+    margin-top: 2.5%;
+    margin-right: 2.5%
 }
 
-.navbar a {
-    /* Creates spacing between text */
-    padding: 1rem;
-
-    /* Text colour */
-    color: white;
+.link_pages a {
+    text-align: left;
+    margin-right: 5%;
 }
 
+.link_pages a:last-child {
+    margin-right: 0;
+}
+
+
+/* h1 */
 #navbar_name {
-    /* Gives margins to Carl Wang */
-    padding-left: 1.5rem;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 html {

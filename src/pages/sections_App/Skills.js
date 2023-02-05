@@ -1,5 +1,3 @@
-import "./Sections.css";
-
 import { useState } from "react";
 import SkillsCard from "../../components/SkillsCard";
 
@@ -26,7 +24,7 @@ const Skills = () => {
 
     return (
         <div className="skills" id="skills">
-            <h1>Skills -------------------------</h1>
+            <h1 className="link_header">Skills -------------------------</h1>
 
             {/* Buttons */}
             <button onClick={() => display(setOffice)}>Office</button>
