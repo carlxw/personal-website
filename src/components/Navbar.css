@@ -31,9 +31,7 @@
 .link_pages a {
     text-align: left;
     margin-right: 5%;
-}
-
-.link_pages a:last-child {
+} .link_pages a:last-child {
     margin-right: 0;
 }
 
