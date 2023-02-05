@@ -11,8 +11,6 @@ import Navbar from "./components/Navbar";
 // Styles
 import "./App.css";
 
-// import { Router, Route, Routes } from "react-router";
-
 function App() {
     return (
         <div className="app">

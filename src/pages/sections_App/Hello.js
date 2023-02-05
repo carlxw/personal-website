@@ -3,6 +3,7 @@ import image from "../../data/img/cartoonme.png";
 import Typewriter from "typewriter-effect";
 
 import "./css/Hello.css";
+import "./css/Sections.css";
 
 const Hello = () => {
     const strArr = [

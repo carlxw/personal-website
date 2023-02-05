@@ -5,17 +5,14 @@
     padding-top: 5%;
     padding-bottom: 5%;
 
+    margin-top: 100px;
+
     /* Ensures that full viewport is taken up */
     height: 85vh;
     width: 97.9vw;
 
     box-sizing: border-box;
     border: 1px white solid;
-}
-
-/* For some reason, putting the code here will let the navbar work properly */
-section {
-    scroll-margin-top: 100px;
 }
 
 /* Dynamic h1 */

@@ -1,0 +1,4 @@
+/* For some reason, putting the code here will let the navbar work properly */
+section {
+    scroll-margin-top: 100px;
+}
