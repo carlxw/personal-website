@@ -2,7 +2,7 @@
 
 .navbar {
     display: block;
-    position: sticky;
+    position: fixed;
     z-index: 1;
     top: 0;
 
@@ -13,7 +13,7 @@
     margin-left: auto;
     margin-right: auto;
 
-    white-space: nowrap;
+    height: 100px;
 }
 
 .link_pages {
@@ -23,7 +23,9 @@
     box-sizing: border-box;
 
     margin-top: 2.5%;
-    margin-right: 2.5%
+    margin-right: 3%;
+
+    background-color: inherit;
 }
 
 .link_pages a {
@@ -39,6 +41,9 @@
 /* h1 */
 #navbar_name {
     float: left;
+    
+    background-color: inherit;
+
     margin-top: 2%;
     margin-left: 2%;
     margin-bottom: 2%;

@@ -13,6 +13,11 @@
     border: 1px white solid;
 }
 
+/* For some reason, putting the code here will let the navbar work properly */
+section {
+    scroll-margin-top: 100px;
+}
+
 /* Dynamic h1 */
 .h1_intro {
     font-size: 1.5rem;

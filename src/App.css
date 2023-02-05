@@ -7,6 +7,10 @@
 	background-color:#222222;
 }
 
+section {
+    scroll-padding-top: 100px;
+}
+
 button {
 	font-family: 'Open Sans', sans-serif;
 }
