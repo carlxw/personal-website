@@ -1,7 +1,7 @@
 import { useState } from "react";
-import SkillsCard from "../../components/SkillsCard";
+import SkillsCard from "../components/SkillsCard";
 
-const jsonObj = require("../../data/json/skills.json");
+const jsonObj = require("../data/json/skills.json");
 
 const Skills = () => {
     const [office, setOffice] = useState(true);

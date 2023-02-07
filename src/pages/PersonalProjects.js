@@ -1,5 +1,5 @@
-import ProjCard from "../../components/ProjCard";
-const jsonArr = require("../../data/json/personal_projects.json");
+import ProjCard from "../components/ProjCard";
+const jsonArr = require("../data/json/personal_projects.json");
 
 const PersonalProjects = () => {
     return (

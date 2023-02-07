@@ -1,4 +1,4 @@
-import image from "../../data/img/cartoonme.png";
+import image from "../data/img/cartoonme.png";
 
 import Typewriter from "typewriter-effect";
 

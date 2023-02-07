@@ -1,9 +1,9 @@
 // Sections
-import Contact from "./pages/sections_App/Contact";
-import Experiences from "./pages/sections_App/Experiences";
-import PersonalProjects from "./pages/sections_App/PersonalProjects";
-import Hello from "./pages/sections_App/Hello";
-import Skills from "./pages/sections_App/Skills";
+import Contact from "./pages/Contact";
+import Experiences from "./pages/Experiences";
+import PersonalProjects from "./pages/PersonalProjects";
+import Hello from "./pages/Hello";
+import Skills from "./pages/Skills";
 
 // Components
 import Navbar from "./components/Navbar";
