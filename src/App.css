@@ -31,12 +31,35 @@ a {
 } a:active {
     text-decoration: none;    
 } a:hover {
-    background-color: white;
     border-bottom: 3px solid white;
 } a:visited {
     text-decoration: none;
 } a:link {
     text-decoration: none;
+}
+
+.next_page {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    float: right;
+
+    width: fit-content;
+    height: fit-content;
+
+    /* margin-top: 5%;
+    margin-right: 5%; */
+} .prev_page {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    float: left;
+
+    width: fit-content;
+    height: fit-content;
+
+    /* margin-top: 5%;
+    margin-left: 5%; */
 }
 
 /* Float reset ---------------------------------------------- */
@@ -90,12 +113,34 @@ a {
 } #tw2 {
     display: block;
     float: right;
-}
-
-.Typewriter__wrapper {
+} .Typewriter__wrapper {
     /* display: block; */
     font-size: 3em;
     margin: 0;
     font-weight: bold;
 }
 
+.hello {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#hello_left {
+    float: left;
+    width: 45%;
+}
+
+.hello img {
+    float: right;
+    border-radius: 10px;
+
+    margin-right: 10%;
+    margin-top: 1%;
+
+    width: 30%;
+    height: 30%;
+}
+
+.hello p {
+    margin-top: 5%;
+}

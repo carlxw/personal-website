@@ -1,4 +1,6 @@
 import ProjCard from "../components/ProjCard";
+import { Link } from "react-router-dom";
+
 const jsonArr = require("../data/json/personal_projects.json");
 
 const PersonalProjects = () => {
@@ -7,6 +9,10 @@ const PersonalProjects = () => {
             <h1>Personal Projects -------------------------</h1>
             <p>A collection of things that I made or am apart of</p>
             <ProjCard data={jsonArr} />
+
+            <Link to="/contact" className="next_page">Contact/Socials -{">"}</Link>
+            <Link to="/" className="prev_page">{"<-"} Experiences</Link>
+            <div className="cls" />
         </div>
     );
 

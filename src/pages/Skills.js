@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SkillsCard from "../components/SkillsCard";
+import { Link } from "react-router-dom";
 
 const jsonObj = require("../data/json/skills.json");
 
@@ -39,6 +40,10 @@ const Skills = () => {
             { devTools && <SkillsCard data={ jsonObj.devTools } /> }
             { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
             { languages && <SkillsCard data={ jsonObj.languages } /> }
+
+            <Link to="/experiences" className="next_page">Experiences -{">"}</Link>
+            <Link to="/" className="prev_page">{"<-"} Home</Link>
+            <div className="cls" />
         </div>
     );
 }
