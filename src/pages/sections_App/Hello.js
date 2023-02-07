@@ -1,4 +1,3 @@
-import "./Sections.css";
 import image from "../../data/img/cartoonme.png";
 
 import Typewriter from "typewriter-effect";

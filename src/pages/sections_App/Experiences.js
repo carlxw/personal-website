@@ -1,5 +1,3 @@
-import "./Sections.css";
-
 import WorkExpCard from "../../components/WorkExpCard";
 
 const jsonArr = require("../../data/json/work_experience.json")

@@ -1,5 +1,3 @@
-import "./Navbar.css";
-
 /* TODO
     -> Create an icon
     -> Figma mockup

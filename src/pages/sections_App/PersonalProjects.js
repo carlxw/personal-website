@@ -1,5 +1,3 @@
-import "./Sections.css";
-
 import ProjCard from "../../components/ProjCard";
 const jsonArr = require("../../data/json/personal_projects.json");
 

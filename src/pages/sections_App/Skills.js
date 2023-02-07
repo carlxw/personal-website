@@ -1,5 +1,3 @@
-import "./Sections.css";
-
 import { useState } from "react";
 import SkillsCard from "../../components/SkillsCard";
 
