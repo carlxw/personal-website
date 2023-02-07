@@ -2,16 +2,18 @@
     -> Create an icon
     -> Figma mockup
 */
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
     return (
         <nav className="navbar">
             <h1>Carl Wang</h1>
             <div className="link_pages">
-                <a href="/#">Home</a>
-                <a href="/#skills">Skills</a>
-                <a href="/#experiences">Experiences</a>
-                <a href="/#personal_projects">Personal Projects</a>
-                <a href="/#contact">Contact/Socials</a>
+                <Link to="/">Home</Link>
+                <Link to="/skills">Skills</Link>
+                <Link to="/experiences">Experiences</Link>
+                <Link to="/personal_projects">Personal Projects</Link>
+                <Link to="/contact">Contact/Socials</Link>
             </div>
         </nav>
     );
