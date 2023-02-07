@@ -9,6 +9,10 @@ import Error from "./pages/404.js";
 // Components
 import Navbar from "./components/Navbar";
 
+// Styling
+import "./App.css";
+
+// Router
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
