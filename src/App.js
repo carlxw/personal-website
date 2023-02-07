@@ -4,7 +4,7 @@ import Skills from "./pages/Skills";
 import Experiences from "./pages/Experiences";
 import PersonalProjects from "./pages/PersonalProjects";
 import Contact from "./pages/Contact";
-import Error from "./pages/404.js";
+// import Error from "./pages/404.js";
 
 // Components
 import Navbar from "./components/Navbar";
@@ -27,7 +27,7 @@ function App() {
                             <Route path="/experiences" element={<Experiences />} />
                             <Route path="/personal_projects" element={<PersonalProjects />} />
                             <Route path="/contact" element={<Contact />} />
-                            <Route path="*" element={<Error />} />
+                            {/* <Route path="*" element={<Error />} /> */}
                         </Routes>
                     </div>
             </div>

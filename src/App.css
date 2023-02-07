@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+* {
+    font-family: "Open Sans", Calibri;
+    color: white;
+
+    background-color: #222222;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h1:not(#nav_name) {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+} a:active {
+    text-decoration: none;    
+} a:hover {
+    background-color: white;
+    border-bottom: 3px solid white;
+} a:visited {
+    text-decoration: none;
+} a:link {
+    text-decoration: none;
+}
+
+/* Float reset ---------------------------------------------- */
+.cls {
+	clear: both;
+}
+
+/* NAVBAR ---------------------------------------------- */
+.navbar {
+    background-color: #222222;
+    display: block;
+
+    width: 100vw;
+    height: 75px;
+
+    top: 0;
+    left: 0;
+}
+
+.navbar .link_pages {
+    display: inline-block;
+    background-color: inherit;
+    width: auto;
+    right: 50px;
+    top: 27px;
+    position: fixed;
+}
+
+.navbar a {
+    background-color: inherit;
+    margin-right: 50px;
+    text-align: right;
+} .navbar a:last-child {
+    margin-right: 0;
+}
+
+#nav_name {
+    background-color: inherit;
+    float: left;
+    text-decoration: bold;
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+/* Hello Page ---------------------------------------------- */
+#tw1 {
+    display: block;
+    float: left;
+    width: 210px;
+} #tw2 {
+    display: block;
+    float: right;
+}
+
+.Typewriter__wrapper {
+    /* display: block; */
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+}
+
