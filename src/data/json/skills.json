@@ -15,6 +15,11 @@
             "title": "Microsoft PowerPoint",
             "desc": "lorem lorem lorem",
             "img": "powerpoint.png"
+        },
+        {
+            "title": "Notion",
+            "desc": "lorem lorem lorem",
+            "img": "powerpoint.png"
         }
     ],
 
@@ -22,23 +27,33 @@
     [
         {
             "title": "Java",
-            "desc": "lorem lorem lorem",
+            "desc": "Created games using Greenfoot API during high school",
             "img": "java.png"
         },
         {
             "title": "Python",
-            "desc": "lorem lorem lorem",
+            "desc": "Self-taught to use for data analysis",
             "img": "python.png"
         },
         {
             "title": "C++",
-            "desc": "lorem lorem lorem",
+            "desc": "University taught",
             "img": "cpp.png"
         },
         {
             "title": "JavaScript",
-            "desc": "ReactJS, NodeJS",
+            "desc": "ReactJS, NodeJS; Self-taught to create personal projects",
             "img": "javascript.png"
+        },
+        {
+            "title": "CSS",
+            "desc": "Elementary comptencey to style pages with simple design elements",
+            "img": "javascript.png"
+        },
+        {
+            "title": "VSCode",
+            "desc": "lorem lorem lorem",
+            "img": "powerpoint.png"
         }
     ],
 
@@ -46,12 +61,12 @@
     [
         {
             "title": "Git",
-            "desc": "lorem lorem lorem",
+            "desc": "Strong use of GitHub, branching, pushing and pulling",
             "img": "github.png"
         },
         {
             "title": "AutoHotkey",
-            "desc": "lorem lorem lorem",
+            "desc": "Coding automative scripts to bolster repetitive workflows",
             "img": "ahk.png"
         }
     ],
@@ -60,7 +75,7 @@
     [
         {
             "title": "Adobe Photoshop",
-            "desc": "lorem lorem lorem",
+            "desc": "Capable of creating image media",
             "img": "photoshop.png"
         },
         {
