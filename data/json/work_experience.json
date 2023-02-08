@@ -1,0 +1,16 @@
+[
+    {
+        "pos_title": "IT Consultant",
+        "company": "Oak Valley Health",
+        "duration": "Jan 2023 - Apr 2023",
+        "img": "fitmecanada.png",
+        "desc": "Helped docs learn Meditech"
+    },
+    {
+        "pos_title": "IT Team Lead",
+        "company": "FitMeCanada",
+        "duration": "July 2021",
+        "img": "oakvalleyhealth.png",
+        "desc": "Apart of Junior Achievement company program"
+    }
+]

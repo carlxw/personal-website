@@ -1,28 +1,33 @@
 // Sections
-import Contact from "./pages/sections_App/Contact";
-import Experiences from "./pages/sections_App/Experiences";
-import PersonalProjects from "./pages/sections_App/PersonalProjects";
-import Hello from "./pages/sections_App/Hello";
-import Skills from "./pages/sections_App/Skills";
+import Hello from "./pages/Hello";
+import Skills from "./pages/Skills";
+import Experiences from "./pages/Experiences";
+import PersonalProjects from "./pages/PersonalProjects";
+import Contact from "./pages/Contact";
+import Error from "./pages/404.js";
 
 // Components
 import Navbar from "./components/Navbar";
 
-// Styles
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
     return (
-        <div className="app">
-            <Navbar />
-                <div className="webpage">
-                    <Hello className="snap_child" />
-                    <Skills className="snap_child" />
-                    <Experiences className="snap_child" />
-                    <PersonalProjects className="snap_child" />
-                    <Contact className="snap_child" />
-                </div>
-        </div>
+        <BrowserRouter>
+            <div className="app">
+                <Navbar />
+                    <div className="content">
+                        <Routes>
+                            <Route path="/" element={<Hello />} />
+                            <Route path="/skills" element={<Skills />} />
+                            <Route path="/experiences" element={<Experiences />} />
+                            <Route path="/personal_projects" element={<PersonalProjects />} />
+                            <Route path="/contact" element={<Contact />} />
+                            <Route path="*" element={<Error />} />
+                        </Routes>
+                    </div>
+            </div>
+        </BrowserRouter>
     );
 }
 

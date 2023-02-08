@@ -1,7 +1,0 @@
-.personal_projects {
-    /* Ensures that full viewport is taken up */
-    height: 85vh;
-    width: 97.9vw;
-
-    box-sizing: border-box;
-}

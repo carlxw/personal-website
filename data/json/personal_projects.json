@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Rrythm Music Bot",
+        "img": "rrythm.png",
+        "desc": "A bot coded in NodeJS using discord.js and play-dl",
+        "tags": 
+            [
+                ["NodeJS", "https://nodejs.org/en/"],
+                ["discord.js", "https://discord.js.org/#/"],
+                ["play-dl", "https://www.npmjs.com/package/play-dl"],
+                "OOP"
+            ],
+        "github": "https://github.com/carlxw/rrythm"
+    },
+    {
+        "title": "HealthChain",
+        "img": "healthchain.png",
+        "desc": "DeltaHacks 9 hackathon submission",
+        "tags":
+            [
+                ["ReactJS", "https://reactjs.org/"],
+                ["NodeJS", "https://nodejs.org/en/"],
+                ["Moralis", "https://moralis.io/"],
+                ["VerbWire", "https://www.verbwire.com/"]
+            ],
+        "github": "https://github.com/DeltaHacks-WebOfLife/HealthChain",
+        "devpost": "https://devpost.com/software/healthchain-hybn8i"
+    },
+    {
+        "title": "Personal Website",
+        "img": "cw.png",
+        "desc": "A virtual presentation of myself, what you're seeing right now!",
+        "tags":
+            [
+                ["ReactJS", "https://reactjs.org/"],
+                "CSS"
+            ],
+        "github": "https://github.com/carlxw/personal-website"
+    }
+]
