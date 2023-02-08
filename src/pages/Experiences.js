@@ -10,8 +10,8 @@ const Experiences = () => {
             <p>This is a visual tree that gives a good idea of my work experience</p>
             <WorkExpCard data={ jsonArr } />
 
-            <Link to="/personal_projects" className="next_page">Personal Projects -{">"}</Link>
-            <Link to="/skills" className="prev_page">{"<-"} Skills</Link>
+            <Link to="/personal_projects" className="navlinks" id="next_page">Personal Projects -{">"}</Link>
+            <Link to="/skills" className="navlinks" id="prev_page">{"<-"} Skills</Link>
             <div className="cls" />
         </div>
     );

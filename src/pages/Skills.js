@@ -41,9 +41,11 @@ const Skills = () => {
             { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
             { languages && <SkillsCard data={ jsonObj.languages } /> }
 
-            <Link to="/experiences" className="next_page">Experiences -{">"}</Link>
-            <Link to="/" className="prev_page">{"<-"} Home</Link>
-            <div className="cls" />
+            <div className="navlinks">
+                <Link to="/experiences" className="navlinks" id="next_page">Experiences -{">"}</Link>
+                <Link to="/" className="navlinks" id="prev_page">{"<-"} Home</Link>
+                <div className="cls" />
+            </div>
         </div>
     );
 }
