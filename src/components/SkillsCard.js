@@ -1,3 +1,5 @@
+import "./css/SkillsCard.css";
+
 const SkillsCard = ({ data }) => {
     const render = [];
     for (var i = 0; i < data.length; i++) {

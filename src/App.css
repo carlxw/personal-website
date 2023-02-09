@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+#h1_header {
+    display: block;
+    color: black;
+}
+
 body {
     background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
 	background-size: 200%;
@@ -35,6 +40,15 @@ h1:not(#nav_name) {
     font-size: 3rem;
     margin: 0;
     padding: 0;
+}
+
+button {
+    background-color: black;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
 }
 
 a {
@@ -158,7 +172,7 @@ a {
 }
 
 .hello {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 5%;
 }
 
@@ -180,4 +194,18 @@ a {
 
 .hello p {
     margin-top: 5%;
+}
+
+/* Skills Page ---------------------------------------------- */
+.skills {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.skills_button {
+    margin-left: 50%;
+}.skills_buttons button {
+    margin-right: 5%;
+}.skills_buttons button:last-child {
+    margin-right: 0;
 }

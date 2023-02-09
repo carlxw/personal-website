@@ -24,22 +24,26 @@ const Skills = () => {
     }
 
     return (
-        <div className="skills" id="skills">
-            <h1>Skills -------------------------</h1>
+        <div className="skills">
+            <h1 id="h1_title">My Skills</h1>
 
             {/* Buttons */}
-            <button onClick={() => display(setOffice)}>Office</button>
-            <button onClick={() => display(setCoding)}>Coding</button>
-            <button onClick={() => display(setDevTools)}>Dev Tools</button>
-            <button onClick={() => display(setDigitalArts)}>Digital Arts</button>
-            <button onClick={() => display(setLanguages)}>Languages</button>
+            <div className="skills_buttons">
+                <button onClick={() => display(setOffice)}>Office</button>
+                <button onClick={() => display(setCoding)}>Coding</button>
+                <button onClick={() => display(setDevTools)}>Dev Tools</button>
+                <button onClick={() => display(setDigitalArts)}>Digital Arts</button>
+                <button onClick={() => display(setLanguages)}>Languages</button>
+            </div>
 
             {/* Content */}
-            { office && <SkillsCard data={ jsonObj.office }/> }
-            { coding && <SkillsCard data={ jsonObj.coding } /> }
-            { devTools && <SkillsCard data={ jsonObj.devTools } /> }
-            { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
-            { languages && <SkillsCard data={ jsonObj.languages } /> }
+            <div className="skills_content">
+                { office && <SkillsCard data={ jsonObj.office }/> }
+                { coding && <SkillsCard data={ jsonObj.coding } /> }
+                { devTools && <SkillsCard data={ jsonObj.devTools } /> }
+                { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
+                { languages && <SkillsCard data={ jsonObj.languages } /> }
+            </div>
 
             <div className="navlinks">
                 <Link to="/experiences" className="navlinks" id="next_page">Experiences {">"}</Link>
