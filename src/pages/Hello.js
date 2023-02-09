@@ -44,7 +44,7 @@ const Hello = () => {
             <img src={image} alt="A cartoon of me" />
             <div className="cls" />
 
-            <Link to="/skills" className="navlinks" id="next_page">Skills -{">"}</Link>
+            <Link to="/skills" className="navlinks" id="next_page">Skills {">"}</Link>
             <div className="navlinks" id="cls" />
         </div>
     );

@@ -10,7 +10,7 @@ const Contact = () => {
             <br />
             <a href="mailto:someone@yoursite.com" target="_blank" rel="noreferrer">Email</a>
 
-            <Link to="/personal_projects" className="navlinks" id="prev_page">{"<-"} Personal Projects</Link>
+            <Link to="/personal_projects" className="navlinks" id="prev_page">{"<"} Personal Projects</Link>
             <Link to="/" className="navlinks" id="next_page">Return to Home</Link>
             <div className="cls" />
         </div>

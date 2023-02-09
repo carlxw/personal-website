@@ -10,8 +10,8 @@ const PersonalProjects = () => {
             <p>A collection of things that I made or am apart of</p>
             <ProjCard data={jsonArr} />
 
-            <Link to="/contact" className="navlinks" id="next_page">Contact/Socials -{">"}</Link>
-            <Link to="/" className="navlinks" id="prev_page">{"<-"} Experiences</Link>
+            <Link to="/contact" className="navlinks" id="next_page">Contact/Socials {">"}</Link>
+            <Link to="/" className="navlinks" id="prev_page">{"<"} Experiences</Link>
             <div className="cls" />
         </div>
     );
