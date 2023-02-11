@@ -24,7 +24,7 @@ const Skills = () => {
     }
 
     return (
-        <div className="skills">
+        <div className="skills" id="margins">
             <h1 id="h1_title">My Skills</h1>
 
             {/* Buttons */}
@@ -37,12 +37,14 @@ const Skills = () => {
             </div>
 
             {/* Content */}
-            <div className="skills_content">
-                { office && <SkillsCard data={ jsonObj.office }/> }
-                { coding && <SkillsCard data={ jsonObj.coding } /> }
-                { devTools && <SkillsCard data={ jsonObj.devTools } /> }
-                { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
-                { languages && <SkillsCard data={ jsonObj.languages } /> }
+            <div className="skills_container">
+                <div className="skills_content">
+                    { office && <SkillsCard data={ jsonObj.office }/> }
+                    { coding && <SkillsCard data={ jsonObj.coding } /> }
+                    { devTools && <SkillsCard data={ jsonObj.devTools } /> }
+                    { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
+                    { languages && <SkillsCard data={ jsonObj.languages } /> }
+                </div>
             </div>
 
             <div className="navlinks">

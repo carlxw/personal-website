@@ -15,6 +15,7 @@ const Navbar = () => {
                 <Link to="/personal_projects">Personal Projects</Link>
                 <Link to="/contact">Contact/Socials</Link>
             </div>
+            <div className="cls" />
         </nav>
     );
 }

@@ -1,0 +1,26 @@
+.skills_card {
+    background-color: grey;
+    display: inline-block;
+
+    margin: 0;
+    padding: 0;
+
+    width: 50%;
+
+    height: fit-content;
+
+    border-radius: 15px;
+    
+    padding: 2%;
+}
+
+.skills_card h2 {
+    color: black;
+    display: inline;
+    margin-top: 2%;
+    float: left;
+} .skills_card img {
+    display: inline;
+    margin-left: 5%;
+    float: right;
+}

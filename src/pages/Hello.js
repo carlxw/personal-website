@@ -12,7 +12,7 @@ const Hello = () => {
     ];
 
     return (
-        <div className="hello">
+        <div className="hello" id="margins">
             <div id="hello_left">
                 <h1>Hi! My name is Carl</h1>
                 <h1 id="tw1">and I am</h1>
