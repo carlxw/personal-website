@@ -24,33 +24,35 @@ const Skills = () => {
     }
 
     return (
-        <div className="skills" id="margins">
-            <h1 id="h1_title">My Skills</h1>
+        <div id="margins">
+            <div className="skills">
+                <h1 id="h1_title">My Skills</h1>
 
-            {/* Buttons */}
-            <div className="skills_buttons">
-                <button onClick={() => display(setOffice)}>Office</button>
-                <button onClick={() => display(setCoding)}>Coding</button>
-                <button onClick={() => display(setDevTools)}>Dev Tools</button>
-                <button onClick={() => display(setDigitalArts)}>Digital Arts</button>
-                <button onClick={() => display(setLanguages)}>Languages</button>
-            </div>
-
-            {/* Content */}
-            <div className="skills_container">
-                <div className="skills_content">
-                    { office && <SkillsCard data={ jsonObj.office }/> }
-                    { coding && <SkillsCard data={ jsonObj.coding } /> }
-                    { devTools && <SkillsCard data={ jsonObj.devTools } /> }
-                    { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
-                    { languages && <SkillsCard data={ jsonObj.languages } /> }
+                {/* Buttons */}
+                <div className="skills_buttons">
+                    <button onClick={() => display(setOffice)}>Office</button>
+                    <button onClick={() => display(setCoding)}>Coding</button>
+                    <button onClick={() => display(setDevTools)}>Dev Tools</button>
+                    <button onClick={() => display(setDigitalArts)}>Digital Arts</button>
+                    <button onClick={() => display(setLanguages)}>Languages</button>
                 </div>
-            </div>
 
-            <div className="navlinks">
-                <Link to="/experiences" className="navlinks" id="next_page">Experiences {">"}</Link>
-                <Link to="/" className="navlinks" id="prev_page">{"<"} Home</Link>
-                <div className="cls" />
+                {/* Content */}
+                <div className="skills_container">
+                    <div className="skills_content">
+                        { office && <SkillsCard data={ jsonObj.office }/> }
+                        { coding && <SkillsCard data={ jsonObj.coding } /> }
+                        { devTools && <SkillsCard data={ jsonObj.devTools } /> }
+                        { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
+                        { languages && <SkillsCard data={ jsonObj.languages } /> }
+                    </div>
+                </div>
+
+                <div className="navlinks">
+                    <Link to="/experiences" className="navlinks" id="next_page">Experiences {">"}</Link>
+                    <Link to="/" className="navlinks" id="prev_page">{"<"} Home</Link>
+                    <div className="cls" />
+                </div>
             </div>
         </div>
     );

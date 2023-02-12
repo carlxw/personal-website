@@ -11,9 +11,10 @@
 }
 
 #margins {
-    margin-top: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 95vw;
+    height: fit-content;
+    margin: .5% auto;
+    display: block;
 }
 
 #h1_header {
@@ -174,6 +175,13 @@ a {
 }
 
 /* Hello Page ---------------------------------------------- */
+.hello {
+    position: absolute;
+
+    top: 15%;
+    left: 4.5%;
+}
+
 #tw1 {
     display: block;
     float: left;
@@ -182,26 +190,32 @@ a {
     display: block;
     float: right;
 } .Typewriter__wrapper {
-    /* display: block; */
     font-size: 3em;
     margin: 0;
     font-weight: bold;
 }
 
-#hello_left {
+.hello_left {
     float: left;
-    width: 45%;
+    width: 50%;
+
+    margin-top: 5%;
+}
+
+.hello_right {
+    text-align: center;
+    float: right;
+    width: 50%;
+    margin-top: 2%;
 }
 
 .hello img {
-    float: right;
     border-radius: 10px;
 
-    margin-right: 10%;
-    margin-top: 2%;
+    text-align: center;
 
-    width: 30%;
-    height: 30%;
+    width: 70%;
+    height: 70%;
 }
 
 .hello p {
