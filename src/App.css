@@ -11,15 +11,17 @@
 }
 
 #margins {
-    width: 95vw;
+    width: 90vw;
     height: fit-content;
-    margin: .5% auto;
+    margin: 4% 5%;
     display: block;
 }
 
-#h1_header {
+#h1_title {
+    margin: 5% 5%;
     display: block;
-    color: black;
+    color: white;
+    top: 5%;
 }
 
 body {
@@ -27,6 +29,7 @@ body {
 	background-size: 500%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+    overflow: hidden;
 } @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -223,7 +226,6 @@ a {
 }
 
 /* Skills Page ---------------------------------------------- */
-
 .skills_buttons {
     text-align: center;
     margin: 3%;
@@ -235,5 +237,7 @@ a {
 
 .skills_content {
     background-color: white;
-    height: 1000px;
+    height: fit-content;
+    padding-bottom: 2.5%;
+    border-radius: 15px;
 }
