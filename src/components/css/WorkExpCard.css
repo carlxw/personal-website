@@ -1,0 +1,13 @@
+.workexp_card h2 {
+    color: black;
+} .workexp_card p {
+    color: black;
+}
+
+.workexp_card {
+    background-color: grey;
+    width: fit-content;
+    height: fit-content;
+    padding: 2%;
+    margin-bottom: 5%;;
+}

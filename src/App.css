@@ -241,3 +241,10 @@ a {
     padding-bottom: 2.5%;
     border-radius: 15px;
 }
+
+/* Work Exp Page ---------------------------------------------- */
+.experiences_content {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2%;
+}
