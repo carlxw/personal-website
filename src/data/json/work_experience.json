@@ -4,13 +4,20 @@
         "company": "Oak Valley Health",
         "duration": "Jan 2023 - Apr 2023",
         "img": "oakvalleyhealth.png",
-        "desc": "Helped docs learn Meditech"
+        "desc": 
+        [
+            "Helped docs learn Meditech",
+            "Work on different office programs"
+        ]
     },
     {
         "pos_title": "IT Team Lead",
         "company": "FitMeCanada",
         "duration": "July 2021",
         "img": "fitmecanada.png",
-        "desc": "Apart of Junior Achievement company program"
+        "desc": 
+        [
+            "Apart of Junior Achievement company program"
+        ]
     }
 ]

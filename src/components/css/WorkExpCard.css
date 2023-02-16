@@ -40,3 +40,10 @@
     border: 5px black solid;
     border-radius: 15px;
 }
+
+.list {
+    margin-bottom: 1%;
+    font-size: 1.2rem;
+    margin-left: 10%;
+    width: 100%;
+}
