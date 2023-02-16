@@ -49,7 +49,7 @@ const Skills = () => {
                 </div>
 
                 <div className="navlinks">
-                    <Link to="/experiences" className="navlinks" id="next_page">Experiences {">"}</Link>
+                    <Link to="/work_experiences" className="navlinks" id="next_page">Experiences {">"}</Link>
                     <Link to="/" className="navlinks" id="prev_page">{"<"} Home</Link>
                     <div className="cls" />
                 </div>

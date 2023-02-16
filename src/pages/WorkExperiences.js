@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const jsonArr = require("../data/json/work_experience.json")
 
-const Experiences = () => {
+const WorkExperiences = () => {
     return (
         <div id="margins">
-            <div className="experiences" id="experiences">
-                <h1 id="h1_title">Experiences</h1>
+            <div className="experiences" id="work_experiences">
+                <h1 id="h1_title">Work Experiences</h1>
                 
                 <div className="experiences_content">
                     <WorkExpCard data={ jsonArr } />
@@ -21,4 +21,4 @@ const Experiences = () => {
     );
 }
 
-export default Experiences;
+export default WorkExperiences;
