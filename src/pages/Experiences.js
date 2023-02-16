@@ -8,8 +8,7 @@ const Experiences = () => {
         <div id="margins">
             <div className="experiences" id="experiences">
                 <h1 id="h1_title">Experiences</h1>
-                <p>This is a visual tree that gives a good idea of my work experience</p>
-
+                
                 <div className="experiences_content">
                     <WorkExpCard data={ jsonArr } />
                 </div>

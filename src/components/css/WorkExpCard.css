@@ -1,13 +1,42 @@
+.workexp_card {
+    background-color: grey;
+    width: 100%;
+    height: fit-content;
+    padding: 2%;
+    border-radius: 15px;
+    margin-bottom: 2%;
+} .workexp_card:last-child {
+    margin-bottom: 0;
+}
+
 .workexp_card h2 {
+    font-size: 2rem;
     color: black;
+    margin-bottom: 0;
 } .workexp_card p {
+    color: black;
+} .workexp_card p:not(#company_duration) {
+    color: black;
+    font-size: 1.2rem;
+}
+
+#duration {
     color: black;
 }
 
-.workexp_card {
-    background-color: grey;
-    width: fit-content;
-    height: fit-content;
-    padding: 2%;
-    margin-bottom: 5%;;
+.left_info {
+    float: left;
+} .right_img {
+    float: right;
+}
+
+#company_duration {
+    margin-bottom: 5%;
+}
+
+.right_img img {
+    height: 128px;
+    width: 128px;
+    border: 5px black solid;
+    border-radius: 15px;
 }
