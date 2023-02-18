@@ -1,40 +1,86 @@
 [
     {
-        "title": "Rrythm Music Bot",
-        "img": "rrythm.png",
-        "desc": "A bot coded in NodeJS using discord.js and play-dl",
-        "tags": 
+        "title": "Personal Website",
+        "img": "cw.png",
+        "desc1": "A virtual presentation of myself, what you're seeing right now!",
+        "tags":
             [
-                ["NodeJS", "https://nodejs.org/en/"],
-                ["discord.js", "https://discord.js.org/#/"],
-                ["play-dl", "https://www.npmjs.com/package/play-dl"],
-                "OOP"
+                {
+                    "title": "ReactJS",
+                    "link": "https://reactjs.org/"
+                },
+                {
+                    "title": "CSS",
+                    "link": null
+                }
             ],
-        "github": "https://github.com/carlxw/rrythm"
+        "desc2": 
+        [
+            "Sample description"
+        ],
+        "github": "https://github.com/carlxw/personal-website"
     },
     {
         "title": "HealthChain",
         "img": "healthchain.png",
-        "desc": "DeltaHacks 9 hackathon submission",
+        "desc1": "DeltaHacks 9 hackathon submission",
         "tags":
             [
-                ["ReactJS", "https://reactjs.org/"],
-                ["NodeJS", "https://nodejs.org/en/"],
-                ["Moralis", "https://moralis.io/"],
-                ["VerbWire", "https://www.verbwire.com/"]
+                {
+                    "title": "ReactJS",
+                    "link": "https://reactjs.org/"
+                },
+                {
+                    "title": "NodeJS",
+                    "link": "https://nodejs.org/en/"
+                },
+                {
+                    "title": "Moralis",
+                    "link": "https://moralis.io/"
+                },
+                {
+                    "title": "Verbire",
+                    "link": "https://www.verbwire.com/"
+                }
             ],
+        "desc2": 
+        [
+            "Sample description"
+        ],
         "github": "https://github.com/DeltaHacks-WebOfLife/HealthChain",
         "devpost": "https://devpost.com/software/healthchain-hybn8i"
     },
     {
-        "title": "Personal Website",
-        "img": "cw.png",
-        "desc": "A virtual presentation of myself, what you're seeing right now!",
-        "tags":
+        "title": "Rrythm Music Bot",
+        "img": "rrythm.png",
+        "desc1": "A bot coded in NodeJS using discord.js and play-dl",
+        "tags": 
             [
-                ["ReactJS", "https://reactjs.org/"],
-                "CSS"
+                {
+                    "title": "ReactJS",
+                    "link": "https://reactjs.org/"
+                },
+                {
+                    "title": "NodeJS",
+                    "link": "https://nodejs.org/en/"
+                },
+                {
+                    "title": "discord.js",
+                    "link": "https://discord.js.org/#/"
+                },
+                {
+                    "title": "play-dl",
+                    "link": "https://www.npmjs.com/package/play-dl"
+                },
+                {
+                    "title": "OOP",
+                    "link": null
+                }
             ],
-        "github": "https://github.com/carlxw/personal-website"
+        "desc2": 
+        [
+            "Sample description"
+        ],
+        "github": "https://github.com/carlxw/rrythm"
     }
 ]

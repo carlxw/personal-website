@@ -1,0 +1,71 @@
+.proj_card {
+    color: black;
+    background-color: grey;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 2%;
+    margin-right: 4.5%;
+    margin-bottom: 1%;
+} .proj_card h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0.5%;
+} .proj_card p {
+    color: black;
+    margin-bottom: 3%;
+    width: fit-content;
+} .proj_card a {
+    color: black;
+    margin-right: 2%;
+} .proj_card a:last-child {
+    margin-right: 0;
+} #nolink {
+    font-size: 1rem;
+    color: black;
+}.proj_card img {
+    border-radius: 15px;
+    height: 128px;
+    width: 128px;
+    border: 5px black solid;
+} .proj_card li {
+    margin-bottom: 1%;
+    margin-left: 6.5%;
+    width: 100%;
+}
+
+.tag_bubble {
+    display: inline;
+}
+
+.proj_cardcontent {
+    background-color: inherit;
+} .proj_right {
+    float: right;
+} .proj_left {
+    float: left;
+}
+
+.proj_footer {
+    margin-top: 4%;
+} .links {
+    background-color: inherit;
+    width: 50%;
+    float: left;
+} .tags {
+    width: 50%;
+    float: right;
+    text-align: right;
+} .bubble {
+    background-color: white;
+    border-radius: 15px;
+    padding: 1% 2% 1% 2%;
+} .bubble:hover:not(#nolink){
+    background-color: rgb(177, 119, 119);
+} #nolink {
+    padding-left: 1.2%;
+    display: inline;
+}
