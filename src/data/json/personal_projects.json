@@ -2,7 +2,11 @@
     {
         "title": "Personal Website",
         "img": "cw.png",
-        "header": "A virtual presentation of myself, what you're seeing right now!",
+        "header": "A virtual presentation of myself; what you're seeing right now!",
+        "story": 
+        [
+            "Yeah, I'm pretty sure I know how to use semicolons. This was a very fun project for me. It took me about 3 days to get through TheNetNinja's ReactJS tutorials and then essentially forever to get this website up and going. If I have any regrets in life, that would be having a preference in improvising over planning. Oh my god I am 100% going to recode this from ground up when I have the time to do so. With that being said, my suggestion to you, dear reader, is to NOT checkout the CSS in the GitHub and intentinally resize this window :)"
+        ],
         "tags":
             [
                 {
@@ -22,19 +26,21 @@
                     "link": null
                 }
             ],
-        "desc2": 
+        "desc": 
         [
             "Learned ReactJS and CSS in a short time frame (1 week!) to develop a personal website",
             "Experimented with Figma and learned how to mockup websites",
             "Learned how to set and achieve goals to ensure this personal project is on track to completion",
-            "Practiced and studied modern design trends to implement on personal website"
+            "Practiced and studied modern design trends to implement on personal website (:p)",
+            "Perfected the art of Ctrl+C and Ctrl+V"
         ],
         "github": "https://github.com/carlxw/personal-website"
     },
     {
         "title": "HealthChain",
         "img": "healthchain.png",
-        "header": "DeltaHacks 9 hackathon submission",
+        "header": "DeltaHacks IX hackathon submission",
+        "story": "It was all one day when some friends of mine asked me to sign up with them for a hackathon hosted at their university. I was like 'why the heck not'! After all, this seems like it'd be a good time to see how good my coding skills are (spoiler alert: I was humbled much).",
         "tags":
             [
                 {
@@ -54,9 +60,9 @@
                     "link": "https://www.verbwire.com/"
                 }
             ],
-        "desc2": 
+        "desc": 
         [
-            "Sample description"
+            "DeltaHacks IX winner for \"Most Creative Use of Verbwire API\""
         ],
         "github": "https://github.com/DeltaHacks-WebOfLife/HealthChain",
         "devpost": "https://devpost.com/software/healthchain-hybn8i"
@@ -65,6 +71,7 @@
         "title": "Rrythm Music Bot",
         "img": "rrythm.png",
         "header": "A bot coded in NodeJS using discord.js and play-dl",
+        "story": "",
         "tags": 
             [
                 {
@@ -88,7 +95,7 @@
                     "link": null
                 }
             ],
-        "desc2": 
+        "desc": 
         [
             "Sample description"
         ],

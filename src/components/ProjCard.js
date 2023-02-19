@@ -8,7 +8,7 @@ const ProjCard = ({ data }) => {
             x.link ? <a className="bubble" href={ x.link } target="_blank" rel="noreferrer">{ x.title }</a> : <p className="bubble" id="nolink">{ x.title }</p>
         ));
 
-        const desc = data[i].desc2.map((x) => (
+        const desc = data[i].desc.map((x) => (
             // Key will raise problems if I use the same description over and over?
             <li className="list" style={{ "color": "black" }} key={ x }>{ x }</li>
         ));
@@ -19,12 +19,12 @@ const ProjCard = ({ data }) => {
                     <div className="proj_left">
                         <h2 id={ data[i].title }>{ data[i].title }</h2>
                         <p>{ data[i].header }</p>
-
+                        <p id="story">{ `"${ data[i].story }"` }</p>
                         <ul>{ desc }</ul>
                     </div>
                     
                     <div className="proj_right">
-                        <img src={ require(`../data/img/${data[i].img}`) } alt="logo" />
+                        <img src={ require(`../data/img/${ data[i].img }`) } alt="logo" />
                     </div>
                     <div className="cls" />
                 </div>

@@ -33,6 +33,12 @@
     display: block;
 }
 
+#story {
+    margin-bottom: 2%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
 body {
     background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
 	background-size: 500%;

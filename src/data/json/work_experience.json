@@ -4,8 +4,8 @@
         "company": "Oak Valley Health",
         "duration": "Jan 2023 - Apr 2023",
         "img": "oakvalleyhealth.png",
-        "desc1": "This was my very first internship under the University of Waterloo's co-op program. I'm glad that it was at my local hospital! I was able to pick up lots of things that I'll bring to my next internship and meet lots of new people with lots of experiences to share (I'm talking about people within the hospital IT department and the hospital's emergency physicians). The hospitals under Oak Valley Health were updating to a new medical software for the physicians and I was hired to make that transition as fluid as possible. These doctors save lots of lives thanks to the medical software they use. It is my opinion that after I assist these physicians in their learning of the new medical software, I should get an assist for every life they save!",
-        "desc2": 
+        "story": "This was my very first internship under the University of Waterloo's co-op program. I'm glad that it was at my local hospital! I was able to pick up lots of things that I'll bring to my next internship and meet lots of new people with lots of experiences to share (I'm talking about people within the hospital IT department and the hospital's emergency physicians). The hospitals under Oak Valley Health were updating to a new medical software for the physicians and I was hired to make that transition as fluid as possible. These doctors save lots of lives thanks to the medical software they use. It is my opinion that after I assist these physicians in their learning of the new medical software, I should get an assist for every life they save!",
+        "desc": 
         [
             "Assisted emergency physicians in tranitioning to new medical software",
             "Developed educational material to assist physician software development",
@@ -18,8 +18,8 @@
         "company": "FitMeCanada",
         "duration": "July 2021",
         "img": "fitmecanada.png",
-        "desc1": "Here, I worked with 3 Junior Achievement (JA) advisors to learn all about creating startup companies. FitMeCanada is a JA Company Program startup that aims to assist all in apparel shopping. I lead a team of 5 to develop a functional Chrome extension that takes in a user's measurements, analyzes the page they are on, and inform the user if they can fit in that type of clothing! It was a daunting task at first to create this Chrome extension within one week, since nobody knew where to start. With dedication from everyone on my team, All we needed was just 4 days!",
-        "desc2": 
+        "story": "Here, I worked with 3 Junior Achievement (JA) advisors to learn all about creating startup companies. FitMeCanada is a JA Company Program startup that aims to assist all in apparel shopping. I lead a team of 5 to develop a functional Chrome extension that takes in a user's measurements, analyzes the page they are on, and inform the user if they can fit in that type of clothing! It was a daunting task at first to create this Chrome extension within one week, since nobody knew where to start. With dedication from everyone on my team, All we needed was just 4 days!",
+        "desc": 
         [
             "Developed a Chrome extension that assists users in apparel online shopping using HTML and JavaScript",
             "Trained peers to demonstrate technological professionalism in an virtural environment",

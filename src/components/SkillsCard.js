@@ -6,7 +6,7 @@ const SkillsCard = ({ data }) => {
         render.push(
             <div key={ data[i].title } className="skills_card">
                 <h2 id={ data[i].title }>{ data[i].title }</h2>
-                <img style={ {width: 50, height: 50} } src={ require(`../data/img/${data[i].img}`) } alt="icon" />
+                <img style={ {width: 50, height: 50} } src={ require(`../data/img/${ data[i].img }`) } alt="icon" />
                 <div className="cls" />
             </div>
         );

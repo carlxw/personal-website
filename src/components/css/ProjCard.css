@@ -30,11 +30,10 @@
     color: black;
 }.proj_card img {
     border-radius: 15px;
-    height: 128px;
-    width: 128px;
+    height: 169px;
+    width: 169px;
     border: 5px black solid;
 } .proj_card li {
-    margin-bottom: 1%;
     margin-left: 5%;
     width: 100%;
 }
@@ -54,6 +53,8 @@
 
 .proj_footer {
     margin-top: 4%;
+    border-top: 2px black solid;
+    padding-top: 2%;
 } .links {
     background-color: inherit;
     width: 50%;
@@ -74,4 +75,9 @@
     margin-right: 2%;
 } #nolink:last-child {
     margin-right: 0;
+}
+
+.proj_story {
+    font-size: 1.2rem;
+    color: blue;
 }

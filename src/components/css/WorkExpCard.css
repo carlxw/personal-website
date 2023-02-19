@@ -36,8 +36,8 @@
 }
 
 .right_img img {
-    height: 128px;
-    width: 128px;
+    height: 169px;
+    width: 169px;
     border: 5px black solid;
     border-radius: 15px;
 }
@@ -48,7 +48,3 @@
     margin-left: 5%;
 }
 
-#work_story {
-    margin-bottom: 2%;
-    font-style: italic;
-}
