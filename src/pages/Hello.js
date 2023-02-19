@@ -15,6 +15,10 @@ const Hello = () => {
         "a Google master."
     ];
 
+    const date = new Date();
+    const welcome_msg1 = `Welcome to my website! I am a ${date.getFullYear() - 2004} years old engineering student who is studying at the University of Waterloo. To be clear, what you are looking at is my pitful attempt of creating a website from scratch, and CSS'ing it as I go along (which I do not recommend).`;
+    const welcome_msg2 = `I'm just kidding. In case if you were wondering, I love playing the piano, working on personal projects, and playing video games!`
+
     return (
         <div>
             <div className="hello">
@@ -41,9 +45,8 @@ const Hello = () => {
                         }}
                     />
                     <div className="cls"></div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <p>{ welcome_msg1 }</p>
+                    <p>{ welcome_msg2 }</p>
                 </div>
 
                 <div className="hello_right"><img src={image} alt="A cartoon of me" /></div>

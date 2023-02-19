@@ -16,6 +16,8 @@ const PersonalProjects = () => {
                 <Link to="/contact" className="navlinks" id="next_page">{ ">" }</Link>
                 <Link to="/work_experiences" className="navlinks" id="prev_page">{ "<" }</Link>
                 <div className="cls" />
+
+                <div className="block" />
             </div>
         </div>
     );

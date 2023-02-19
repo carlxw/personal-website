@@ -26,12 +26,13 @@
 
 .left_info {
     float: left;
+    width: 80%;
 } .right_img {
     float: right;
 }
 
 #company_duration {
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .right_img img {
@@ -44,6 +45,10 @@
 .list {
     margin-bottom: 1%;
     font-size: 1.2rem;
-    margin-left: 10%;
-    width: 100%;
+    margin-left: 5%;
+}
+
+#work_story {
+    margin-bottom: 2%;
+    font-style: italic;
 }

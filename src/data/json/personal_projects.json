@@ -2,7 +2,7 @@
     {
         "title": "Personal Website",
         "img": "cw.png",
-        "desc1": "A virtual presentation of myself, what you're seeing right now!",
+        "header": "A virtual presentation of myself, what you're seeing right now!",
         "tags":
             [
                 {
@@ -10,20 +10,31 @@
                     "link": "https://reactjs.org/"
                 },
                 {
+                    "title": "Figma",
+                    "link": "https://www.figma.com"
+                },
+                {
                     "title": "CSS",
+                    "link": null
+                },
+                {
+                    "title": "JSON",
                     "link": null
                 }
             ],
         "desc2": 
         [
-            "Sample description"
+            "Learned ReactJS and CSS in a short time frame (1 week!) to develop a personal website",
+            "Experimented with Figma and learned how to mockup websites",
+            "Learned how to set and achieve goals to ensure this personal project is on track to completion",
+            "Practiced and studied modern design trends to implement on personal website"
         ],
         "github": "https://github.com/carlxw/personal-website"
     },
     {
         "title": "HealthChain",
         "img": "healthchain.png",
-        "desc1": "DeltaHacks 9 hackathon submission",
+        "header": "DeltaHacks 9 hackathon submission",
         "tags":
             [
                 {
@@ -53,7 +64,7 @@
     {
         "title": "Rrythm Music Bot",
         "img": "rrythm.png",
-        "desc1": "A bot coded in NodeJS using discord.js and play-dl",
+        "header": "A bot coded in NodeJS using discord.js and play-dl",
         "tags": 
             [
                 {

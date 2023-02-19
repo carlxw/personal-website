@@ -17,6 +17,7 @@ const WorkExperiences = () => {
                 <Link to="/skills" className="navlinks" id="prev_page">{ "<" }</Link>
                 <div className="cls" />
             </div>
+            <div className="block" />
         </div>
     );
 }

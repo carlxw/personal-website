@@ -18,7 +18,7 @@ const ProjCard = ({ data }) => {
                 <div className="proj_cardcontent">
                     <div className="proj_left">
                         <h2 id={ data[i].title }>{ data[i].title }</h2>
-                        <p>{ data[i].desc1 }</p>
+                        <p>{ data[i].header }</p>
 
                         <ul>{ desc }</ul>
                     </div>
