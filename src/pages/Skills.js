@@ -24,12 +24,8 @@ const Skills = () => {
     }
 
     // Turn button into colour if active (styles)
-    const inactive = {
-        "background-color": "white"
-    }
-
     const active = {
-        "background-color": "red"
+        "backgroundColor": "red"
     }
 
     return (
@@ -39,11 +35,11 @@ const Skills = () => {
 
                 {/* Buttons */}
                 <div className="skills_buttons">
-                    <button style={ office ? active : inactive} onClick={() => display(setOffice)}>Office</button>
-                    <button style={ coding ? active : inactive } onClick={() => display(setCoding)}>Coding</button>
-                    <button style={ devTools ? active : inactive } onClick={() => display(setDevTools)}>Dev Tools</button>
-                    <button style={ digitalArts ? active : inactive } onClick={() => display(setDigitalArts)}>Digital Arts</button>
-                    <button style={ languages ? active : inactive } onClick={() => display(setLanguages)}>Languages</button>
+                    <button style={ office ? active : null} onClick={() => display(setOffice)}>Office</button>
+                    <button style={ coding ? active : null } onClick={() => display(setCoding)}>Coding</button>
+                    <button style={ devTools ? active : null } onClick={() => display(setDevTools)}>Dev Tools</button>
+                    <button style={ digitalArts ? active : null } onClick={() => display(setDigitalArts)}>Digital Arts</button>
+                    <button style={ languages ? active : null } onClick={() => display(setLanguages)}>Languages</button>
                 </div>
 
                 {/* Content */}

@@ -179,6 +179,7 @@ p {
     background-color: inherit;
     margin-right: 50px;
     text-align: right;
+    padding: 3px 10px;
 } .navbar a:last-child {
     margin-right: 0;
 }
