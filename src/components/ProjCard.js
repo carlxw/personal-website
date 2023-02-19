@@ -33,7 +33,7 @@ const ProjCard = ({ data }) => {
                     <div className="links">
                         {   
                             // If there is a Github link
-                            data[i].github && <a className="bubble" href={ data[i].github } target="_blank" rel="noreferrer">Github</a>
+                            data[i].github && <a className="bubble" href={ data[i].github } target="_blank" rel="noreferrer">GitHub</a>
                         }
                         {   
                             // If there is a Devpost link

@@ -54,6 +54,7 @@ const Hello = () => {
 
                 <Link to="/skills" className="navlinks" id="next_page">{ ">" }</Link>
             </div>
+            <div className="block" />
         </div>
     );
 }

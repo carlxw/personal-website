@@ -33,6 +33,11 @@
     display: block;
 }
 
+#disclaimer {
+    font-size: 0.8rem;
+    margin-top: 10%;
+}
+
 #story {
     margin-bottom: 2%;
     font-style: italic;
