@@ -5,7 +5,7 @@ const ProjCard = ({ data }) => {
     for (var i = 0; i < data.length; i++) {
         // Extract the tags and list-description
         const tags = data[i].tags.map((x) => (
-            x.link ? <a className="bubble" href={ x.link } target="_blank" rel="noreferrer">{ x.title }</a> : <p className="bubble" id="nolink"> { x.title } </p>
+            x.link ? <a className="bubble" href={ x.link } target="_blank" rel="noreferrer">{ x.title }</a> : <p className="bubble" id="nolink">{ x.title }</p>
         ));
 
         const desc = data[i].desc2.map((x) => (
@@ -20,9 +20,7 @@ const ProjCard = ({ data }) => {
                         <h2 id={ data[i].title }>{ data[i].title }</h2>
                         <p>{ data[i].desc1 }</p>
 
-                        <ul>
-                            { desc }
-                        </ul>
+                        <ul>{ desc }</ul>
                     </div>
                     
                     <div className="proj_right">
@@ -43,11 +41,7 @@ const ProjCard = ({ data }) => {
                         }
                     </div>
 
-                    <div className="tags">
-                        {
-                            data[i].tags && tags
-                        }
-                    </div>
+                    <div className="tags">{ data[i].tags && tags }</div>
                 </div>
             </div>
         );

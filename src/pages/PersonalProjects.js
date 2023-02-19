@@ -19,8 +19,6 @@ const PersonalProjects = () => {
             </div>
         </div>
     );
-
-    // Dynamically create a list of personal projects
 }
 
 export default PersonalProjects;

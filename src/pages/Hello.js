@@ -46,9 +46,7 @@ const Hello = () => {
                     </p>
                 </div>
 
-                <div className="hello_right">
-                    <img src={image} alt="A cartoon of me" />
-                </div>
+                <div className="hello_right"><img src={image} alt="A cartoon of me" /></div>
                 <div className="cls" />
 
                 <Link to="/skills" className="navlinks" id="next_page">{ ">" }</Link>

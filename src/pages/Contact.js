@@ -10,7 +10,7 @@ const Contact = () => {
                 <div className="contact_links">
                     <a href="https://www.linkedin.com/in/carlxwang/" target="_blank" rel="noreferrer">LinkedIn</a> 
                     <a href="https://github.com/carlxw" target="_blank" rel="noreferrer">GitHub</a>
-                    <a href="mailto:someone@yoursite.com" target="_blank" rel="noreferrer">Email</a>
+                    <a href="mailto:cx2wang@uwaterloo.ca" target="_blank" rel="noreferrer">Email</a>
                 </div>
 
                 <Link to="/personal_projects" className="navlinks" id="prev_page">{ "<" }</Link>

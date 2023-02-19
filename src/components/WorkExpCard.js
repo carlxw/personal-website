@@ -15,9 +15,7 @@ const WorkExpCard = ({ data }) => {
                     <h2 id={ data[i].pos_title }>{ data[i].pos_title }</h2>
                     <p id="company_duration">{ `${data[i].company} (${data[i].duration})` }</p>
                     
-                    <ul>
-                        { descArr }
-                    </ul>
+                    <ul>{ descArr }</ul>
                 </div>
 
                 <div className="right_img">

@@ -11,7 +11,8 @@ const Skills = () => {
     const [digitalArts, setDigitalArts] = useState(false);
     const [languages, setLanguages] = useState(false);
 
-    const funcs = [setOffice, setCoding, setDevTools, setDigitalArts, setLanguages]
+    // All update functions to store in this array
+    const funcs = [setOffice, setCoding, setDevTools, setDigitalArts, setLanguages];
 
     const display = (func) => {
         // Turn off all categories
@@ -57,8 +58,5 @@ const Skills = () => {
         </div>
     );
 }
-
-// Create a table that takes data from a JSON
-// Make buttons work
 
 export default Skills;

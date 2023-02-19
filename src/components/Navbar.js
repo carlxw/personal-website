@@ -1,7 +1,3 @@
-/* TODO
-    -> Create an icon
-    -> Figma mockup
-*/
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
