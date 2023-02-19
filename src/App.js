@@ -4,13 +4,13 @@ import Skills from "./pages/Skills";
 import WorkExperiences from "./pages/WorkExperiences";
 import PersonalProjects from "./pages/PersonalProjects";
 import Contact from "./pages/Contact";
-// import Error from "./pages/404.js";
+import Error from "./pages/404.js";
 
 // Components
 import Navbar from "./components/Navbar";
 
 // Styling
-import "./App.css";
+import "./css/App.css";
 import "./Tooltip.css";
 
 // Router
@@ -28,7 +28,7 @@ function App() {
                             <Route path="/work_experiences" element={<WorkExperiences />} />
                             <Route path="/personal_projects" element={<PersonalProjects />} />
                             <Route path="/contact" element={<Contact />} />
-                            {/* <Route path="*" element={<Error />} /> */}
+                            <Route path="*" element={<Error />} />
                         </Routes>
                     </div>
             </div>

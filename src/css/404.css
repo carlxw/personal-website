@@ -1,0 +1,40 @@
+.err {
+    height: calc(100vh - 100px);
+    padding-top: 5%;
+    position: relative;
+    text-align: center;
+}
+
+#err_h1 {
+    font-size: 100px;
+}
+
+#err_p {
+    text-align: center;
+    margin: 5%;
+}
+
+.err div {
+    margin-top: 10%;
+    height: 100px;
+} .err div:hover {
+    border: none;
+}
+
+#err_msg {
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 1% 2%;
+} #err_msg:hover {
+    border: none;
+}
+
+#err_return {
+    text-align: center;
+    display: inline-block;
+    margin-top: 2%;
+} 
+
