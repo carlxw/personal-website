@@ -3,22 +3,22 @@
     [
         {
             "title": "Microsoft Word",
-            "desc": "lorem lorem lorem",
+            "desc": "Who doesn't love Microsoft Word? I can easily recreate a hardcopy only document no problem!",
             "img": "word.png"
         },
         {
             "title": "Microsoft Excel",
-            "desc": "lorem lorem lorem",
+            "desc": "Whenever I'm using this, I always want to use Python instead. At least I can apply the logic in the same way.",
             "img": "excel.png"
         },
         {
             "title": "Microsoft PowerPoint",
-            "desc": "lorem lorem lorem",
+            "desc": "I might make everything on Google Slides and export it as a .pttx. You'll never know if I took that shortcut or not.",
             "img": "powerpoint.png"
         },
         {
             "title": "Notion",
-            "desc": "lorem lorem lorem",
+            "desc": "My number one friend in being organized. Heard that many workplaces use this too!.",
             "img": "powerpoint.png"
         }
     ],
@@ -27,32 +27,32 @@
     [
         {
             "title": "Java",
-            "desc": "Created games using Greenfoot API during high school",
+            "desc": "Created games using Greenfoot API during high school. I vagree vhat vits very verbose.",
             "img": "java.png"
         },
         {
             "title": "Python",
-            "desc": "Self-taught to use for data analysis",
+            "desc": "Self-taught to use for data analysis. I also love using this to \"scrape\" websites using pyperclip.",
             "img": "python.png"
         },
         {
             "title": "C++",
-            "desc": "University taught",
+            "desc": "My mom first told me that pointing is really rude. Now I do it practically.",
             "img": "cpp.png"
         },
         {
             "title": "JavaScript",
-            "desc": "ReactJS, NodeJS; Self-taught to create personal projects",
+            "desc": "ReactJS, NodeJS; Self-taught to create personal projects. I don't know what I'd do if the debugger never existed.",
             "img": "javascript.png"
         },
         {
             "title": "CSS",
-            "desc": "Elementary comptencey to style pages with simple design elements",
+            "desc": "This is not fun at first. Currently, still not that fun.",
             "img": "javascript.png"
         },
         {
             "title": "VSCode",
-            "desc": "lorem lorem lorem",
+            "desc": "I normally assume that anyone who uses an IDE other than VSCode is x10000000 smarter than me.",
             "img": "powerpoint.png"
         }
     ],
@@ -61,12 +61,12 @@
     [
         {
             "title": "Git",
-            "desc": "Strong use of GitHub, branching, pushing and pulling",
+            "desc": "Linus Torvalds you are a legend.",
             "img": "github.png"
         },
         {
             "title": "AutoHotkey",
-            "desc": "Coding automative scripts to bolster repetitive workflows",
+            "desc": "This is my go-to to deal with repetitive mouse/keyboard use. I can easily automate any workflow using this",
             "img": "ahk.png"
         }
     ],
@@ -75,17 +75,17 @@
     [
         {
             "title": "Adobe Photoshop",
-            "desc": "Capable of creating image media",
+            "desc": "I can neither confirm nor deny that I have this legally",
             "img": "photoshop.png"
         },
         {
             "title": "Figma",
-            "desc": "lorem lorem lorem",
+            "desc": "",
             "img": "figma.png"
         },
         {
             "title": "Blender 3D",
-            "desc": "lorem lorem lorem",
+            "desc": "I got lots of exposure to keyframing and posing using Minecraft rigs found on the internet. I learned a lot of 2D/3D animation concepts through this software",
             "img": "blender.png"
         },
         {
@@ -98,14 +98,14 @@
     "languages": 
     [
         {
-            "title": "Simplified Chinese",
-            "desc": "lorem lorem lorem",
-            "img": "chinese.png"
+            "title": "French",
+            "desc": "Learned through Ontario public school education system, aka I'll stuck in a conversation on the 2nd sentence.",
+            "img": "french.png"
         },
         {
-            "title": "French",
-            "desc": "lorem lorem lorem",
-            "img": "french.png"
+            "title": "Simplified Chinese",
+            "desc": "Native speaker. That just means I'll get stuck on the 5th sentence instead of the 2nd",
+            "img": "chinese.png"
         }
     ]
 }
