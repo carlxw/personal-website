@@ -61,7 +61,7 @@
     [
         {
             "title": "Git",
-            "desc": "Linus Torvalds you are a legend.",
+            "desc": "Linus Torvalds, you are a legend.",
             "img": "github.png"
         },
         {
@@ -75,22 +75,22 @@
     [
         {
             "title": "Adobe Photoshop",
-            "desc": "I can neither confirm nor deny that I have this legally",
+            "desc": "I somehow passed the LinkedIn skills assessment first try",
             "img": "photoshop.png"
         },
         {
             "title": "Figma",
-            "desc": "",
+            "desc": "I only know how to use this because I know how to use Photoshop",
             "img": "figma.png"
         },
         {
             "title": "Blender 3D",
-            "desc": "I got lots of exposure to keyframing and posing using Minecraft rigs found on the internet. \nI learned a lot of 2D/3D animation concepts through this software",
+            "desc": "I got lots of exposure to keyframing and posing using Minecraft rigs found on the internet. I learned a lot of 2D/3D animation concepts through this software",
             "img": "blender.png"
         },
         {
             "title": "Vegas Pro 15",
-            "desc": "lorem lorem lorem",
+            "desc": "This basically implies I also know how to use Adobe Premiere",
             "img": "vegaspro.png"
         }
     ],

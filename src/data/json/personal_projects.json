@@ -5,7 +5,7 @@
         "header": "A virtual presentation of myself; what you're seeing right now!",
         "story": 
         [
-            "Yeah, I'm pretty sure I know how to use semicolons. This was a very fun project for me. It took me about 3 days to get through TheNetNinja's ReactJS tutorials and then essentially forever to get this website up and going. If I have any regrets in life, that would be having a preference in improvising over planning. Oh my god I am 100% going to recode this from ground up when I have the time to do so. With that being said, my suggestion to you, dear reader, is to NOT checkout the CSS in the GitHub and intentinally resize this window :)"
+            "Yeah, I'm pretty sure I know how to use semicolons. This was a very fun project for me. Don't need any wix or weebly here >:). It took me about 3 days to get through TheNetNinja's ReactJS tutorials and then essentially forever to get this website up and going. If I have any regrets in life, that would be having a preference in improvising over planning. Oh my god I am 100% going to recode this from ground up when I have the time to do so. With that being said, my suggestion to you, dear reader, is to NOT checkout the CSS in the GitHub and intentinally resize this window :)"
         ],
         "tags":
             [
@@ -16,6 +16,10 @@
                 {
                     "title": "Figma",
                     "link": "https://www.figma.com"
+                },
+                {
+                    "title": "react-tooltip",
+                    "link": "https://www.npmjs.com/package/react-tooltip"
                 },
                 {
                     "title": "CSS",
