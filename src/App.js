@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar";
 
 // Styling
 import "./App.css";
+import "./Tooltip.css";
 
 // Router
 import { BrowserRouter, Routes, Route } from "react-router-dom";
