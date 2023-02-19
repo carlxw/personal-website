@@ -51,8 +51,7 @@ const Hello = () => {
                 </div>
                 <div className="cls" />
 
-                <Link to="/skills" className="navlinks" id="next_page">Skills {">"}</Link>
-                <div className="navlinks" id="cls" />
+                <Link to="/skills" className="navlinks" id="next_page">{ ">" }</Link>
             </div>
         </div>
     );

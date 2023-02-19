@@ -13,8 +13,8 @@ const WorkExperiences = () => {
                     <WorkExpCard data={ jsonArr } />
                 </div>
             
-                <Link to="/personal_projects" className="navlinks" id="next_page">Personal Projects {">"}</Link>
-                <Link to="/skills" className="navlinks" id="prev_page">{"<"} Skills</Link>
+                <Link to="/personal_projects" className="navlinks" id="next_page">{ ">" }</Link>
+                <Link to="/skills" className="navlinks" id="prev_page">{ "<" }</Link>
                 <div className="cls" />
             </div>
         </div>

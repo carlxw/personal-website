@@ -49,8 +49,8 @@ const Skills = () => {
                 </div>
 
                 <div className="navlinks">
-                    <Link to="/work_experiences" className="navlinks" id="next_page">Experiences {">"}</Link>
-                    <Link to="/" className="navlinks" id="prev_page">{"<"} Home</Link>
+                    <Link to="/work_experiences" className="navlinks" id="next_page">{ ">"} </Link>
+                    <Link to="/" className="navlinks" id="prev_page">{ "<" }</Link>
                     <div className="cls" />
                 </div>
             </div>
