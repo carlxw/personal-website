@@ -24,6 +24,15 @@ const Skills = () => {
         func(true);
     }
 
+    // Turn button into colour if active (styles)
+    const inactive = {
+        "background-color": "white"
+    }
+
+    const active = {
+        "background-color": "red"
+    }
+
     return (
         <div id="margins">
             <div className="skills">
@@ -31,11 +40,11 @@ const Skills = () => {
 
                 {/* Buttons */}
                 <div className="skills_buttons">
-                    <button onClick={() => display(setOffice)}>Office</button>
-                    <button onClick={() => display(setCoding)}>Coding</button>
-                    <button onClick={() => display(setDevTools)}>Dev Tools</button>
-                    <button onClick={() => display(setDigitalArts)}>Digital Arts</button>
-                    <button onClick={() => display(setLanguages)}>Languages</button>
+                    <button style={ office ? active : inactive} onClick={() => display(setOffice)}>Office</button>
+                    <button style={ coding ? active : inactive } onClick={() => display(setCoding)}>Coding</button>
+                    <button style={ devTools ? active : inactive } onClick={() => display(setDevTools)}>Dev Tools</button>
+                    <button style={ digitalArts ? active : inactive } onClick={() => display(setDigitalArts)}>Digital Arts</button>
+                    <button style={ languages ? active : inactive } onClick={() => display(setLanguages)}>Languages</button>
                 </div>
 
                 {/* Content */}
