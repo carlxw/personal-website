@@ -3,18 +3,23 @@
     [
         {
             "title": "Microsoft Word",
-            "desc": "lorem lorem lorem",
+            "desc": "Who doesn't love Microsoft Word? I- um- well- I can use it well. Just like everyone else",
             "img": "word.png"
         },
         {
             "title": "Microsoft Excel",
-            "desc": "lorem lorem lorem",
+            "desc": "It's satisfying when I use pyth- I mean, Excel to finish analyzing large datasets",
             "img": "excel.png"
         },
         {
             "title": "Microsoft PowerPoint",
-            "desc": "lorem lorem lorem",
+            "desc": "I might make everything on Google Slides and export it as a .pttx. I do know that making presentations are very fun",
             "img": "powerpoint.png"
+        },
+        {
+            "title": "Notion",
+            "desc": "My number one friend in being organized. Heard that many workplaces use this too!",
+            "img": "notion.png"
         }
     ],
 
@@ -22,23 +27,33 @@
     [
         {
             "title": "Java",
-            "desc": "lorem lorem lorem",
+            "desc": "I created games using Greenfoot API during high school. I vagree vhat vits very verbose",
             "img": "java.png"
         },
         {
             "title": "Python",
-            "desc": "lorem lorem lorem",
+            "desc": "Self-taught to use for data analysis. I also love using this to \"scrape\" websites using pyperclip",
             "img": "python.png"
         },
         {
             "title": "C++",
-            "desc": "lorem lorem lorem",
+            "desc": "My mom first told me that pointing is really rude. Now I get to do it practically",
             "img": "cpp.png"
         },
         {
             "title": "JavaScript",
-            "desc": "ReactJS, NodeJS",
+            "desc": "ReactJS, NodeJS; Self-taught to create personal projects. I don't know what I'd do if the debugger never existed, yet I still love console.log'ing with no fear of wrist pain",
             "img": "javascript.png"
+        },
+        {
+            "title": "CSS",
+            "desc": "I can agree that I should remove this skill based of how I styled this website",
+            "img": "css.png"
+        },
+        {
+            "title": "VSCode",
+            "desc": "I normally assume that anyone who uses an IDE other than VSCode is x10000000 smarter than me",
+            "img": "vscode.png"
         }
     ],
 
@@ -46,12 +61,12 @@
     [
         {
             "title": "Git",
-            "desc": "lorem lorem lorem",
-            "img": "github.png"
+            "desc": "Linus Torvalds, you are a legend.",
+            "img": "git.png"
         },
         {
             "title": "AutoHotkey",
-            "desc": "lorem lorem lorem",
+            "desc": "This is my go-to to deal with repetitive mouse/keyboard use. I can easily automate any workflow using this",
             "img": "ahk.png"
         }
     ],
@@ -60,22 +75,22 @@
     [
         {
             "title": "Adobe Photoshop",
-            "desc": "lorem lorem lorem",
+            "desc": "I somehow passed the LinkedIn skills assessment first try. Too bad I can't say the same for the coding assessments",
             "img": "photoshop.png"
         },
         {
             "title": "Figma",
-            "desc": "lorem lorem lorem",
+            "desc": "I only know how to use this because I know how to use Photoshop",
             "img": "figma.png"
         },
         {
             "title": "Blender 3D",
-            "desc": "lorem lorem lorem",
+            "desc": "I got lots of exposure to animation keyframing and posing using Minecraft rigs found on the internet. I learned the essentials (aka bare minimum) of 2D/3D animation through this software",
             "img": "blender.png"
         },
         {
             "title": "Vegas Pro 15",
-            "desc": "lorem lorem lorem",
+            "desc": "This basically implies I also know how to use Adobe Premiere",
             "img": "vegaspro.png"
         }
     ],
@@ -83,14 +98,14 @@
     "languages": 
     [
         {
-            "title": "Simplified Chinese",
-            "desc": "lorem lorem lorem",
-            "img": "chinese.png"
+            "title": "French",
+            "desc": "Learned through the Ontario public school education system, aka I'll stuck in a conversation on the 2nd sentence",
+            "img": "french.png"
         },
         {
-            "title": "French",
-            "desc": "lorem lorem lorem",
-            "img": "french.png"
+            "title": "Simplified Chinese",
+            "desc": "Native speaker. That just means I'll get stuck on the 5th sentence instead of the 2nd",
+            "img": "chinese.png"
         }
     ]
 }

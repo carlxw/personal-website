@@ -2,20 +2,115 @@
     {
         "title": "Rrythm Music Bot",
         "img": "rrythm.png",
-        "desc": "A bot coded in NodeJS using discord.js framework",
+        "header": "A modernized Rythm Bot clone created with my interpretation",
+        "story": "Ever since Rythm got shut down in 2021 by YouTube, I noticed that my friends were spending less time hanging around on Discord voice calls during the pandemic isolation. Firstly, what the heck, YouTube. Not cool. Secondly, I pondered if I could remake the bot myself. An innocent Google search and a few YouTube videos eventually led me to develop a fully functional backend bot that I now locally host on my Raspberry Pi using a Python script. This is one of my first major successes with programming and remains to be my proudest achievement.",
+        "tags": 
+            [
+                {
+                    "title": "NodeJS",
+                    "link": "https://nodejs.org/en/"
+                },
+                {
+                    "title": "discord.js",
+                    "link": "https://discord.js.org/#/"
+                },
+                {
+                    "title": "play-dl",
+                    "link": "https://www.npmjs.com/package/play-dl"
+                },
+                {
+                    "title": "OOP",
+                    "link": null
+                }
+            ],
+        "desc": 
+        [
+            "Backend Discord bot that takes user input and streams audio from a YouTube source",
+            "Utilized object-oriented programming to organize functions and data from API requests",
+            "Learned how to read API documentation, use version control (git), organize code in File Explorer, and structure code neatly with adaquate documentation to enable maintainability",
+            "Implemented a customized queue data structure",
+            "Painfully understood the concept of Promises, async, await through raw trial and error",
+            "Coded without ChatGPT or AI tomfoolery"
+        ],
         "github": "https://github.com/carlxw/rrythm"
     },
     {
         "title": "HealthChain",
         "img": "healthchain.png",
-        "desc": "DeltaHacks 9 hackathon submission",
+        "header": "DeltaHacks IX winner for \"Most Innovative Use of Verbwire API\"",
+        "story": "It was all one day when a friend of mine asked me to sign up with him for a hackathon hosted at his university. I was like 'why the heck not'! After all, this seems like it'd be a good opportunity to see how good my coding skills are (spoiler alert: I was humbled much). We created a IPFS uploader for medical practioners to upload data-sensitive documents on to the Ethereum blockchain. As the one in charge of the backend, I initially intended to use Verbwire to do the uploading, but the documentation example doesn't work, and so I switched to use Moralis instead. Funnily enough, this still won 'Most Innovative Use of Verbwire API' thanks to our ingenious idea. That, or a challenge with awards for 10 groups, got only 10 groups signing up.",
+        "tags":
+            [
+                {
+                    "title": "ReactJS",
+                    "link": "https://reactjs.org/"
+                },
+                {
+                    "title": "NodeJS",
+                    "link": "https://nodejs.org/en/"
+                },
+                {
+                    "title": "Moralis",
+                    "link": "https://moralis.io/"
+                },
+                {
+                    "title": "Verbire",
+                    "link": "https://www.verbwire.com/"
+                }
+            ],
+        "desc": 
+        [
+            "Used \"Verbwire\" API to upload PDF files onto the Ethereum blockchain",
+            "Developed failsafe system where if uploading via Verbwire failed, Moralis will be used instead (on early implementations)",
+            "Programmatically connected friend's frontend with my backend",
+            "Victorious in the \"I-had-no-idea-what-I-was-doing-mindset-but-it-still-worked\" mindset"
+        ],
         "github": "https://github.com/DeltaHacks-WebOfLife/HealthChain",
         "devpost": "https://devpost.com/software/healthchain-hybn8i"
     },
     {
         "title": "Personal Website",
-        "img": "cw.png",
-        "desc": "A virtual presentation of myself, what you're seeing right now!",
+        "img": "website.png",
+        "header": "A virtual presentation of myself; what you're seeing right now!",
+        "story": 
+        [
+            "Yeah, I'm pretty sure I know how to use semicolons. This was a very fun project for me. Don't need any wix or weebly here >:). It took me about 3 days to get through TheNetNinja's ReactJS tutorials and then essentially forever to get this website up and going. If I had any regrets in life, that would be having a preference in improvising over planning. Oh my god I am 100% going to recode this from ground-up when I have the time to do so. With that being said, my suggestion to you, dear reader (of course I have to assume someone is reading my website), is to NOT checkout the CSS in the GitHub and intentinally resize this window :)"
+        ],
+        "tags":
+            [
+                {
+                    "title": "ReactJS",
+                    "link": "https://reactjs.org/"
+                },
+                {
+                    "title": "Figma",
+                    "link": "https://www.figma.com"
+                },
+                {
+                    "title": "react-tooltip",
+                    "link": "https://www.npmjs.com/package/react-tooltip"
+                },
+                {
+                    "title": "react-device-detect",
+                    "link": "https://www.npmjs.com/package/react-device-detect"
+                },
+                {
+                    "title": "CSS",
+                    "link": null
+                },
+                {
+                    "title": "JSON",
+                    "link": null
+                }
+            ],
+        "desc": 
+        [
+            "Learned ReactJS and CSS in a short time frame (1 week) to develop a personal website",
+            "Experimented with Figma and learned how to mockup websites",
+            "Learned how to set and achieve goals to ensure this personal project is on track to completion",
+            "Attempted to study modern website design to implement on website",
+            "Perfected the art of Ctrl+C and Ctrl+V"
+        ],
         "github": "https://github.com/carlxw/personal-website"
     }
 ]

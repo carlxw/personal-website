@@ -3,14 +3,31 @@
         "pos_title": "IT Consultant",
         "company": "Oak Valley Health",
         "duration": "Jan 2023 - Apr 2023",
-        "img": "fitmecanada.png",
-        "desc": "Helped docs learn Meditech"
+        "img": "oakvalleyhealth.png",
+        "story": "This was my very first internship under the University of Waterloo's co-op program. I'm glad that it was at my local hospital! I was able to meet lots of new people with experiences to share (I'm talking about people within the IT department and the hospital's emergency physicians) and pick up lots of things that I'll bring to my next internship. The hospitals under Oak Valley Health were updating to a new browser-based medical software for the physicians and I was hired to make that transition as fluid as possible. These doctors save lots of lives thanks to the medical software they use. It is my opinion that after I assist these physicians in their learning of the new medical software, I should get an assist for every life they save. I wish I thought of that one, but I need to quote House M.D. S2E4 on this.",
+        "desc": 
+        [
+            "Assisted emergency physicians in tranitioning to new medical software at two sites (Markham and Uxbridge)",
+            "Developed educational material to assist physician's software development",
+            "Provided in-person IT support to emergency physicians on a flexible schedule (night shifts 'til 7am wooo)",
+            "Peformed QA on new software; created test scripts for new medical platform to ensure functionality",
+            "Identified software flaws before go-live (I was able to find 2 critical bugs and reported it to the team)",
+            "Developed financial discipline to not spend too much money at on-site Tim Hortons"
+        ]
     },
     {
         "pos_title": "IT Team Lead",
         "company": "FitMeCanada",
         "duration": "July 2021",
-        "img": "oakvalleyhealth.png",
-        "desc": "Apart of Junior Achievement company program"
+        "img": "fitmecanada.png",
+        "story": "Here, I worked with 3 Junior Achievement (JA) advisors to learn all about creating startup companies. FitMeCanada is a JA Company Program startup that aims to assist online shoppers in apparel shopping. Ever bought some clothing online and then find out that you can't fit into it? Yeah, that's the problem we were targetting, but personally I'd just suggest to stop buying clothes online when malls still exist. I lead a team of 5 to develop a functional Chrome extension that takes in a user's measurements, analyzes the page they are on, and inform the user if they can fit in that type of clothing! It was a daunting task at first to create this Chrome extension within one week, since nobody knew where to start. With dedication from everyone on my team, All we needed was just 4 days!",
+        "desc": 
+        [
+            "Developed a Chrome extension that assists users in apparel online shopping using HTML and JavaScript",
+            "Trained peers to demonstrate technological professionalism in an virtural environment",
+            "Communicated with customer and other team leads to create, organize, and take action on technical and functinal requirements",
+            "Created sales pitch for (mock) investors, highlighting key features of Chrome extension",
+            "Developed a high-level complex algorithm to obtain the physical dimensions of the apparel the user is looking at (I call it \"look-at-the-url\")"
+        ]
     }
 ]

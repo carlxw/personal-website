@@ -1,0 +1,86 @@
+.proj_card {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 2%;
+    margin-right: 4.5%;
+    margin-bottom: 1%;
+    filter: drop-shadow(3px 3px 5px #555353);
+    border: 3px rgb(255, 216, 216) solid;
+} .proj_card:last-child {
+    margin-bottom: 0;
+}.proj_card h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0.5%;
+} .proj_card p {
+    color: black;
+    margin-bottom: 2.5%;
+    width: fit-content;
+} .proj_card a {
+    color: black;
+    margin-right: 2%;
+} .proj_card a:last-child {
+    margin-right: 0;
+} #nolink {
+    font-size: 1rem;
+    color: black;
+}.proj_card img {
+    border-radius: 15px;
+    height: 169px;
+    width: 169px;
+    border: 5px black solid;
+} .proj_card li {
+    margin-left: 5%;
+    width: 100%;
+}
+
+.tag_bubble {
+    display: inline;
+}
+
+.proj_cardcontent {
+    background-color: inherit;
+} .proj_right {
+    float: right;
+} .proj_left {
+    float: left;
+    width: 80%;
+}
+
+.proj_footer {
+    margin-top: 4%;
+    border-top: 2px black solid;
+    padding-top: 2%;
+} .links {
+    width: 20%;
+    float: left;
+} .tags {
+    width: 80%;
+    float: right;
+    text-align: right;
+} .bubble {
+    background-color: rgb(253, 240, 240);
+    border-radius: 15px;
+    padding: 5px 10px;
+    filter: drop-shadow(2px 1px 2px #796e6e);
+} .bubble:hover:not(#nolink){
+    background-color: rgb(177, 119, 119);
+    color: white;
+} #nolink {
+    padding-left: 1.1%;
+    display: inline;
+    margin-right: 2%;
+} #nolink:last-child {
+    margin-right: 0;
+}
+
+.proj_story {
+    font-size: 1.2rem;
+    color: blue;
+}
