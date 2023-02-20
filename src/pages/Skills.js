@@ -34,7 +34,7 @@ const Skills = () => {
             <div className="skills">
                 <h1 id="h1_title">My Skills</h1>
 
-                <p style={{ marginTop: "2%" }}>I should mention that I'm perfectly capable of simultaneously tapping my head and rubbing my belly</p>
+                <p style={{ marginTop: "2%" }}>Hover over some of these cards!</p>
 
                 {/* Buttons */}
                 <div className="skills_buttons">
