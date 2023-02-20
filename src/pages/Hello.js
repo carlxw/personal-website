@@ -16,7 +16,7 @@ const Hello = () => {
     ];
 
     const date = new Date();
-    const welcome_msg1 = `Welcome to my website! I am a ${ date.getFullYear() - 2004 } years old engineering student who is studying at the University of Waterloo. To be clear, what you are looking at is my pitful attempt of creating a website from scratch, and CSS'ing it as I go along (which I do not recommend).`;
+    const welcome_msg1 = `Welcome to my website! I am a ${ date.getFullYear() - 2004 } years old engineering student who is studying at the University of Waterloo. To be clear, what you are looking at is my pitful attempt at creating a website from scratch, and CSS'ing it as I go along (which I do not recommend).`;
     const welcome_msg2 = `I'm just (sorta) kidding. In case if you were wondering, I love playing the piano, working on personal projects, and playing video games!`
 
     return (

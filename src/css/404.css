@@ -30,6 +30,8 @@
     padding: 1% 2%;
 } #err_msg:hover {
     border: none;
+    background: linear-gradient(17deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: white
 }
 
 #err_return {

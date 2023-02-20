@@ -34,6 +34,8 @@ const Skills = () => {
             <div className="skills">
                 <h1 id="h1_title">My Skills</h1>
 
+                <p style={{ marginTop: "2%" }}>I should mention that I'm perfectly capable of simultaneously tapping my head and rubbing my belly</p>
+
                 {/* Buttons */}
                 <div className="skills_buttons">
                     <button style={ office ? active : null} onClick={() => display(setOffice)}>Office</button>

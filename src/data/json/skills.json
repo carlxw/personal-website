@@ -3,23 +3,23 @@
     [
         {
             "title": "Microsoft Word",
-            "desc": "Who doesn't love Microsoft Word? I can easily recreate a hardcopy only document no problem!",
+            "desc": "Who doesn't love Microsoft Word? I- um- well- I can use it well. Just like everyone else",
             "img": "word.png"
         },
         {
             "title": "Microsoft Excel",
-            "desc": "Whenever I'm using this, I always want to use Python instead. At least I can apply the logic in the same way.",
+            "desc": "It's satisfying when I use pyth- I mean, Excel to finish analyzing large datasets",
             "img": "excel.png"
         },
         {
             "title": "Microsoft PowerPoint",
-            "desc": "I might make everything on Google Slides and export it as a .pttx. You'll never know if I took that shortcut or not.",
+            "desc": "I might make everything on Google Slides and export it as a .pttx. I do know that making presentations are very fun",
             "img": "powerpoint.png"
         },
         {
             "title": "Notion",
-            "desc": "My number one friend in being organized. Heard that many workplaces use this too!.",
-            "img": "powerpoint.png"
+            "desc": "My number one friend in being organized. Heard that many workplaces use this too!",
+            "img": "notion.png"
         }
     ],
 
@@ -27,33 +27,33 @@
     [
         {
             "title": "Java",
-            "desc": "Created games using Greenfoot API during high school. I vagree vhat vits very verbose.",
+            "desc": "I created games using Greenfoot API during high school. I vagree vhat vits very verbose",
             "img": "java.png"
         },
         {
             "title": "Python",
-            "desc": "Self-taught to use for data analysis. I also love using this to \"scrape\" websites using pyperclip.",
+            "desc": "Self-taught to use for data analysis. I also love using this to \"scrape\" websites using pyperclip",
             "img": "python.png"
         },
         {
             "title": "C++",
-            "desc": "My mom first told me that pointing is really rude. Now I do it practically.",
+            "desc": "My mom first told me that pointing is really rude. Now I get to do it practically",
             "img": "cpp.png"
         },
         {
             "title": "JavaScript",
-            "desc": "ReactJS, NodeJS; Self-taught to create personal projects. I don't know what I'd do if the debugger never existed.",
+            "desc": "ReactJS, NodeJS; Self-taught to create personal projects. I don't know what I'd do if the debugger never existed, yet I still love console.log'ing with no fear of wrist pain",
             "img": "javascript.png"
         },
         {
             "title": "CSS",
-            "desc": "This is not fun at first. Currently, still not that fun.",
-            "img": "javascript.png"
+            "desc": "I can agree that I should remove this skill based of how I styled this website",
+            "img": "css.png"
         },
         {
             "title": "VSCode",
-            "desc": "I normally assume that anyone who uses an IDE other than VSCode is x10000000 smarter than me.",
-            "img": "powerpoint.png"
+            "desc": "I normally assume that anyone who uses an IDE other than VSCode is x10000000 smarter than me",
+            "img": "vscode.png"
         }
     ],
 
@@ -62,7 +62,7 @@
         {
             "title": "Git",
             "desc": "Linus Torvalds, you are a legend.",
-            "img": "github.png"
+            "img": "git.png"
         },
         {
             "title": "AutoHotkey",
@@ -75,7 +75,7 @@
     [
         {
             "title": "Adobe Photoshop",
-            "desc": "I somehow passed the LinkedIn skills assessment first try",
+            "desc": "I somehow passed the LinkedIn skills assessment first try. Too bad I can't say the same for the coding assessments",
             "img": "photoshop.png"
         },
         {
@@ -85,7 +85,7 @@
         },
         {
             "title": "Blender 3D",
-            "desc": "I got lots of exposure to keyframing and posing using Minecraft rigs found on the internet. I learned a lot of 2D/3D animation concepts through this software",
+            "desc": "I got lots of exposure to animation keyframing and posing using Minecraft rigs found on the internet. I learned the essentials (aka bare minimum) of 2D/3D animation through this software",
             "img": "blender.png"
         },
         {
@@ -99,7 +99,7 @@
     [
         {
             "title": "French",
-            "desc": "Learned through Ontario public school education system, aka I'll stuck in a conversation on the 2nd sentence.",
+            "desc": "Learned through the Ontario public school education system, aka I'll stuck in a conversation on the 2nd sentence",
             "img": "french.png"
         },
         {

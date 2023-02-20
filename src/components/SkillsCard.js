@@ -18,7 +18,7 @@ const SkillsCard = ({ data }) => {
                 </div>
                 <div className="cls" />
 
-                <Tooltip id={ data[i].title } />
+                <Tooltip id={ data[i].title } style={{ width: "500px", textAlign: "center", padding: "3%" }} />
             </div>
         );
     }
