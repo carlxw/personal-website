@@ -1,4 +1,7 @@
 import "../css/ProjCard.css";
+import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
+import { SiDevpost } from "react-icons/si"
+import { IconContext } from "react-icons";
 
 const ProjCard = ({ data }) => {
     const render = [];
@@ -33,11 +36,11 @@ const ProjCard = ({ data }) => {
                     <div className="links">
                         {   
                             // If there is a Github link
-                            data[i].github && <a className="bubble" href={ data[i].github } target="_blank" rel="noreferrer">GitHub</a>
+                            data[i].github && <a className="bubble" href={ data[i].github } target="_blank" rel="noreferrer">GitHub {" "} <AiFillGithub id="icon" /></a>
                         }
                         {   
                             // If there is a Devpost link
-                            data[i].devpost && <a className="bubble" href={ data[i].devpost } target="_blank" rel="noreferrer">DevPost</a>
+                            data[i].devpost && <a className="bubble" href={ data[i].devpost } target="_blank" rel="noreferrer">DevPost <SiDevpost id="icon" /></a>
                         }
                     </div>
 
