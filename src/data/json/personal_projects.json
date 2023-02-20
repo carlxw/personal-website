@@ -36,7 +36,6 @@
             "Experimented with Figma and learned how to mockup websites",
             "Learned how to set and achieve goals to ensure this personal project is on track to completion",
             "Attempted to study modern website design to implement on website",
-            "",
             "Perfected the art of Ctrl+C and Ctrl+V"
         ],
         "github": "https://github.com/carlxw/personal-website"
@@ -44,8 +43,8 @@
     {
         "title": "HealthChain",
         "img": "healthchain.png",
-        "header": "DeltaHacks IX winner for \"Most Creative Use of Verbwire API\"",
-        "story": "It was all one day when a friend of mine asked me to sign up with him for a hackathon hosted at his university. I was like 'why the heck not'! After all, this seems like it'd be a good time to see how good my coding skills are (spoiler alert: I was humbled much). We created a IPFS uploader for medical practioners to upload data-sensitive documents on to the Ethereum blockchain. I initially intended to use Verbwire to do the uploading, but the documentation example doesn't work, and so I switched to use Moralis instead.",
+        "header": "DeltaHacks IX winner for \"Most Innovative Use of Verbwire API\"",
+        "story": "It was all one day when a friend of mine asked me to sign up with him for a hackathon hosted at his university. I was like 'why the heck not'! After all, this seems like it'd be a good opportunity to see how good my coding skills are (spoiler alert: I was humbled much). We created a IPFS uploader for medical practioners to upload data-sensitive documents on to the Ethereum blockchain. As the one in charge of the backend, I initially intended to use Verbwire to do the uploading, but the documentation example doesn't work, and so I switched to use Moralis instead. Funnily enough, this still won 'Most Innovative Use of Verbwire API' thanks to our ingenious idea. That, or a challenge with awards for 10 groups, got only 10 groups signing up.",
         "tags":
             [
                 {
@@ -67,9 +66,10 @@
             ],
         "desc": 
         [
-            "Created a NodeJS backend and connected it with the frontend",
-            "Used \"Verbwire\" API to upload PDF files onto blockchain",
-            "Studied my friend's code to connect his frontend to my backend"
+            "Used \"Verbwire\" API to upload PDF files onto the Ethereum blockchain",
+            "Developed failsafe system where if uploading via Verbwire failed, Moralis will be used instead (on early implementations)",
+            "Programmatically connected friend's frontend with my backend",
+            "Victorious in the \"I-had-no-idea-what-I-was-doing-mindset-but-it-still-worked\" mindset"
         ],
         "github": "https://github.com/DeltaHacks-WebOfLife/HealthChain",
         "devpost": "https://devpost.com/software/healthchain-hybn8i"
@@ -78,7 +78,7 @@
         "title": "Rrythm Music Bot",
         "img": "rrythm.png",
         "header": "A modernized Rythm Bot clone created with my interpretation",
-        "story": "Ever since Rythm shut down in 2021 by YouTube, I noticed that my friends were spending less time hanging around on Discord voice calls during the pandemic isolation. Firstly, what the heck, YouTube. Not cool. Secondly, I pondered if I could remake the bot myself. An innocent Google search and a few YouTube videos eventually led me to develop a fully functional backend bot that I now locally host on my Raspberry Pi using a Python script. This is one of my first major successes with programming and remains to be my proudest achievement.",
+        "story": "Ever since Rythm got shut down in 2021 by YouTube, I noticed that my friends were spending less time hanging around on Discord voice calls during the pandemic isolation. Firstly, what the heck, YouTube. Not cool. Secondly, I pondered if I could remake the bot myself. An innocent Google search and a few YouTube videos eventually led me to develop a fully functional backend bot that I now locally host on my Raspberry Pi using a Python script. This is one of my first major successes with programming and remains to be my proudest achievement.",
         "tags": 
             [
                 {
@@ -102,8 +102,9 @@
         [
             "Backend Discord bot that takes user input and streams audio from a YouTube source",
             "Utilized object-oriented programming to organize functions and data from API requests",
-            "Learned how to read API documentation, use version control (git), organize code, and structure code neatly with adaquate documentation",
+            "Learned how to read API documentation, use version control (git), organize code in File Explorer, and structure code neatly with adaquate documentation to enable maintainability",
             "Implemented a customized queue data structure",
+            "Painfully understood the concept of Promises, async, await through raw trial and error",
             "Coded without ChatGPT or AI tomfoolery"
         ],
         "github": "https://github.com/carlxw/rrythm"
