@@ -9,6 +9,7 @@ const Navbar = () => {
     const [contact, contactActive] = useState(false);
 
     // Ensures that the correct CSS is being applied on first render
+    const rerender_link_change = useLocation();
     useEffect(() => {
         switch (window.location.pathname) {
             case "/":
@@ -28,7 +29,7 @@ const Navbar = () => {
                 break;
             default: break;
         }
-    }, [useLocation()]); // useLocation() causes this to run whenever URL changes
+    }, [rerender_link_change]); // useLocation() causes this to run whenever URL changes
     
     // Highlights navbar link if active
     const update = (func) => {

@@ -58,23 +58,22 @@
     border-top: 2px black solid;
     padding-top: 2%;
 } .links {
-    background-color: inherit;
-    width: 50%;
+    width: 20%;
     float: left;
 } .tags {
-    width: 50%;
+    width: 80%;
     float: right;
     text-align: right;
 } .bubble {
     background-color: rgb(253, 240, 240);
     border-radius: 15px;
-    padding: 1% 2% 1% 2%;
+    padding: 5px 10px;
     filter: drop-shadow(2px 1px 2px #796e6e);
 } .bubble:hover:not(#nolink){
     background-color: rgb(177, 119, 119);
     color: white;
 } #nolink {
-    padding-left: 1.7%;
+    padding-left: 1.1%;
     display: inline;
     margin-right: 2%;
 } #nolink:last-child {
