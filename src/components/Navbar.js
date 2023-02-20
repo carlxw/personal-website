@@ -13,27 +13,22 @@ const Navbar = () => {
         switch (window.location.pathname) {
             case "/":
                 update(homeActive);
-                console.log(2);
                 break;
             case "/skills":
                 update(skillsActive);
-                console.log(3);
                 break;
             case "/work_experiences":
                 update(workexpActive);
-                console.log(4);
                 break;
             case "/personal_projects":
                 update(projActive);
-                console.log(5);
                 break;
             case "/contact":
                 update(contactActive);
-                console.log(6);
                 break;
             default: break;
         }
-    }, [useLocation()]);
+    }, [useLocation()]); // useLocation() causes this to run whenever URL changes
     
     // Highlights navbar link if active
     const update = (func) => {

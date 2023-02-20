@@ -1,13 +1,14 @@
 import "../css/ProjCard.css";
-import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
-import { SiDevpost } from "react-icons/si"
+import { AiFillGithub } from "react-icons/ai";
+import { SiDevpost } from "react-icons/si";
+import { FiExternalLink } from "react-icons/fi";
 
 const ProjCard = ({ data }) => {
     const render = [];
     for (var i = 0; i < data.length; i++) {
         // Extract the tags and list-description
         const tags = data[i].tags.map((x) => (
-            x.link ? <a className="bubble" href={ x.link } target="_blank" rel="noreferrer" key={ x.title }>{ x.title }</a> : <p className="bubble" id="nolink" key={ x.title }>{ x.title }</p>
+            x.link ? <a className="bubble" href={ x.link } target="_blank" rel="noreferrer" key={ x.title }>{ x.title }<FiExternalLink className="icon" /></a> : <p className="bubble" id="nolink" key={ x.title }>{ x.title }</p>
         ));
 
         const desc = data[i].desc.map((x) => (
@@ -33,13 +34,12 @@ const ProjCard = ({ data }) => {
 
                 <div className="proj_footer">
                     <div className="links">
-                        {   
-                            // If there is a Github link
-                            data[i].github && <a className="bubble" href={ data[i].github } target="_blank" rel="noreferrer">GitHub {" "} <AiFillGithub id="icon" /></a>
+                        {
+                            data[i].github && <a className="bubble" href={ data[i].github } target="_blank" rel="noreferrer">GitHub <AiFillGithub className="icon" /></a>
                         }
                         {   
                             // If there is a Devpost link
-                            data[i].devpost && <a className="bubble" href={ data[i].devpost } target="_blank" rel="noreferrer">DevPost <SiDevpost id="icon" /></a>
+                            data[i].devpost && <a className="bubble" href={ data[i].devpost } target="_blank" rel="noreferrer">DevPost<SiDevpost className="icon" /></a>
                         }
                     </div>
 
