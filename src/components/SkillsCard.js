@@ -9,6 +9,8 @@ const SkillsCard = ({ data }) => {
                 data-tooltip-id={ data[i].title }
                 data-tooltip-content= { data[i].desc }
                 data-tooltip-place="top"
+                data-tooltip-offset="10"
+                data-tooltip-wrapper="skills_card"
             >
                 <div>
                     <h2 id={ data[i].title }>{ data[i].title }</h2>

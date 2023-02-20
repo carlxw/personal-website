@@ -25,7 +25,8 @@ const Skills = () => {
 
     // Turn button into colour if active (styles)
     const active = {
-        "backgroundColor": "red"
+        "backgroundImage": "radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% )",
+        "color": "white"
     }
 
     return (
