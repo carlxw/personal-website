@@ -1,4 +1,4 @@
-import "./css/SkillsCard.css";
+import "../css/SkillsCard.css";
 import { Tooltip } from "react-tooltip";
 
 const SkillsCard = ({ data }) => {

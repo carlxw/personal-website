@@ -1,4 +1,4 @@
-import "./css/WorkExpCard.css";
+import "../css/WorkExpCard.css";
 
 const WorkExpCard = ({ data }) => {
     const render = [];

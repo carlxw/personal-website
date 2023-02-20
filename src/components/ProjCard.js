@@ -1,4 +1,4 @@
-import "./css/ProjCard.css";
+import "../css/ProjCard.css";
 
 const ProjCard = ({ data }) => {
     const render = [];

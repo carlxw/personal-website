@@ -1,6 +1,6 @@
 .proj_card {
     color: black;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -10,6 +10,8 @@
     padding: 2%;
     margin-right: 4.5%;
     margin-bottom: 1%;
+    filter: drop-shadow(3px 3px 5px #555353);
+    border: 3px rgb(255, 216, 216) solid;
 } .proj_card:last-child {
     margin-bottom: 0;
 }.proj_card h2 {
@@ -64,11 +66,13 @@
     float: right;
     text-align: right;
 } .bubble {
-    background-color: white;
+    background-color: rgb(253, 240, 240);
     border-radius: 15px;
     padding: 1% 2% 1% 2%;
+    filter: drop-shadow(2px 1px 2px #796e6e);
 } .bubble:hover:not(#nolink){
     background-color: rgb(177, 119, 119);
+    color: white;
 } #nolink {
     padding-left: 1.7%;
     display: inline;
