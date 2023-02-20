@@ -13,10 +13,12 @@ import Navbar from "./components/Navbar";
 import "./css/App.css";
 import "./Tooltip.css";
 
-// Router
+// Objects
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
+    
+
     return (
         <BrowserRouter>
             <div className="app">

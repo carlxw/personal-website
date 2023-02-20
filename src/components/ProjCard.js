@@ -1,19 +1,18 @@
 import "../css/ProjCard.css";
 import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 import { SiDevpost } from "react-icons/si"
-import { IconContext } from "react-icons";
 
 const ProjCard = ({ data }) => {
     const render = [];
     for (var i = 0; i < data.length; i++) {
         // Extract the tags and list-description
         const tags = data[i].tags.map((x) => (
-            x.link ? <a className="bubble" href={ x.link } target="_blank" rel="noreferrer">{ x.title }</a> : <p className="bubble" id="nolink">{ x.title }</p>
+            x.link ? <a className="bubble" href={ x.link } target="_blank" rel="noreferrer" key={ x.title }>{ x.title }</a> : <p className="bubble" id="nolink" key={ x.title }>{ x.title }</p>
         ));
 
         const desc = data[i].desc.map((x) => (
             // Key will raise problems if I use the same description over and over?
-            <li className="list" style={{ "color": "black" }} key={ x }>{ x }</li>
+            <li className="list" style={{ "color": "black" }} key={ x } >{ x }</li>
         ));
 
         render.push(
@@ -23,7 +22,7 @@ const ProjCard = ({ data }) => {
                         <h2 id={ data[i].title }>{ data[i].title }</h2>
                         <p>{ data[i].header }</p>
                         <p id="story">{ `"${ data[i].story }"` }</p>
-                        <ul>{ desc }</ul>
+                        <ul key={ data[i].desc }>{ desc }</ul>
                     </div>
                     
                     <div className="proj_right">
