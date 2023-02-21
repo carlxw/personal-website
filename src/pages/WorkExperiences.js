@@ -6,7 +6,7 @@ const jsonArr = require("../data/json/work_experience.json")
 const WorkExperiences = () => {
     return (
         <div id="margins">
-            <div className="animate__animated animate__fadeIn experiences" id="work_experiences">
+            <div className="experiences" id="work_experiences">
                 <h1 id="h1_title">Work Experiences</h1>
                 <p style={{ marginTop: "2%" }}>Nothing to over over here</p>
                 

@@ -21,7 +21,7 @@ const Hello = () => {
 
     return (
         <div>
-            <div className="animate__animated animate__fadeIn hello">
+            <div className="hello">
                 <div>
                     <div className="hello_left">
                             <h1>Hi! My name is Carl</h1>
