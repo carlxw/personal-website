@@ -15,14 +15,14 @@ import "./css/App.css";
 import "./css/Tooltip.css";
 
 // Objects
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { BrowserView, MobileView } from "react-device-detect";
 
 function App() {
     return (
         <div>
             <BrowserView>
-                <HashRouter>
+                <BrowserRouter>
                     <div className="app">
                         <Navbar />
                         <div className="content">
@@ -37,7 +37,7 @@ function App() {
                             </Routes>
                         </div>
                     </div>
-                </HashRouter>
+                </BrowserRouter>
             </BrowserView>
             <MobileView>
                 <Mobile />

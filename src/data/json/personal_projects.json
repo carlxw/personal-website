@@ -76,10 +76,6 @@
         "tags": 
             [
                 {
-                    "title": "Java",
-                    "link": "https://nodejs.org/en/"
-                },
-                {
                     "title": "Greenfoot",
                     "link": "https://www.greenfoot.org/download"
                 },
