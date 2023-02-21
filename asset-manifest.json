@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c8a158d5.css",
-    "main.js": "/static/js/main.f0e2848b.js",
+    "main.js": "/static/js/main.229446e2.js",
     "static/media/cartoonme.png": "/static/media/cartoonme.c4fedcf58c76d5e41327.png",
     "static/media/website.png": "/static/media/website.187adcc980fa9015d148.png",
     "static/media/healthchain.png": "/static/media/healthchain.e7ae39c05e0e3b6343bc.png",
@@ -10,6 +10,7 @@
     "static/media/ahk.png": "/static/media/ahk.0dbd649d72565cfcfa90.png",
     "static/media/java.png": "/static/media/java.88255b9959372a6dd6d3.png",
     "static/media/vscode.png": "/static/media/vscode.8f2099111986412907e4.png",
+    "static/media/tip_tap_type.png": "/static/media/tip_tap_type.f182066a375bb5ad59ea.png",
     "static/media/git.png": "/static/media/git.d9c9b97d747ab5abf6af.png",
     "static/media/blender.png": "/static/media/blender.c9b8cc9b49b2638a530b.png",
     "static/media/cpp.png": "/static/media/cpp.732c4c8b74d01ca057b0.png",
@@ -26,10 +27,10 @@
     "static/media/word.png": "/static/media/word.aba01bbf9963f8f7734b.png",
     "index.html": "/index.html",
     "main.c8a158d5.css.map": "/static/css/main.c8a158d5.css.map",
-    "main.f0e2848b.js.map": "/static/js/main.f0e2848b.js.map"
+    "main.229446e2.js.map": "/static/js/main.229446e2.js.map"
   },
   "entrypoints": [
     "static/css/main.c8a158d5.css",
-    "static/js/main.f0e2848b.js"
+    "static/js/main.229446e2.js"
   ]
 }
