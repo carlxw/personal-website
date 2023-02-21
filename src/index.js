@@ -9,3 +9,5 @@ root.render(
         <App />
     </React.StrictMode>
 );
+
+// https://github.com/gitname/react-gh-pages
