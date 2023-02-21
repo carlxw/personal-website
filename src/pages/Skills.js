@@ -31,7 +31,7 @@ const Skills = () => {
 
     return (
         <div id="margins">
-            <div className="skills">
+            <div className="animate__animated animate__fadeIn skills">
                 <h1 id="h1_title">My Skills</h1>
 
                 <p style={{ marginTop: "2%" }}>Hover over some of these cards!</p>

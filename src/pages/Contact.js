@@ -5,7 +5,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 const Contact = () => {
     return (
         <div id="margins">
-            <div className="contact" id="contact">
+            <div className="animate__animated animate__fadeIn contact" id="contact">
                 <h1 id="contact">Contact Me!</h1>
                 <p>Thanks for checking out my website! If you want to connect, feel free to use any of the options below!</p>
 
