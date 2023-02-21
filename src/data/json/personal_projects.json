@@ -69,6 +69,34 @@
         "devpost": "https://devpost.com/software/healthchain-hybn8i"
     },
     {
+        "title": "Tip Tap Type",
+        "img": "tip_tap_type.png",
+        "header": "Minimalistic typing game",
+        "story": "This was a Greenfoot project that I worked on with a few of my high school friends. The primarily objective of this project was to practically use data structures, with the theme of creating a word-related game. This was a daunting project, but we managed to give it everything it needs to be called a game ranging from music, sound effects, animations, and UI.",
+        "tags": 
+            [
+                {
+                    "title": "Java",
+                    "link": "https://nodejs.org/en/"
+                },
+                {
+                    "title": "Greenfoot",
+                    "link": "https://www.greenfoot.org/download"
+                },
+                {
+                    "title": "OOP",
+                    "link": null
+                }
+            ],
+        "desc": 
+        [
+            "Coded in the worst IDE ever known to humanity",
+            "Developed the core typing algorithm using an implemented Stack data structure",
+            "Enhanced typing endurance because it's Java"
+        ],
+        "github": "https://github.com/yoyozhuang10/P1E-TipTapType"
+    },
+    {
         "title": "Personal Website",
         "img": "website.png",
         "header": "A virtual presentation of myself; what you're seeing right now!",
