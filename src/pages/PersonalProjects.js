@@ -7,7 +7,7 @@ const PersonalProjects = () => {
     return (
         <div id="margins">
             <div className="personal-projects" id="personal_projects">
-                <h1 id="h1_title">Personal Projects</h1>
+                <h1 id="h1_title">{ `Personal Projects (${jsonArr.length})` }</h1>
                 <p style={{ marginTop: "2%" }}>Nothing to hover on this page either (or is there?)</p>
 
                 <div className="proj_content">

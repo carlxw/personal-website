@@ -7,7 +7,7 @@ const WorkExperiences = () => {
     return (
         <div id="margins">
             <div className="experiences" id="work_experiences">
-                <h1 id="h1_title">Work Experiences</h1>
+                <h1 id="h1_title">{ `Work Experiences (${jsonArr.length})` }</h1>
                 <p style={{ marginTop: "2%" }}>Nothing to over over here</p>
                 
                 <div className="experiences_content">
