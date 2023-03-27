@@ -12,7 +12,7 @@ import Navbar from "./components/Navbar";
 
 // Styling
 import "./css/App.css";
-import "./css/Tooltip.css";
+import "./css/Reset.css";
 
 // Objects
 import { BrowserRouter, Routes, Route } from "react-router-dom";

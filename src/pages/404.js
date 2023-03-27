@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import "../css/404.css";
 
 const Error = () => {
     const [troll, setTroll] = useState(false);

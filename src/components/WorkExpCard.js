@@ -1,5 +1,3 @@
-import "../css/WorkExpCard.css";
-
 const WorkExpCard = ({ data }) => {
     const render = [];
     for (var i = 0; i < data.length; i++) {

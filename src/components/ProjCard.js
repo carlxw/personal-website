@@ -1,4 +1,3 @@
-import "../css/ProjCard.css";
 import { AiFillGithub } from "react-icons/ai";
 import { SiDevpost } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
