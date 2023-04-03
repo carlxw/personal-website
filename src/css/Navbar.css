@@ -3,21 +3,21 @@
     flex-direction: row;
     align-items: center;
     height: 10vh;
-    padding: 1rem 2rem;
+    padding: 1em 2em;
 
     border: 1px blue solid;
 }
 
 /* Style name */
 #my-name {
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: bold;
 }
 
 /* Style links */
 .link-pages {
     display: flex;
-    gap: 2.5rem;
+    gap: 2.5em;
 
     /* Sets div to the right of the navbar */
     margin-left: auto;
