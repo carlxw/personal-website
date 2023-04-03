@@ -30,14 +30,14 @@ const Skills = () => {
     }
 
     return (
-        <div id="margins">
-            <div className="skills">
-                <h1 id="h1_title">My Skills</h1>
+        <div className="skills flex-col flex-center padding">
+            <h1 id="skills-title">My Skills</h1>
 
-                <p style={{ marginTop: "2%" }}>Hover over some of these cards!</p>
+            <p>Hover over some of these cards!</p>
 
+            <div className="flex-col flex-center">
                 {/* Buttons */}
-                <div className="skills_buttons">
+                <div className="skills-buttons flex-row">
                     <button style={ office ? active : null} onClick={() => display(setOffice)}>Office</button>
                     <button style={ coding ? active : null } onClick={() => display(setCoding)}>Coding</button>
                     <button style={ devTools ? active : null } onClick={() => display(setDevTools)}>Dev Tools</button>
@@ -46,23 +46,22 @@ const Skills = () => {
                 </div>
 
                 {/* Content */}
-                <div className="skills_container">
-                    <div className="skills_content">
-                        { office && <SkillsCard id="test" data={ jsonObj.office }/> }
+                <div className="skills-container">
+                    <div className="skills-content">
+                        { office && <SkillsCard data={ jsonObj.office }/> }
                         { coding && <SkillsCard data={ jsonObj.coding } /> }
                         { devTools && <SkillsCard data={ jsonObj.devTools } /> }
                         { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
                         { languages && <SkillsCard data={ jsonObj.languages } /> }
                     </div>
                 </div>
-
-                <div className="navlinks">
-                    <Link to="/work_experiences" className="navlinks" id="next_page">{ ">"} </Link>
-                    <Link to="/" className="navlinks" id="prev_page">{ "<" }</Link>
-                    <div className="cls" />
-                </div>
             </div>
-            <div className="block" />
+
+            {/* <div className="navlinks">
+                <Link to="/work_experiences" className="navlinks" id="next_page">{ ">"} </Link>
+                <Link to="/" className="navlinks" id="prev_page">{ "<" }</Link>
+                <div className="cls" />
+            </div> */}
         </div>
     );
 }

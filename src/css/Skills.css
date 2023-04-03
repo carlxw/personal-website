@@ -1,0 +1,33 @@
+.skills {
+    height: min-content;
+    gap: 2em;
+}
+
+/* Align header to the left */
+#skills-title {
+    align-self: flex-start;
+}
+
+.skills > div {
+    border: 1px blue solid;
+}
+
+/* ================================================== */
+
+/* Style buttons */
+.skills-buttons {
+    gap: 5em;
+} .skills-buttons > button {
+    padding: 1em;
+    border-radius: 1em;
+}
+
+/* Style content */
+.skills-content {
+    width: 90vw;
+    height: min-content;
+    border: 1px blue solid;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
