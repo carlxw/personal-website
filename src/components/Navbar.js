@@ -48,7 +48,7 @@ const Navbar = () => {
     // }  
 
     return (
-        <nav className="navbar">
+        <nav className="navbar flex-row flex-center">
             <h1 id="my-name">Carl Wang</h1>
             <div className="link-pages">
                 <Link to="/">Home</Link>

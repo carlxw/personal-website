@@ -12,10 +12,11 @@ import Navbar from "./components/Navbar";
 
 // Styling
 import "./css/App.css";
+import "./css/Classes.css";
 import "./css/Reset.css";
 import "./css/Elements.css";
 import "./css/Navbar.css";
-
+import "./css/Homepage.css";
 
 // Objects
 import { HashRouter, Routes, Route } from "react-router-dom";
