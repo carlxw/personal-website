@@ -13,6 +13,7 @@ import Navbar from "./components/Navbar";
 // Styling
 import "./css/App.css";
 import "./css/Reset.css";
+import "./css/Elements.css";
 
 // Objects
 import { BrowserRouter, Routes, Route } from "react-router-dom";
