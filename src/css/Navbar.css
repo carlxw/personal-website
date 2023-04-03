@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+    padding: 1rem 2rem;
+
+    border: 1px blue solid;
+}
+
+/* Style name */
+#my-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Style links */
+.link-pages {
+    display: flex;
+    gap: 2.5rem;
+
+    /* Sets div to the right of the navbar */
+    margin-left: auto;
+}

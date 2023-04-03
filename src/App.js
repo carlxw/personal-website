@@ -14,16 +14,17 @@ import Navbar from "./components/Navbar";
 import "./css/App.css";
 import "./css/Reset.css";
 import "./css/Elements.css";
+import "./css/Navbar.css";
 
 // Objects
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { BrowserView, MobileView } from "react-device-detect";
 
 function App() {
     return (
         <div>
             <BrowserView>
-                <BrowserRouter>
+                <HashRouter>
                     <div className="app">
                         <Navbar />
                         <div className="content">
@@ -38,7 +39,7 @@ function App() {
                             </Routes>
                         </div>
                     </div>
-                </BrowserRouter>
+                </HashRouter>
             </BrowserView>
             <MobileView>
                 <Mobile />

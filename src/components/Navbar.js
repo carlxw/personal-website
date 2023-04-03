@@ -39,25 +39,24 @@ const Navbar = () => {
         });
     }
 
-    // CSS Styling
-    const active = {
-        "backgroundColor": "white",
-        "color": "black",
-        "borderRadius": "15px",
-        "border": "none"
-    }  
+    // // CSS Styling
+    // const active = {
+    //     "backgroundColor": "white",
+    //     "color": "black",
+    //     "borderRadius": "15px",
+    //     "border": "none"
+    // }  
 
     return (
         <nav className="navbar">
-            <h1 id="nav_name">Carl Wang</h1>
-            <div className="link_pages">
-                <Link style={ home ? active : null } to="/">Home</Link>
-                <Link style={ skills ? active : null } to="/skills">Skills</Link>
-                <Link style={ workexp ? active : null } to="/work_experiences">Work Experiences</Link>
-                <Link style={ proj ? active : null } to="/personal_projects">Personal Projects</Link>
-                <Link style={ contact ? active : null } to="/contact">Contact/Socials</Link>
+            <h1 id="my-name">Carl Wang</h1>
+            <div className="link-pages">
+                <Link to="/">Home</Link>
+                <Link to="/skills">Skills</Link>
+                <Link to="/work_experiences">Work Experiences</Link>
+                <Link to="/personal_projects">Personal Projects</Link>
+                <Link to="/contact">Contact/Socials</Link>
             </div>
-            <div className="cls" />
         </nav>
     );
 }
