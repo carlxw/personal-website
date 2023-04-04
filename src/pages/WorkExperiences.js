@@ -5,11 +5,11 @@ const jsonArr = require("../data/json/work_experience.json");
 
 const WorkExperiences = () => {
     return (
-        <div className="experiences padding flex-col flex-left" id="work-experiences">
+        <div className="experiences padding flex-col" id="work-experiences">
             <h1 id="h1_title">{ `Work Experiences (${jsonArr.length})` }</h1>
-            <p style={{ marginTop: "2%" }}>Nothing to hover over here</p>
+            <p>Nothing to hover over here</p>
 
-            <div className="exp-content flex-col flex-left">
+            <div className="exp-content flex-col">
                 { jsonArr.map((x, idx) => (<WorkExpCard data={x} key={ idx } />)) }
             </div>
         

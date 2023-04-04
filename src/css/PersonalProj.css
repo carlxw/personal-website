@@ -1,0 +1,15 @@
+.personal-projects {
+    gap: 1em;
+}
+
+/* ================================== */
+
+.proj-content {
+    border: 1px blue solid;
+} .proj-card {
+    gap: 1em;
+} .proj-left, .proj-right {
+    gap: 1em;
+} ul {
+    list-style-type: circle;
+}
