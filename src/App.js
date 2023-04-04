@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar";
 
 // Styling
 import "./css/Reset.css";
+import 'react-tooltip/dist/react-tooltip.css'
 import "./css/App.css";
 import "./css/Classes.css";
 import "./css/Navbar.css";
@@ -19,7 +20,7 @@ import "./css/Homepage.css";
 import "./css/Skills.css";
 import "./css/WorkExp.css";
 
-// Objects
+// Packages
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { BrowserView, MobileView } from "react-device-detect";
 

@@ -22,12 +22,32 @@
     border-radius: 1em;
 }
 
-/* Style content
 .skills-content {
-    width: 90vw;
+    width: 95vw;
     height: min-content;
     border: 1px blue solid;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-} */
+}
+
+/* Style card */
+.skills-card > div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+} .skills-img {
+    height: 3.5em;
+    width: auto;
+    margin-left: auto;
+}
+
+/* React-tooltips */
+.react-tooltip {
+    font-family: "Open Sans";
+    width: 25vw;
+    padding: 1em;
+    border-radius: 1em;
+    line-height: 1.25em;
+    padding: 1.5em;
+}

@@ -47,14 +47,11 @@ const Skills = () => {
 
                 {/* Content */}
                 <div className="skills-content">
-                    { jsonObj.office.map((x, idx) => {
-                        console.log(idx);
-                        <p>{ idx }</p>
-                    }) }
-                    {/* { coding && <SkillsCard data={ jsonObj.coding } /> }
-                    { devTools && <SkillsCard data={ jsonObj.devTools } /> }
-                    { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
-                    { languages && <SkillsCard data={ jsonObj.languages } /> } */}
+                    { office && jsonObj.office.map((x, idx) => <SkillsCard data={ x } key={ idx } />) }
+                    { coding && jsonObj.coding.map((x, idx) => <SkillsCard data={ x } key={ idx } />) }
+                    { devTools && jsonObj.devTools.map((x, idx) => <SkillsCard data={ x } key={ idx } />) }
+                    { digitalArts && jsonObj.digitalArts.map((x, idx) => <SkillsCard data={ x } key={ idx } />) }
+                    { languages && jsonObj.languages.map((x, idx) => <SkillsCard data={ x } key={ idx } />) }
                 </div>
             </div>
 
