@@ -17,6 +17,7 @@ import "./css/Classes.css";
 import "./css/Navbar.css";
 import "./css/Homepage.css";
 import "./css/Skills.css";
+import "./css/WorkExp.css";
 
 // Objects
 import { HashRouter, Routes, Route } from "react-router-dom";

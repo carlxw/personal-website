@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, p, a, button {
+h1, h2, h3, h4, h5, p, a, button, li {
     font-family: "Open Sans"
 } h1 {
     font-size: 3rem;

@@ -1,0 +1,14 @@
+.experiences {
+    gap: 1rem;
+}
+
+.exp-content {
+    border: 1px solid blue;
+    gap: 1rem;
+}
+
+/* ========================================== */
+
+.workexp-card {
+    background-color: aquamarine;
+}
