@@ -6,10 +6,27 @@
 
 .proj-content {
     border: 1px blue solid;
-} .proj-card {
+    gap: 5em;
+} 
+
+/* Card top */
+.proj-card {
     gap: 1em;
 } .proj-left, .proj-right {
     gap: 1em;
 } ul {
     list-style-type: circle;
+    /* Keeps bullet point in div */
+    margin-left: 2.5em;
+} .proj-card-content > img {
+    height: 12.5em;
+    width: auto;
+    border-radius: 1em;
+}
+
+/* Card tags */
+.proj-footer {
+    width: inherit;
+} .proj-tags {
+    margin-left: auto;
 }

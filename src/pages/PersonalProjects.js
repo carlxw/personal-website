@@ -9,7 +9,7 @@ const PersonalProjects = () => {
             <h1>{ `Personal Projects (${jsonArr.length})` }</h1>
             <p>Nothing to hover on this page either (or is there?)</p>
 
-            <div className="proj-content">
+            <div className="proj-content flex-col">
                 { jsonArr.map((x, idx) => <ProjCard data={ x } key={ idx } />) }
             </div>
 
