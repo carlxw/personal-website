@@ -22,7 +22,7 @@
     border-radius: 1em;
 }
 
-/* Style content */
+/* Style content
 .skills-content {
     width: 90vw;
     height: min-content;
@@ -30,4 +30,4 @@
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
+} */

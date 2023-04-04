@@ -46,14 +46,15 @@ const Skills = () => {
                 </div>
 
                 {/* Content */}
-                <div className="skills-container">
-                    <div className="skills-content">
-                        { office && <SkillsCard data={ jsonObj.office }/> }
-                        { coding && <SkillsCard data={ jsonObj.coding } /> }
-                        { devTools && <SkillsCard data={ jsonObj.devTools } /> }
-                        { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
-                        { languages && <SkillsCard data={ jsonObj.languages } /> }
-                    </div>
+                <div className="skills-content">
+                    { jsonObj.office.map((x, idx) => {
+                        console.log(idx);
+                        <p>{ idx }</p>
+                    }) }
+                    {/* { coding && <SkillsCard data={ jsonObj.coding } /> }
+                    { devTools && <SkillsCard data={ jsonObj.devTools } /> }
+                    { digitalArts && <SkillsCard data={ jsonObj.digitalArts } /> }
+                    { languages && <SkillsCard data={ jsonObj.languages } /> } */}
                 </div>
             </div>
 
