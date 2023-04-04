@@ -15,7 +15,7 @@
 } .proj-left, .proj-right {
     gap: 1em;
 } ul {
-    list-style-type: circle;
+    list-style-type: disc;
     /* Keeps bullet point in div */
     margin-left: 2.5em;
 } .proj-card-content > img {

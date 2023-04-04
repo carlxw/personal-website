@@ -20,6 +20,7 @@ import "./css/Homepage.css";
 import "./css/Skills.css";
 import "./css/WorkExp.css";
 import "./css/PersonalProj.css";
+import "./css/Contact.css";
 
 // Packages
 import { HashRouter, Routes, Route } from "react-router-dom";
