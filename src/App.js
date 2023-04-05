@@ -21,6 +21,7 @@ import "./css/Skills.css";
 import "./css/WorkExp.css";
 import "./css/PersonalProj.css";
 import "./css/Contact.css";
+import "./css/404.css";
 
 // Packages
 import { HashRouter, Routes, Route } from "react-router-dom";

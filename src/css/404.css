@@ -1,0 +1,17 @@
+.err {
+    width: 100vw;
+    height: 90vh;
+    gap: 2.5em;
+} #err-h1 {
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.err-txt {
+    gap: 2.5em;
+} #return-fake-msg {
+    background-color: aqua;
+    padding: 1em 1.5em;
+    border-radius: 1em;
+    text-align: center;
+}
