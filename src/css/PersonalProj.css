@@ -11,13 +11,19 @@
 
 /* Card top */
 .proj-card {
-    gap: 1em;
+    gap: 2em;
+    padding: 2em;
+
+    border-radius: 1em;
+    background-color: var(--proj-bg-colour);
 } .proj-left, .proj-right {
     gap: 1em;
 } ul {
     list-style-type: disc;
     /* Keeps bullet point in div */
     margin-left: 2.5em;
+} .proj-card-content {
+    gap: 5em;
 } .proj-card-content > img {
     height: 12.5em;
     width: auto;

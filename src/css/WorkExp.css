@@ -10,5 +10,16 @@
 /* ========================================== */
 
 .workexp-card {
-    background-color: aquamarine;
+    background-color: var(--work-exp-bg-colour);
+    padding: 2em;
+    border-radius: 1em;
+    gap: 3em;
+} .work-exp-left {
+    gap: 1em;
+}
+
+.workexp-card > img {
+    height: 12.5em;
+    width: auto;
+    border-radius: 1em;
 }

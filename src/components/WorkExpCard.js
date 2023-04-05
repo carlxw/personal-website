@@ -6,8 +6,8 @@ const WorkExpCard = ({ data }) => {
     ));
 
     return (
-        <div className="workexp-card">
-            <div className="left-info">
+        <div className="workexp-card flex-row">
+            <div className="work-exp-left flex-col">
                 <h1 id={ data.pos_title }>{ data.pos_title }</h1>
 
                 <h2 id="company-duration">{ `${data.company} (${data.duration})` }</h2>
@@ -17,9 +17,7 @@ const WorkExpCard = ({ data }) => {
                 <ul>{ descArr }</ul>
             </div>
 
-            <div className="right-img">
-                <img src={ require(`../data/img/${ data.img }`) } alt="icon"/>
-            </div>
+            <img src={ require(`../data/img/${ data.img }`) } alt="icon"/>
         </div>
     );
 }
