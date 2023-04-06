@@ -26,3 +26,8 @@
 .padding {
     padding: 1em 2em;
 }
+
+.extend {
+    /* Extend page */
+    margin-bottom: 2em;
+}

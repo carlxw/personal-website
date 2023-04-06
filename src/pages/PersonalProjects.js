@@ -5,7 +5,7 @@ const jsonArr = require("../data/json/personal_projects.json");
 
 const PersonalProjects = () => {
     return (
-        <div className="personal-projects padding flex-col" id="personal-projects">
+        <div className="personal-projects padding flex-col extend" id="personal-projects">
             <h1>{ `Personal Projects (${jsonArr.length})` }</h1>
 
             <div className="proj-content flex-col">

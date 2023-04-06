@@ -1,5 +1,22 @@
 .contact {
     height: 90vh;
-    gap: 1em;
+    gap: 4em;
     text-align: center;
+}
+
+.contact > div {
+    gap: 5em;
+}
+
+#disclaimer {
+    font-size: 0.8em;
+}
+
+.contact-links {
+    gap: 5em;
+} .contact-links > a {
+    background-color: aqua;
+    padding: 1em 2em;
+    border-radius: 1em;
+    font-size: 1.5em;
 }
