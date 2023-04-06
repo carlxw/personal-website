@@ -14,9 +14,7 @@
 
 /* Style left side */
 .hello-left {
-    gap: 5em;
-} .hello-heading {
-    gap: 0.5em;
+    gap: 3em;
 } .hello-txt {
     gap: 0.75em;
 }
