@@ -4,7 +4,7 @@
 
 .exp-content {
     border: 1px solid blue;
-    gap: 1rem;
+    gap: 2.5em;
 }
 
 /* ========================================== */
@@ -15,7 +15,7 @@
     border-radius: 1em;
     gap: 3em;
 } .work-exp-left {
-    gap: 1em;
+    gap: 2em;
 }
 
 .workexp-card > img {

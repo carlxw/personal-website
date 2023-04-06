@@ -20,8 +20,21 @@ h1, h2, h3, h4, h5, p, a, button, li {
     font-family: "Open Sans"
 } h1 {
     font-size: 3rem;
-} p {
-    font-size: 1.25rem;
+} p, li {
+    font-size: 1.25em;
+    line-height: 1.25em;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 2em;
+} li {
+    padding-left: 0.5em;
+    line-height: 1.5em;
+}
+
+a {
+    color: rgb(22, 196, 196);
 }
 
 button {

@@ -1,7 +1,6 @@
 import { Tooltip } from "react-tooltip";
 
 const SkillsCard = ({ data }) => {
-    console.log("IN");
     return (
         <div 
             className="skills-card"

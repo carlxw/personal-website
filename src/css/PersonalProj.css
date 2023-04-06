@@ -6,8 +6,18 @@
 
 .proj-content {
     border: 1px blue solid;
-    gap: 5em;
-} 
+    background-color: blue;
+    padding: 1.5em;
+    border-radius: 1em;
+    gap: 2.5em;
+
+    /* Extend page */
+    margin-bottom: 2em;
+} .proj-container {
+    background-color: blue;
+    padding: 1em;
+    border-radius: 1em;
+}
 
 /* Card top */
 .proj-card {
@@ -16,23 +26,32 @@
 
     border-radius: 1em;
     background-color: var(--proj-bg-colour);
-} .proj-left, .proj-right {
-    gap: 1em;
-} ul {
-    list-style-type: disc;
-    /* Keeps bullet point in div */
-    margin-left: 2.5em;
+} .proj-left {
+    gap: 2em;
 } .proj-card-content {
     gap: 5em;
 } .proj-card-content > img {
     height: 12.5em;
     width: auto;
     border-radius: 1em;
+} #proj-title {
+    font-weight: bold;
+} #proj-desc {
+    font-style: italic;
 }
 
 /* Card tags */
 .proj-footer {
     width: inherit;
+    font-size: 1.05em;
+    color: white;
+    fill: white;
+} .proj-tags, .gh-devpost {
+    gap: 1em;
 } .proj-tags {
     margin-left: auto;
+} .proj-tags > *, .gh-devpost > a {
+    background-color: brown;
+    border-radius: 1em;
+    padding: 0.5em 0.8em;
 }

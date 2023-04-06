@@ -14,7 +14,7 @@
 /* Style links */
 .link-pages {
     display: flex;
-    gap: 2.5em;
+    gap: 3em;
 
     /* Sets div to the right of the navbar */
     margin-left: auto;

@@ -6,9 +6,9 @@ const ProjCard = ({ data }) => {
     // Extract the tags and list-description
     const tags = data.tags.map((x) => (
         x.link ? 
-        <a className="bubble" href={ x.link } target="_blank" rel="noreferrer" key={ x.title }>{ x.title }<FiExternalLink className="icon" /></a> 
+        <a href={ x.link } target="_blank" rel="noreferrer" key={ x.title }>{ x.title }<FiExternalLink className="icon" /></a> 
         : 
-        <p className="bubble" id="nolink" key={ x.title }>{ x.title }</p>
+        <p id="nolink" key={ x.title }>{ x.title }</p>
     ));
 
     const desc = data.desc.map((x) => (
@@ -20,9 +20,9 @@ const ProjCard = ({ data }) => {
         <div className="proj-card flex-col" key={ data.title }>
             <div className="proj-card-content flex-row">
                 <div className="proj-left flex-col">
-                    <h1 id={ data.title }>{ data.title }</h1>
-                    <p>{ data.header }</p>
-                    <p id="story">{ `"${ data.story }"` }</p>
+                    <h1 id="proj-title">{ data.title }</h1>
+                    <p id="proj-desc">{ data.header }</p>
+                    <p id="proj-story">{ `"${ data.story }"` }</p>
                     <ul key={ data.desc }>{ desc }</ul>
                 </div>
                 
@@ -30,7 +30,7 @@ const ProjCard = ({ data }) => {
             </div>
 
             <div className="proj-footer flex-row">
-                <div className="gh-devpost">
+                <div className="gh-devpost flex-row">
                     {
                         data.github && <a className="bubble" href={ data.github } target="_blank" rel="noreferrer">GitHub <AiFillGithub className="icon" /></a>
                     }
@@ -40,7 +40,7 @@ const ProjCard = ({ data }) => {
                     }
                 </div>
 
-                <div className="proj-tags">{ data.tags && tags }</div>
+                <div className="proj-tags flex-row">{ data.tags && tags }</div>
             </div>
         </div>
     );
