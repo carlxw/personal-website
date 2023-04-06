@@ -7,7 +7,6 @@ const WorkExperiences = () => {
     return (
         <div className="experiences padding flex-col" id="work-experiences">
             <h1 id="h1_title">{ `Work Experiences (${jsonArr.length})` }</h1>
-            <p>Nothing to hover over here</p>
 
             <div className="exp-content flex-col">
                 { jsonArr.map((x, idx) => (<WorkExpCard data={x} key={ idx } />)) }
