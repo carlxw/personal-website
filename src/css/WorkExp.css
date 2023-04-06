@@ -5,6 +5,10 @@
 .exp-content {
     border: 1px solid blue;
     gap: 2.5em;
+    
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
 }
 
 /* ========================================== */
