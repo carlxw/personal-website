@@ -5,7 +5,11 @@
 .exp-content {
     gap: 2.5em;
     
-    background-color: var(--border-colour);
+    /* https://uigradients.com/#Mild */
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     border-radius: 1em;
     padding: 1.5em;
 }
