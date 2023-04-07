@@ -29,5 +29,9 @@
 
 .extend {
     /* Extend page */
-    margin-bottom: 2em;
+    margin: 1em 0 2em 0;
+}
+
+.h1-gap {
+    margin-bottom: 0.5em;
 }

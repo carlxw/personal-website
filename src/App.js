@@ -1,6 +1,6 @@
 // Sections
 import Hello from "./pages/Hello";
-import Skills from "./pages/Skills";
+// import Skills from "./pages/Skills";
 import WorkExperiences from "./pages/WorkExperiences";
 import PersonalProjects from "./pages/PersonalProjects";
 import Contact from "./pages/Contact";
@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar";
 
 // Styling
 import "./css/Reset.css";
+import "./css/Scrollbar.css";
 import "react-tooltip/dist/react-tooltip.css"
 import "./css/App.css";
 import "./css/Classes.css";
