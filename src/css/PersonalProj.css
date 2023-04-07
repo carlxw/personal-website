@@ -5,12 +5,11 @@
 /* ================================== */
 
 .proj-content {
-    background-color: blue;
+    background-color: var(--border-colour);
     padding: 1.5em;
     border-radius: 1em;
     gap: 2.5em;
 } .proj-container {
-    background-color: blue;
     padding: 1em;
     border-radius: 1em;
 }
@@ -19,7 +18,6 @@
 .proj-card {
     gap: 2em;
     padding: 2em;
-
     border-radius: 1em;
     background-color: var(--proj-bg-colour);
 } .proj-left {
@@ -30,6 +28,7 @@
     height: 12.5em;
     width: auto;
     border-radius: 1em;
+    border: 0.25em black solid;
 } #proj-title {
     font-weight: bold;
 } #proj-desc {
@@ -50,4 +49,9 @@
     background-color: brown;
     border-radius: 1em;
     padding: 0.5em 0.8em;
+}
+
+/* Set font colour */
+.proj-left > * {
+    color: var(--proj-font-colour);
 }

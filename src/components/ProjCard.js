@@ -20,7 +20,7 @@ const ProjCard = ({ data }) => {
         <div className="proj-card flex-col" key={ data.title }>
             <div className="proj-card-content flex-row">
                 <div className="proj-left flex-col">
-                    <h1 id="proj-title">{ data.title }</h1>
+                    <h1 className="h1-line" id="proj-title">{ data.title }</h1>
                     <p id="proj-desc">{ data.header }</p>
                     <p id="proj-story">{ `"${ data.story }"` }</p>
                     <ul key={ data.desc }>{ desc }</ul>

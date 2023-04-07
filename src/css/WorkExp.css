@@ -17,12 +17,28 @@
     padding: 2em;
     border-radius: 1em;
     gap: 3em;
+} .workexp-card-left > * {
+    color: black;
 } .work-exp-left {
     gap: 2em;
+}
+
+#company-duration {
+    font-size: 1.5em;
+}
+
+#story {
+    font-style: italic;
 }
 
 .workexp-card > img {
     height: 12.5em;
     width: auto;
     border-radius: 1em;
+    border: 0.25em black solid;
+}
+
+/* Set font colour */
+.work-exp-left > h1, h2, p, ul, li {
+    color: var(--work-exp-font-colour);
 }
