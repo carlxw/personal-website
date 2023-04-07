@@ -1,17 +1,32 @@
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+/* https://www.gradient-animator.com/ */
 
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 1000% 1000%;
-	animation: gradient 30s ease infinite;
+    background: linear-gradient(102deg, #d02887, #ce3434, #d28923);
+    background-size: 600% 600%;
+
+    -webkit-animation: Background 26s ease infinite;
+    -moz-animation: Background 26s ease infinite;
+    -o-animation: Background 26s ease infinite;
+    animation: Background 26s ease infinite;
+}
+
+@-webkit-keyframes Background {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+@-moz-keyframes Background {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+@-o-keyframes Background {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+@keyframes Background {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
 }
