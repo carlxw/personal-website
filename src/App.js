@@ -12,9 +12,9 @@ import Navbar from "./components/Navbar";
 
 // Styling
 import "./css/Reset.css";
+import "./css/App.css";
 import "./css/Background.css";
 import "react-tooltip/dist/react-tooltip.css"
-import "./css/App.css";
 import "./css/Classes.css";
 import "./css/Navbar.css";
 import "./css/Homepage.css";

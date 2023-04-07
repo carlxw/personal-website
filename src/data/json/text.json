@@ -1,5 +1,5 @@
 {
     "welcomeh1": "Hi! My name is Carl and I am...",
-    "welcome1": "Welcome to my website! I am a ${ INSERT_DATE } years old engineering student who is studying at the University of Waterloo. To be clear, what you are looking at is my pitful attempt at creating a website from scratch. I highly recommend to not test the responsiveness of this site.",
+    "welcome1": "Welcome to my website! I am a { INSERT_DATE } years old engineering student who is studying at the University of Waterloo. To be clear, what you are looking at is my pitful attempt at creating a website from scratch. I highly recommend to not test the responsiveness of this site.",
     "welcome2": "I'm just (sorta) kidding. In case if you were wondering, I love playing the piano, working on personal projects, and playing video games!"
 }

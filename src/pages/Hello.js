@@ -1,25 +1,24 @@
 import image from "../data/img/cartoonme.png";
-import { Link } from "react-router-dom";
-import Typewriter from "typewriter-effect";
+// import { Link } from "react-router-dom";
+// import Typewriter from "typewriter-effect";
 
 import config from "../data/json/text.json";
 
 const Hello = () => {   
-    const strArr = [
-        "a programmer.",
-        "ambitious.",
-        "creative.",
-        "determined.",
-        "hard working.",
-        "a quick learner.",
-        "versatile.",
-        "curious.",
-        "a Google master."
-    ];
+    // const strArr = [
+    //     "a programmer.",
+    //     "ambitious.",
+    //     "creative.",
+    //     "determined.",
+    //     "hard working.",
+    //     "a quick learner.",
+    //     "versatile.",
+    //     "curious.",
+    //     "a Google master."
+    // ];
 
-    
     const date = new Date();
-    const welcome_msg1 = config.welcome1.replace("${ INSERT_DATE }", date.getFullYear() - 2004);
+    const welcome_msg1 = config.welcome1.replace("{ INSERT_DATE }", date.getFullYear() - 2004);
     const welcome_msg2 = config.welcome2;
 
     return (

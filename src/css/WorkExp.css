@@ -5,7 +5,7 @@
 .exp-content {
     gap: 2.5em;
     
-    background-color: black;
+    background-color: var(--border-colour);
     border-radius: 1em;
     padding: 1.5em;
 }

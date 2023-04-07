@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
 
 :root {
-    --skills-card-bg-colour: red;
-    --skills-card-font-colour: white;
+    /* --skills-card-bg-colour: red;
+    --skills-card-font-colour: white; */
 
-    --work-exp-bg-colour: rgb(204, 147, 42);
+    --border-colour: rgb(46, 207, 59); 
+    
+    --work-exp-bg-colour: rgb(0, 0, 0);
+    --work-exp-font-colour: rgb(0, 0, 0);;
 
     --proj-bg-colour: rgb(57, 172, 57);
 }

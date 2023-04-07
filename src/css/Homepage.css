@@ -10,6 +10,7 @@
     width: 35vw;
     border-radius: 1em;
     object-fit: cover;
+    border: 0.5em solid white;
 }
 
 /* Style left side */
