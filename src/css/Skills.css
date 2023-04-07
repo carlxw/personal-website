@@ -9,7 +9,6 @@
 }
 
 .skills > div {
-    border: 1px blue solid;
     gap: 1.5em;
 }
 
@@ -26,7 +25,6 @@
 .skills-content {
     width: 95vw;
     height: min-content;
-    border: 1px blue solid;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);

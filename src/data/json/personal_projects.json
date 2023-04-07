@@ -17,10 +17,6 @@
                 {
                     "title": "play-dl",
                     "link": "https://www.npmjs.com/package/play-dl"
-                },
-                {
-                    "title": "OOP",
-                    "link": null
                 }
             ],
         "desc": 
@@ -78,10 +74,6 @@
                 {
                     "title": "Greenfoot",
                     "link": "https://www.greenfoot.org/download"
-                },
-                {
-                    "title": "OOP",
-                    "link": null
                 }
             ],
         "desc": 

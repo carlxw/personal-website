@@ -35,3 +35,7 @@
 .h1-gap {
     margin-bottom: 0.5em;
 }
+
+.bold {
+    font-weight: bold;
+}

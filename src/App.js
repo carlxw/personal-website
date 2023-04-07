@@ -12,7 +12,6 @@ import Navbar from "./components/Navbar";
 
 // Styling
 import "./css/Reset.css";
-import "./css/Scrollbar.css";
 import "./css/Background.css";
 import "react-tooltip/dist/react-tooltip.css"
 import "./css/App.css";
