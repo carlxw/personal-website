@@ -1,0 +1,48 @@
+@keyframes fadein {
+    from { 
+        opacity: 0; 
+    }
+    to { 
+        opacity: 1; 
+    }
+}
+
+.navbar, .hello, .experiences, .personal-projects, .contact {
+    opacity: 0;
+}
+
+.navbar {
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.hello {
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.experiences {
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.personal-projects {
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.contact {
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+

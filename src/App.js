@@ -24,6 +24,9 @@ import "./css/PersonalProj.css";
 import "./css/Contact.css";
 import "./css/404.css";
 
+// Animations
+import "./css/Animations.css";
+
 // Packages
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { BrowserView, MobileView } from "react-device-detect";
