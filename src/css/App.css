@@ -11,6 +11,9 @@
 
     --proj-bg-colour: var(--work-exp-bg-colour);
     --proj-font-colour: var(--work-exp-font-colour);
+    --proj-tags-bg-colour: rgb(38, 128, 180);
+
+    --contact-links-bg-colour: rgb(43, 184, 141);
 }
 
 body {
@@ -22,6 +25,11 @@ body {
     padding: 0;
 
     box-sizing: border-box;
+}
+
+.icon {
+    vertical-align: middle;
+    margin-left: 0.5em;
 }
 
 /* ::-webkit-scrollbar {

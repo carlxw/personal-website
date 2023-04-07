@@ -8,15 +8,30 @@
     gap: 5em;
 }
 
+.contact > h1, .contact > div > p {
+    color: white;
+}
+
 #disclaimer {
     font-size: 0.8em;
 }
 
 .contact-links {
     gap: 5em;
+    align-items: center;
 } .contact-links > a {
-    background-color: aqua;
-    padding: 1em 2em;
+    background-color: var(--contact-links-bg-colour);
+    padding: 0.5em 1em;
     border-radius: 1em;
     font-size: 1.5em;
+}
+
+.contact-btn {
+    color: white;
+    fill: white;
+    font-size: 2em;
+    justify-content: center;
+    background-color: var(--contact-links-bg-colour);
+    padding: 0.5em 1.25em;
+    border-radius: 1em;
 }

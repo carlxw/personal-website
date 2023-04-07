@@ -5,10 +5,12 @@ import { FiExternalLink } from "react-icons/fi";
 const ProjCard = ({ data }) => {
     // Extract the tags and list-description
     const tags = data.tags.map((x) => (
-        x.link ? 
-        <a href={ x.link } target="_blank" rel="noreferrer" key={ x.title }>{ x.title }<FiExternalLink className="icon" /></a> 
-        : 
-        <p id="nolink" key={ x.title }>{ x.title }</p>
+        // x.link ? 
+        <div className="bubble flex-row">
+            <a href={ x.link } target="_blank" rel="noreferrer" key={ x.title }>{ x.title }<FiExternalLink className="icon" /></a> 
+        </div>
+        // : 
+        // <p id="nolink" key={ x.title }>{ x.title }</p>
     ));
 
     const desc = data.desc.map((x) => (
@@ -32,11 +34,18 @@ const ProjCard = ({ data }) => {
             <div className="proj-footer flex-row">
                 <div className="gh-devpost flex-row">
                     {
-                        data.github && <a className="bubble" href={ data.github } target="_blank" rel="noreferrer">GitHub <AiFillGithub className="icon" /></a>
+                        // If there is a Github link
+                        data.github && 
+                        <div className="bubble flex-row">
+                            <a href={ data.github } target="_blank" rel="noreferrer">GitHub</a><AiFillGithub className="icon" />
+                        </div>
                     }
                     {   
                         // If there is a Devpost link
-                        data.devpost && <a className="bubble" href={ data.devpost } target="_blank" rel="noreferrer">DevPost<SiDevpost className="icon" /></a>
+                        data.devpost && 
+                        <div className="bubble flex-row">
+                            <a href={ data.devpost } target="_blank" rel="noreferrer">DevPost</a><SiDevpost className="icon" />
+                        </div>
                     }
                 </div>
 

@@ -37,18 +37,20 @@
 
 /* Card tags */
 .proj-footer {
-    width: inherit;
-    font-size: 1.05em;
+    border-top: 0.2em black solid;
+    padding-top: 1.25em;
     color: white;
     fill: white;
-} .proj-tags, .gh-devpost {
-    gap: 1em;
+} .proj-footer > div > * {
+    background-color: var(--proj-tags-bg-colour);
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    gap: 0.25em
 } .proj-tags {
     margin-left: auto;
-} .proj-tags > *, .gh-devpost > a {
-    background-color: brown;
-    border-radius: 1em;
-    padding: 0.5em 0.8em;
+} .gh-devpost, .proj-tags {
+    gap: 1em;
+    align-items: center;
 }
 
 /* Set font colour */
