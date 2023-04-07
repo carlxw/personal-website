@@ -8,7 +8,7 @@ const WorkExpCard = ({ data }) => {
     return (
         <div className="workexp-card flex-row">
             <div className="work-exp-left flex-col">
-                <h1 className="h1-line" id={ data.pos_title }>{ data.pos_title }</h1>
+                <h1 className="h1-line bold" id={ data.pos_title }>{ data.pos_title }</h1>
 
                 <h2 id="company-duration">{ `${data.company} (${data.duration})` }</h2>
 
