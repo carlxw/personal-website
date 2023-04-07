@@ -4,7 +4,7 @@
     --skills-card-bg-colour: red;
     --skills-card-font-colour: white;
 
-    --work-exp-bg-colour: aquamarine;
+    --work-exp-bg-colour: rgb(204, 147, 42);
 
     --proj-bg-colour: pink;
 }
@@ -20,8 +20,9 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, p, a, button, li {
-    font-family: "Open Sans"
+h1, h2, h3, h4, h5, p, a, button, li, ul {
+    font-family: "Open Sans";
+    color: white;
 } h1 {
     font-size: 3rem;
 } p, li {
@@ -38,7 +39,7 @@ ul {
 }
 
 a {
-    color: rgb(22, 196, 196);
+    color: white;
 }
 
 button {
