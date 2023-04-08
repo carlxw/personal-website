@@ -1,6 +1,5 @@
 // Sections
 import Hello from "./pages/Hello";
-// import Skills from "./pages/Skills";
 import WorkExperiences from "./pages/WorkExperiences";
 import PersonalProjects from "./pages/PersonalProjects";
 import Contact from "./pages/Contact";
@@ -18,7 +17,6 @@ import "react-tooltip/dist/react-tooltip.css"
 import "./css/Classes.css";
 import "./css/Navbar.css";
 import "./css/Homepage.css";
-import "./css/Skills.css";
 import "./css/WorkExp.css";
 import "./css/PersonalProj.css";
 import "./css/Contact.css";

@@ -20,8 +20,6 @@ const Hello = () => {
                 </div>
 
                 <img className="hello-right" src={image} alt="A cartoon of me" />
-
-                {/* <Link to="/skills" className="navlinks" id="next-page">{ ">" }</Link> */}
             </div>
         </div>
     );

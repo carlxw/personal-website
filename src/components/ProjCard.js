@@ -5,12 +5,9 @@ import { FiExternalLink } from "react-icons/fi";
 const ProjCard = ({ data }) => {
     // Extract the tags and list-description
     const tags = data.tags.map((x) => (
-        // x.link ? 
         <div className="bubble flex-row">
             <a href={ x.link } target="_blank" rel="noreferrer" key={ x.title }>{ x.title }<FiExternalLink className="icon" /></a> 
         </div>
-        // : 
-        // <p id="nolink" key={ x.title }>{ x.title }</p>
     ));
 
     const desc = data.desc.map((x) => (
