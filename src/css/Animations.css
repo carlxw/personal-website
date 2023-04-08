@@ -13,35 +13,35 @@
 
 .navbar {
     animation-name: fadein;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .hello {
     animation-name: fadein;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .experiences {
     animation-name: fadein;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .personal-projects {
     animation-name: fadein;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .contact {
     animation-name: fadein;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
