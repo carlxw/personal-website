@@ -2,7 +2,7 @@ import "../css/Mobile.css";
 
 const Mobile = () => {
     return (
-        <div className="mobile">
+        <div className="mobile flex-col flex-center">
             <p>PLEASE DON'T USE YOUR PHONE OR IPAD OR WHATEVER TO SEE MY WEBSITE</p> 
             <br />
             <br />

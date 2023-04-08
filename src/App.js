@@ -21,6 +21,7 @@ import "./css/WorkExp.css";
 import "./css/PersonalProj.css";
 import "./css/Contact.css";
 import "./css/404.css";
+import "./css/Mobile.css";
 
 // Animations
 import "./css/Animations.css";
@@ -50,6 +51,7 @@ function App() {
                     </div>
                 </HashRouter>
             </BrowserView>
+            
             <MobileView>
                 <Mobile />
             </MobileView>
