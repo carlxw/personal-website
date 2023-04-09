@@ -4,10 +4,10 @@ body {
     background: linear-gradient(102deg, #d02887, #ce3434, #d28923);
     background-size: 600% 600%;
 
-    -webkit-animation: Animation 26s ease infinite;
-    -moz-animation: Animation 26s ease infinite;
-    -o-animation: Animation 26s ease infinite;
-    animation: Animation 26s ease infinite;
+    -webkit-animation: Animation 20s ease infinite;
+    -moz-animation: Animation 20s ease infinite;
+    -o-animation: Animation 20s ease infinite;
+    animation: Animation 20s ease infinite;
 }
 
 @-webkit-keyframes Animation {
