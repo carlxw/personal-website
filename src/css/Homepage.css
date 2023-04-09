@@ -23,3 +23,12 @@
 } .hello-txt > p {
     color: white;
 }
+
+/* Style small text. It reveals when the left text is hovered */
+#hello-msg {
+    display: none;
+    font-size: 0.75em;
+    color: white;
+} .hello-h1:hover, .hello-txt:hover ~ #hello-msg {
+    display: block;
+}

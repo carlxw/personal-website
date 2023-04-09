@@ -1,5 +1,6 @@
 {
     "welcomeh1": "Hi! My name is Carl and I am...",
-    "welcome1": "Welcome to my website! I am a { INSERT_DATE } years old engineering student who is studying at the University of Waterloo. To be clear, what you are looking at is my pitful attempt at creating a website from scratch. I highly recommend to not test the responsiveness of this site.",
-    "welcome2": "I'm just (sorta) kidding. In case if you were wondering, I love playing the piano, working on personal projects, and playing video games!"
+    "welcome1": "Welcome to my website! I am a { INSERT_DATE } years old engineering student studying at the University of Waterloo. To be clear, what you are looking at is my pitful attempt of creating a website from scratch. I highly recommend to not test the responsiveness of this site.",
+    "welcome2": "I'm just (sorta) kidding. In case if you were still (or ever) wondering, I love playing the piano, video games, and working on personal projects",
+    "welcome_msg": "Wondering about the incomplete ellipsis? My v1 website had this typewriter effect in place of those three dots. I thought I was being original until I found out wasn't! The truth hurts and I can't bother to remove it since I am mad >:("
 }
