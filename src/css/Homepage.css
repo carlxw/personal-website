@@ -26,9 +26,9 @@
 
 /* Style small text. It reveals when the left text is hovered */
 #hello-msg {
-    display: none;
+    opacity: 0;
     font-size: 0.75em;
     color: white;
-} .hello-h1:hover, .hello-txt:hover ~ #hello-msg {
-    display: block;
+} .hello-h1:hover ~ #hello-msg, .hello-txt:hover ~ #hello-msg {
+    opacity: 1;
 }
