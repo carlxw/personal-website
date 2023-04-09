@@ -22,7 +22,7 @@ const Navbar = () => {
             setProj(true);
         } else if (document.URL.includes("/#/contact")) {
             setContact(true); 
-        } else if (document.URL.includes("/#/")) {
+        } else {
             setHome(true);
         }
     }, []);
