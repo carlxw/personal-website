@@ -1,6 +1,6 @@
 import WorkExpCard from "../components/WorkExpCard";
 
-const jsonArr = require("../data/json/work_experience.json");
+const jsonArr = require("../data/json/work-experience.json");
 
 const WorkExperiences = () => {
     return (

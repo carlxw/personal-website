@@ -88,10 +88,41 @@
         "title": "Personal Website",
         "img": "website.png",
         "header": "A virtual presentation of myself; what you're seeing right now!",
-        "story": 
+        "story": "Yeah, I'm pretty sure I know how to use semicolons. This was a very fun project for me. Don't need any wix or weebly here >:). It took me about 3 days to get through TheNetNinja's ReactJS tutorials and then essentially forever to get this website up and going. If I had any regrets in life, that would be having a preference in improvising over planning. Oh my god I am 100% going to recode this from ground-up when I have the time to do so. With that being said, my suggestion to you, dear reader (of course I have to assume someone is reading my website), is to NOT checkout the CSS in the GitHub and intentinally resize this window :)",
+        "tags":
+            [
+                {
+                    "title": "ReactJS",
+                    "link": "https://reactjs.org/"
+                },
+                {
+                    "title": "Figma",
+                    "link": "https://www.figma.com"
+                },
+                {
+                    "title": "react-tooltip",
+                    "link": "https://www.npmjs.com/package/react-tooltip"
+                },
+                {
+                    "title": "react-device-detect",
+                    "link": "https://www.npmjs.com/package/react-device-detect"
+                }
+            ],
+        "desc": 
         [
-            "Yeah, I'm pretty sure I know how to use semicolons. This was a very fun project for me. Don't need any wix or weebly here >:). It took me about 3 days to get through TheNetNinja's ReactJS tutorials and then essentially forever to get this website up and going. If I had any regrets in life, that would be having a preference in improvising over planning. Oh my god I am 100% going to recode this from ground-up when I have the time to do so. With that being said, my suggestion to you, dear reader (of course I have to assume someone is reading my website), is to NOT checkout the CSS in the GitHub and intentinally resize this window :)"
+            "Learned ReactJS and CSS in a short time frame (1 week) to develop a personal website",
+            "Experimented with Figma and learned how to mockup websites",
+            "Learned how to set and achieve goals to ensure this personal project is on track to completion",
+            "Attempted to study modern website design to implement on website",
+            "Perfected the art of Ctrl+C and Ctrl+V"
         ],
+        "github": "https://github.com/carlxw/personal-website"
+    },
+    {
+        "title": "Pomodoro Website",
+        "img": "website.png",
+        "header": "A virtual presentation of myself; what you're seeing right now!",
+        "story": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "tags":
             [
                 {
