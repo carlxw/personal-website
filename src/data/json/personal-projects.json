@@ -65,26 +65,6 @@
         "devpost": "https://devpost.com/software/healthchain-hybn8i"
     },
     {
-        "title": "Tip Tap Type",
-        "img": "tip_tap_type.png",
-        "header": "Minimalistic typing game",
-        "story": "This was a Greenfoot project that I worked on with a few of my high school friends. The primarily objective of this project was to practically use data structures, with the theme of creating a word-related game. This was a daunting project, but we managed to give it everything it needs to be called a game ranging from music, sound effects, animations, and UI.",
-        "tags": 
-            [
-                {
-                    "title": "Greenfoot",
-                    "link": "https://www.greenfoot.org/download"
-                }
-            ],
-        "desc": 
-        [
-            "Coded in the worst IDE ever known to humanity",
-            "Developed the core typing algorithm using an implemented Stack data structure",
-            "Enhanced typing endurance because it's Java"
-        ],
-        "github": "https://github.com/yoyozhuang10/P1E-TipTapType"
-    },
-    {
         "title": "Personal Website",
         "img": "website.png",
         "header": "A virtual presentation of myself; what you're seeing right now!",
@@ -120,8 +100,8 @@
     },
     {
         "title": "Pomodoro Website",
-        "img": "website.png",
-        "header": "A virtual presentation of myself; what you're seeing right now!",
+        "img": "pomodoro.png",
+        "header": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "story": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "tags":
             [
@@ -130,26 +110,36 @@
                     "link": "https://reactjs.org/"
                 },
                 {
-                    "title": "Figma",
-                    "link": "https://www.figma.com"
-                },
-                {
-                    "title": "react-tooltip",
-                    "link": "https://www.npmjs.com/package/react-tooltip"
-                },
-                {
-                    "title": "react-device-detect",
-                    "link": "https://www.npmjs.com/package/react-device-detect"
+                    "title": "Spotify Web API",
+                    "link": "https://developer.spotify.com/documentation/web-playback-sdk"
                 }
             ],
         "desc": 
         [
-            "Learned ReactJS and CSS in a short time frame (1 week) to develop a personal website",
-            "Experimented with Figma and learned how to mockup websites",
-            "Learned how to set and achieve goals to ensure this personal project is on track to completion",
-            "Attempted to study modern website design to implement on website",
-            "Perfected the art of Ctrl+C and Ctrl+V"
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         ],
-        "github": "https://github.com/carlxw/personal-website"
+        "github": "https://github.com/carlxw/pomodoro-website"
+    },
+    {
+        "title": "Tip Tap Type",
+        "img": "tip_tap_type.png",
+        "header": "Minimalistic typing game",
+        "story": "This was a Greenfoot project that I worked on with a few of my high school friends. The primarily objective of this project was to practically use data structures, with the theme of creating a word-related game. This was a daunting project, but we managed to give it everything it needs to be called a game ranging from music, sound effects, animations, and UI.",
+        "tags": 
+            [
+                {
+                    "title": "Greenfoot",
+                    "link": "https://www.greenfoot.org/download"
+                }
+            ],
+        "desc": 
+        [
+            "Coded in the worst IDE ever known to humanity",
+            "Developed the core typing algorithm using an implemented Stack data structure",
+            "Enhanced typing endurance because it's Java"
+        ],
+        "github": "https://github.com/yoyozhuang10/P1E-TipTapType"
     }
 ]
