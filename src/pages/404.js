@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const Error = () => {
@@ -15,7 +14,7 @@ const Error = () => {
 
                 <br />
 
-                { troll && <Link id="return-real-msg" to="/">Here's the real link to get you back since you're too lazy to use my navbar :(</Link> }
+                { troll && <a id="return-real-msg" href="/#/">Here's the real link to get you back since you're too lazy to use my navbar :(</a> }
             </div>
         </div>
     );
