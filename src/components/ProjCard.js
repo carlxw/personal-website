@@ -44,6 +44,13 @@ const ProjCard = ({ data }) => {
                             <a href={ data.devpost } target="_blank" rel="noreferrer">DevPost</a><SiDevpost className="icon" />
                         </div>
                     }
+                    {   
+                        // If there is a "to webpage" link
+                        data.link && 
+                        <div className="bubble flex-row">
+                            <a href={ data.link } target="_blank" rel="noreferrer">Try it!</a><FiExternalLink className="icon" />
+                        </div>
+                    }
                 </div>
 
                 <div className="proj-tags flex-row">{ data.tags && tags }</div>
