@@ -23,8 +23,8 @@
         [
             "Backend Discord bot that takes user input from Discord chat and streams audio from a YouTube source",
             "Understood the concept of await/async/promises through raw trial and error",
-            "Utilized object-oriented programming to organize modular functions and to control logic",
-            "Learned how to read API documentation, use version control (git), organize code in File Explorer, and structure code neatly with adaquate documentation to enable maintainability",
+            "Utilized object-oriented programming abstraction and encapsulation to promote code maintainability and modularity",
+            "Learned how to read API documentation, use version control (git), organize code in File Explorer, and structure code neatly with adaquate documentation",
             "Implemented a customized queue data structure",
             "Painfully understood the concept of Promises, async, await through raw trial and error",
             "Coded without ChatGPT or AI tomfoolery"
@@ -104,7 +104,7 @@
             "JSON used to enable modularity and improve maintainability of web app",
             "Custom-designed webpage icon created using Inkscape",
             "Express-CORS backend to allow user to log into Spotify",
-            "fetch()/Axios API calls made to Spotify to harness API features"
+            "fetch()/Axios HTTP request calls made to Spotify to harness API features"
         ],
         "github": "https://github.com/carlxw/pomodoro-website",
         "link": "https://www.carlxw.dev/pomodoro-website/"
