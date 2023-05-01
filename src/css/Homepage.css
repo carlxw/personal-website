@@ -16,8 +16,8 @@
 }
 
 /* Style left side */
-.hello-left {
-    gap: 3em;
+.hello-left, .hello-left-main {
+    gap: 2em;
 } .hello-txt {
     gap: 0.75em;
 } .hello-txt > p {
@@ -29,6 +29,6 @@
     opacity: 0;
     font-size: 0.75em;
     color: white;
-} .hello-h1:hover ~ #hello-msg, .hello-txt:hover ~ #hello-msg {
+} .hello-left-main:hover ~ #hello-msg {
     opacity: 1;
 }
