@@ -2,6 +2,12 @@ import { MdEmail } from "react-icons/md";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const Contact = () => {
+    // Fix <a> not opening immediately
+    const openURL = (url) => {
+        const tab = window.open(url, "_blank", "noopener, noreferrer");
+        if (tab) tab.opener = null;
+    }
+
     return (
         <div className="contact flex-col flex-center padding" id="contact">
             <h1 id="contact">Contact Me!</h1>
@@ -10,16 +16,16 @@ const Contact = () => {
                 <p>Thanks for checking out my website! If you want to connect, feel free to use any of the options below!</p>
 
                 <div className="contact-links flex-row">
-                    <div className="contact-btn flex-row">
-                        <a href="https://www.linkedin.com/in/carlxwang/" target="_blank" rel="noreferrer">LinkedIn</a> <AiFillLinkedin className="icon" />
+                    <div onClick={() => openURL("https://www.linkedin.com/in/carlxwang/")}className="contact-btn flex-row">
+                        <a >LinkedIn</a> <AiFillLinkedin className="icon" />
                     </div>
 
-                    <div className="contact-btn flex-row">
-                        <a href="https://github.com/carlxw" target="_blank" rel="noreferrer">GitHub</a><AiFillGithub className="icon" />
+                    <div onClick={() => openURL("https://github.com/carlxw")} className="contact-btn flex-row">
+                        <a>GitHub</a><AiFillGithub className="icon" />
                     </div>
 
-                    <div className="contact-btn flex-row">
-                        <a href="mailto:cx2wang@uwaterloo.ca" target="_blank" rel="noreferrer">Email</a><MdEmail className="icon"/>
+                    <div onClick={() => openURL("mailto:cx2wang@uwaterloo.ca")} className="contact-btn flex-row">
+                        <a>Email</a><MdEmail className="icon"/>
                     </div>
                 </div>
 
