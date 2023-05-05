@@ -19,11 +19,6 @@
 .contact-links {
     gap: 5em;
     align-items: center;
-} .contact-links > a {
-    background-color: var(--contact-links-bg-colour);
-    padding: 0.5em 1em;
-    border-radius: 1em;
-    font-size: 1.5em;
 }
 
 .contact-btn {

@@ -21,11 +21,10 @@
             ],
         "desc": 
         [
-            "Backend Discord bot that takes user input from Discord chat and streams audio from a YouTube source",
-            "Understood the concept of await/async/promises through raw trial and error",
+            "Backend Discord bot that takes user input from chat and streams audio from a YouTube source",
             "Utilized object-oriented programming abstraction and encapsulation to promote code maintainability and modularity",
             "Learned how to read API documentation, use version control (git), organize code in File Explorer, and structure code neatly with adaquate documentation",
-            "Implemented a customized queue data structure",
+            "Implemented a customized queue data structure for music player functionality",
             "Painfully understood the concept of Promises, async, await through raw trial and error",
             "Coded without ChatGPT or AI tomfoolery"
         ],
@@ -35,7 +34,7 @@
         "title": "HealthChain",
         "img": "healthchain.png",
         "header": "DeltaHacks IX winner for \"Most Creative Use of Verbwire API\"",
-        "story": "It was all one day when a friend of mine asked me to sign up with him for a hackathon hosted at his university. I was like 'why the heck not'! After all, this seems like it'd be a terrific opportunity to see how good my coding skills are (spoiler alert: I was humbled much). We created a IPFS uploader for physicians to upload personal health information (PHI) onto the Ethereum blockchain. As the one in charge of the backend, I initially intended to use Verbwire API to do all the uploading, but the documentation example doesn't work (which was hilarious), and so I switched to use Moralis instead. Funnily enough, this still won 'Most Innovative Use of Verbwire API' thanks to our ingenious idea. That, or a challenge with awards for 10 groups, got 10 groups signing up.",
+        "story": "It was all one day when a friend of mine asked me to sign up with him for a hackathon hosted at his university. I was like \"why the heck not\"! After all, this seems like it'd be a terrific opportunity to see how good my coding skills are (spoiler alert: I was humbled much). We created a IPFS uploader for physicians to upload personal health information (PHI) onto the Ethereum blockchain. As the one in charge of the backend, I initially intended to use Verbwire API to do all the uploading, but the documentation example doesn't work (which was hilarious), and so I switched to use Moralis instead. Funnily enough, this still won 'Most Innovative Use of Verbwire API' thanks to our ingenious idea. That, or a challenge with awards for 10 groups, got 10 groups signing up.",
         "tags":
             [
                 {
@@ -62,7 +61,7 @@
         "desc": 
         [
             "Used \"Verbwire\" API to upload PDF files containing PHI onto the Ethereum blockchain",
-            "Developed failsafe system where if uploading via Verbwire failed, Moralis will be used instead (on early implementations; this was omitted on final submission)",
+            "Developed a failsafe system where if uploading via Verbwire failed, Moralis will be used instead (on early implementations; this was omitted on final submission)",
             "Learned how to make GET and POST requests using axios",
             "Victorious in the \"I-had-no-idea-what-I-was-doing-mindset-but-it-still-worked\" mindset"
         ],
@@ -73,7 +72,7 @@
         "title": "Pomodoro Website",
         "img": "pomodoro.png",
         "header": "All-in-one productivity enabler: to-do list, pomodoro timer, and Spotify music control",
-        "story": "This was an idea that was briefly mentioned during my first hackathon, and I thought it would be really cool to build myself. I found that many of my distractions were caused by switching between applications to see my to-do list, re-wind my timer and switch the current song playing on my Spotify. By keeping all of the things that I would ever need while studying in one place, I found that my studying efficiency significantly increased! This was a weird project to build. Weird as in dealing with things ranging from building this project backwards from Spotify's sample code to get a functional music player, and the replacing request with fetch() and then to Axios, since request is deprecated, and fetch() isn't natively supported in NodeJS!",
+        "story": "This was an idea that was briefly mentioned during my first hackathon, and I thought it would be really cool to build myself. I found that many of my distractions were caused by switching between applications to see my to-do list, re-wind my timer and switch the current song playing on my Spotify. By keeping all of the things that I would ever need while studying in one place, I found that my studying efficiency significantly increased! This was a weird project to build. Weird as in dealing with things ranging from building this project backwards from Spotify's sample code to get a functional music player, and the replacing request with fetch(), then to Axios. All because request is deprecated and fetch() isn't natively supported in NodeJS!",
         "tags":
             [
                 {
@@ -99,11 +98,10 @@
             ],
         "desc": 
         [
-            "Notion-styled functional to-do list with editing capabilities",
+            "Notion-styled  to-do list with editing capabilities",
             "Fully deployed web application, frontend being hosted on GitHub pages, and backend hosted on Render",
-            "JSON used to enable modularity and improve maintainability of web app",
-            "Custom-designed webpage icon created using Inkscape",
-            "Express-CORS backend to allow user to log into Spotify",
+            "JSON config file used to enable modularity and improve maintainability of web app",
+            "Express-CORS backend to allow user to log into Spotify after following awkward documentation",
             "fetch()/Axios HTTP request calls made to Spotify to harness API features"
         ],
         "github": "https://github.com/carlxw/pomodoro-website",
@@ -128,9 +126,9 @@
         "desc": 
         [
             "Learned ReactJS and CSS in a short time frame (1 week) to develop a personal website",
-            "Features a detection of mobile web clients to implore users not to see this site on their small screen size",
+            "Features a detection of mobile web clients to implore users not to see this site on their small screen",
             "Implemented simple animations to enable minimalism",
-            "Attempted to study modern web design",
+            "Attempted to study modern web design, but 2010 called, saying that they love my design",
             "Perfected the art of Ctrl+C and Ctrl+V"
         ],
         "github": "https://github.com/carlxw/personal-website"
@@ -151,7 +149,7 @@
         [
             "Coded in the worst IDE ever known to humanity",
             "Developed the core typing algorithm using an implemented Stack data structure",
-            "Enhanced typing endurance because it's Java"
+            "Enhanced finter-typing endurance because it's Java"
         ],
         "github": "https://github.com/yoyozhuang10/P1E-TipTapType"
     }
