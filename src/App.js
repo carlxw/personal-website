@@ -1,10 +1,9 @@
 // Sections
-import Hello from "./pages/Hello";
-import WorkExperiences from "./pages/WorkExperiences";
+import Homepage from "./pages/Homepage";
 import PersonalProjects from "./pages/PersonalProjects";
-import Contact from "./pages/Contact";
 import Error from "./pages/404";
 import Mobile from "./pages/Mobile";
+import Footer from "./components/Footer";
 
 // Components
 import Navbar from "./components/Navbar";
@@ -17,9 +16,7 @@ import "react-tooltip/dist/react-tooltip.css"
 import "./css/Classes.css";
 import "./css/Navbar.css";
 import "./css/Homepage.css";
-import "./css/WorkExp.css";
 import "./css/PersonalProj.css";
-import "./css/Contact.css";
 import "./css/404.css";
 import "./css/Mobile.css";
 
@@ -39,17 +36,15 @@ function App() {
                         <Navbar />
                         <div className="content">
                             <Routes>
-                                <Route path="/" element={ <Hello /> } />
-                                <Route path="/personal-website" element={ <Hello />} />
-                                {/* <Route path="/skills" element={ <Skills /> } /> */}
-                                <Route path="/work_experiences" element={ <WorkExperiences /> } />
+                                <Route path="/" element={ <Homepage /> } />
+                                <Route path="/personal-website" element={ <Homepage />} />
                                 <Route path="/personal_projects" element={ <PersonalProjects /> } />
-                                <Route path="/contact" element={ <Contact /> } />
                                 <Route path="*" element={ <Error /> } />
                             </Routes>
                         </div>
                     </div>
                 </HashRouter>
+                <Footer />
             </BrowserView>
             
             <MobileView>

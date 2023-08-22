@@ -1,0 +1,19 @@
+.footer {
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+}
+
+.footer_logo {
+    flex-grow: 1;
+}
+
+.footer_socials {
+    gap: 10em;
+    flex-grow: 1;
+}
+
+.footer_toggle {
+    gap: 1em;
+    align-items: center;
+}

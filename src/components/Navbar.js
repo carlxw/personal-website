@@ -9,19 +9,13 @@ const Navbar = () => {
 
     // Booleans
     const [home, setHome] = useState(false);
-    const [exp, setExp] = useState(false);
     const [proj, setProj] = useState(false);
-    const [contact, setContact] = useState(false);
-    const arr = [setHome, setExp, setProj, setContact];
+    const arr = [setHome, setProj];
 
     // Detect the page user is on when user first loads site. Only runs once
     useEffect(() => {
-        if (document.URL.includes("/#/work_experiences")) {
-            setExp(true);
-        } else if (document.URL.includes("/#/personal_projects")) {
+        if (document.URL.includes("/#/personal_projects")) {
             setProj(true);
-        } else if (document.URL.includes("/#/contact")) {
-            setContact(true); 
         } else {
             setHome(true);
         }
@@ -36,14 +30,8 @@ const Navbar = () => {
             case "home":
                 setHome(true);
                 break;
-            case "exp":
-                setExp(true);
-                break;
             case "proj":
                 setProj(true);
-                break;
-            case "contact":
-                setContact(true);
                 break;
             default: return;
         }
@@ -54,10 +42,7 @@ const Navbar = () => {
             <h1 id="my-name">Carl Wang</h1>
             <div className="link-pages">
                 <Link onClick={() => { run("home") }} style={ home ? active : {} } to="/">Home</Link>
-                {/* <Link to="/skills">Skills</Link> */}
-                <Link onClick={() => { run("exp") }} style={ exp ? active : {} } to="/work_experiences">Work Experiences</Link>
                 <Link onClick={() => { run("proj") }} style={ proj ? active : {} } to="/personal_projects">Personal Projects</Link>
-                <Link onClick={() => { run("contact") }} style={ contact ? active : {} } to="/contact">Contact/Socials</Link>
             </div>
         </nav>
     );
