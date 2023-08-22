@@ -1,5 +1,3 @@
-import "../css/Mobile.css";
-
 const Mobile = () => {
     return (
         <div className="mobile flex-col flex-center">

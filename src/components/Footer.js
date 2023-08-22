@@ -1,4 +1,3 @@
-import "../css/Footer.css";
 import { SiGithub, SiGmail, SiLinkedin, SiYoutube } from "react-icons/si";
 import ToggleSwitch from "./ToggleSwitch";
 
@@ -11,7 +10,7 @@ const Footer = () => {
                 <p>© Carl Wang { date.getFullYear() }</p>
             </div>
 
-            <div className="footer_socials flex-row outline">
+            <div className="footer_socials flex-row">
                 <a rel="noreferrer" href="https://linkedin.ca/in/carlxwang" target="_blank">
                     <SiLinkedin className="icon" size={25} />
                 </a>
