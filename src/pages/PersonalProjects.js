@@ -2,8 +2,8 @@ import ProjCard from "../components/ProjCard";
 const jsonArr = require("../data/json/personal-projects.json");
 
 const PersonalProjects = () => {
-    const projects = jsonArr.map((x) => 
-        <ProjCard style={{ margin: "5rem", }} proj={ x } />
+    const projects = jsonArr.map((x, idx) => 
+        <ProjCard style={{ margin: "5rem", }} proj={ x } key={ idx } />
     );
 
     return (

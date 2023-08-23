@@ -4,6 +4,10 @@ import ToggleSwitch from "./ToggleSwitch";
 const Footer = () => {
     const date = new Date();
 
+    const toggleFont = (enable) => {
+        document.querySelector(":root").style.setProperty("--font-family", enable ? "Open Sans" : "Consolas");
+    }
+
     return (
         <div className="footer flex-row">
             <div className="footer_logo">
@@ -30,7 +34,7 @@ const Footer = () => {
 
             <div className="footer_toggle flex-row">
                 <p>Aa</p>
-                <ToggleSwitch />
+                <ToggleSwitch func={ toggleFont }/>
                 <p>!Aa</p>
             </div>
         </div>

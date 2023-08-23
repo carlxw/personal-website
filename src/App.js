@@ -36,7 +36,7 @@ function App() {
         <div>
             <BrowserView>
                 <HashRouter>
-                    <div className="app">
+                    <div id="app">
                         <Navbar />
                         <div className="content">
                             <Routes>

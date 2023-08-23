@@ -12,6 +12,7 @@
     --proj-tags-bg-colour: rgb(38, 128, 180);
 
     --contact-links-bg-colour: rgb(43, 184, 141);
+    --font-family: Open Sans;
 }
 
 * {
@@ -22,7 +23,7 @@
 }
 
 body {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .icon {
@@ -38,8 +39,7 @@ hr {
 
 /* Text styling */
 h1, h2, h3, h4, h5, p, a, button, li, ul, div {
-    /* font-family: "Open Sans"; */
-    font-family: Consolas;
+    font-family: var(--font-family);
     color: white;
 } h1 {
     font-size: 3rem;
