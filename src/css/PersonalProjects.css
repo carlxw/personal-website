@@ -1,0 +1,10 @@
+.personal_projects {
+    padding:        7.5%;
+    white-space:    nowrap;
+    overflow-x:     scroll;
+    overflow-y:     hidden;
+} .proj_card {
+    margin-left:    64px;
+} .proj_card:first-child {
+    margin-left:    0;
+}

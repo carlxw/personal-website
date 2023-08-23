@@ -7,7 +7,7 @@
     }
 }
 
-.navbar, .hello, .experiences, .personal-projects, .contact {
+.navbar, .hello, .experiences, .personal_projects, .contact {
     opacity: 0;
 }
 
@@ -32,7 +32,7 @@
     animation-fill-mode: forwards;
 }
 
-.personal-projects {
+.personal_projects {
     animation-name: fadein;
     animation-duration: 1.5s;
     animation-iteration-count: 1;

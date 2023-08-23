@@ -27,7 +27,7 @@ const ProjCard = ({ proj }) => {
             <div className="proj_desc">
                 <h1 style={{ color: "black" }}>{ proj.title }</h1>
                 <hr />
-                <div className="proj_buttons flex-row outline">
+                <div className="proj_buttons flex-row">
                     {
                         proj.github &&
                         <a target="_blank" rel="noreferrer" href={ proj.github }>

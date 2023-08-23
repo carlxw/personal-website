@@ -13,6 +13,8 @@ import "./css/Reset.css";
 import "./css/App.css";
 import "./css/Background.css";
 import "./css/Classes.css";
+import "./css/PersonalProjects.css";
+import "./css/Scrollbar.css";
 import "./css/Navbar.css";
 import "./css/Homepage.css";
 import "./css/ProjCard.css";
