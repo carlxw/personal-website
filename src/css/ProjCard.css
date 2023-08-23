@@ -1,69 +1,56 @@
-.personal-projects {
-    gap: 1em;
+.proj_card {
+    margin:             10%;
+    position:           relative;
+    border-radius:      1rem;
+    height:             30rem;
+    width:              20rem;
+    background-color:   white;
+    transition:         transform 0.25s
+} .proj_card:hover {
+    transform:          scale(1.05);
 }
 
-/* ================================== */
+/* =================================================== */
 
-.proj-content {
-    /* https://uigradients.com/#ShroomHaze */
-    background: #5C258D; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4389A2, #5C258D); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
-    background-size: 600% 600%;
-
-    padding: 1.5em;
-    border-radius: 1em;
-    gap: 2.5em;
-
-    -webkit-animation: Animation 10s ease infinite;
-    -moz-animation: Animation 10s ease infinite;
-    -o-animation: Animation 10s ease infinite;
-    animation: Animation 10s ease infinite;
-} .proj-container {
-    padding: 1em;
-    border-radius: 1em;
+.proj_img > img {
+    width:          100%;
+    padding:        0;
+    border-radius:  1em 1em 0 0;
 }
 
-/* Card top */
-.proj-card {
-    gap: 2em;
-    padding: 2em;
-    border-radius: 1em;
-    background-color: var(--proj-bg-colour);
-} .proj-left {
-    gap: 2em;
-} .proj-card-content {
-    gap: 5em;
-} .proj-card-content > img {
-    height: 12.5em;
-    width: auto;
-    border-radius: 1em;
-    border: 0.25em black solid;
-} #proj-title {
-    font-weight: bold;
-} #proj-desc {
-    font-style: italic;
+.proj_desc {
+    padding:        1rem;
+} .proj_desc > h1, p {
+    color:          black;  
+} .proj_desc > h1 {
+    font-size:      150%;
+    font-weight:    bold;
+} .proj_desc > h1:hover {
+	cursor:         pointer;
 }
 
-/* Card tags */
-.proj-footer {
-    border-top: 0.2em black solid;
-    padding-top: 1.25em;
-    color: white;
-    fill: white;
-} .proj-footer > div > * {
-    background-color: var(--proj-tags-bg-colour);
-    padding: 0.5em 1em;
-    border-radius: 1em;
-    gap: 0.25em
-} .proj-tags {
-    margin-left: auto;
-} .gh-devpost, .proj-tags {
-    gap: 1em;
-    align-items: center;
+.proj_buttons {
+	justify-content: center;
+	padding: 10%;
+	gap: 2rem;
 }
 
-/* Set font colour */
-.proj-left > * {
-    color: var(--proj-font-colour);
+/* ================================================== */
+
+.lock {
+    color:      orange;
+    position:   absolute;
+    top:        1rem;
+    left:       1rem;
+    z-index:    1;
+} #lock_msg {
+    background-color:   white;
+    color:              black;
+    align-items:        center;
+}
+
+.card_icon {
+	color: black;
+} .card_icon:hover {
+	color: blue;
 }

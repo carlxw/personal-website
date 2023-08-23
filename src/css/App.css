@@ -30,6 +30,12 @@ body {
     size: 5em;
 }
 
+hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
 /* ::-webkit-scrollbar {
     width: 7px;
 } ::-webkit-scrollbar-track {
@@ -41,6 +47,7 @@ body {
     background: #555;
 } */
 
+/* Text styling */
 h1, h2, h3, h4, h5, p, a, button, li, ul, div {
     /* font-family: "Open Sans"; */
     font-family: Consolas;
@@ -52,16 +59,13 @@ h1, h2, h3, h4, h5, p, a, button, li, ul, div {
     line-height: 1.25em;
 }
 
+/* List styling */
 ul {
     list-style-type: disc;
     margin-left: 2em;
 } li {
     padding-left: 0.5em;
     line-height: 1.5em;
-}
-
-a {
-    color: white;
 }
 
 button {

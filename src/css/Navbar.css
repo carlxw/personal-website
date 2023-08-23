@@ -16,6 +16,7 @@
     display: flex;
     gap: 3em;
 
+    font-size: 1.25rem;
     /* Sets div to the right of the navbar */
     margin-left: auto;
 }

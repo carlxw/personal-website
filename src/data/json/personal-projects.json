@@ -2,6 +2,7 @@
     {
         "title": "Rrythm Music Bot",
         "img": "rrythm.png",
+        "protected": true,
         "header": "A modernized Rythm Bot clone created with my interpretation",
         "story": "Ever since Rythm got shut down in 2021 by YouTube, I noticed that my friends were spending less time hanging around on Discord voice calls during the pandemic isolation. Firstly, what the heck, YouTube. Not cool. Secondly, I pondered if I could remake the bot myself. An innocent Google search and a few YouTube videos eventually led me to develop a fully-functional backend Discord bot that I now locally host on my Raspberry Pi using a Python script. This project is one of my first major successes with programming and remains to be my proudest achievement as I applied concepts of object-oriented programming from my computer science class in high school",
         "tags": 

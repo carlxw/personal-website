@@ -1,59 +1,58 @@
 import { AiFillGithub } from "react-icons/ai";
-import { SiDevpost } from "react-icons/si";
+import { SiDevpost, SiYoutube } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
+import { FaLock } from "react-icons/fa";
+import { Tooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
 
-const ProjCard = ({ data }) => {
-    // Extract the tags and list-description
-    const tags = data.tags.map((x) => (
-        <div className="bubble flex-row">
-            <a href={ x.link } target="_blank" rel="noreferrer" key={ x.title }>{ x.title }<FiExternalLink className="icon" /></a> 
-        </div>
-    ));
-
-    const desc = data.desc.map((x) => (
-        // Key will raise problems if I use the same description over and over?
-        <li className="list" style={{ "color": "black" }} key={ x }>{ x }</li>
-    ));
-
+const ProjCard = ({ proj }) => {
     return (
-        <div className="proj-card flex-col" key={ data.title }>
-            <div className="proj-card-content flex-row">
-                <div className="proj-left flex-col">
-                    <h1 className="h1-line" id="proj-title">{ data.title }</h1>
-                    <p id="proj-desc">{ data.header }</p>
-                    <p id="proj-story">{ `"${ data.story }"` }</p>
-                    <ul key={ data.desc }>{ desc }</ul>
-                </div>
+        <div className="proj_card">
+            <div className="proj_img">
+                <img alt="Project icon" src={ require(`../data/img/${ proj.img }`) } />
+                {
+                    proj.protected &&
+                    <>
+                        <FaLock 
+                            className="icon lock" 
+                            size={ 30 } 
+                            data-tooltip-id="lock_msg"
+                            data-tooltip-content="This project is password-protected"
+                        />
+                        <Tooltip id="lock_msg" />
+                    </>
+                }
                 
-                <img src={ require(`../data/img/${ data.img }`) } alt="logo" />
             </div>
-
-            <div className="proj-footer flex-row">
-                <div className="gh-devpost flex-row">
+            <div className="proj_desc">
+                <h1 style={{ color: "black" }}>{ proj.title }</h1>
+                <hr />
+                <div className="proj_buttons flex-row outline">
                     {
-                        // If there is a Github link
-                        data.github && 
-                        <div className="bubble flex-row">
-                            <a href={ data.github } target="_blank" rel="noreferrer">GitHub</a><AiFillGithub className="icon" />
-                        </div>
+                        proj.github &&
+                        <a target="_blank" rel="noreferrer" href={ proj.github }>
+                            <AiFillGithub className="icon card_icon" size={50}/>
+                        </a>
                     }
-                    {   
-                        // If there is a Devpost link
-                        data.devpost && 
-                        <div className="bubble flex-row">
-                            <a href={ data.devpost } target="_blank" rel="noreferrer">DevPost</a><SiDevpost className="icon" />
-                        </div>
+                    {
+                        proj.devpost &&
+                        <a target="_blank" rel="noreferrer" href={ proj.devpost }>
+                            <SiDevpost className="icon card_icon" size={50}/>
+                        </a>
                     }
-                    {   
-                        // If there is a "to webpage" link
-                        data.link && 
-                        <div className="bubble flex-row">
-                            <a href={ data.link } target="_blank" rel="noreferrer">Try it!</a><FiExternalLink className="icon" />
-                        </div>
+                    {
+                        proj.link &&
+                        <a target="_blank" rel="noreferrer" href={ proj.link }>
+                            <FiExternalLink className="icon card_icon" size={50}/>
+                        </a>
+                    }
+                    {
+                        proj.demo &&
+                        <a target="_blank" rel="noreferrer" href={ proj.link }>
+                            <SiYoutube className="icon card_icon" size={50}/>
+                        </a>
                     }
                 </div>
-
-                <div className="proj-tags flex-row">{ data.tags && tags }</div>
             </div>
         </div>
     );
