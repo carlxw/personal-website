@@ -34,6 +34,7 @@
     {
         "title": "HealthChain",
         "img": "healthchain.png",
+        "white_bg": true,
         "header": "DeltaHacks IX winner for \"Most Creative Use of Verbwire API\"",
         "story": "It was all one day when a friend of mine asked me to sign up with him for a hackathon hosted at his university. I was like \"why the heck not\"! After all, this seems like it'd be a terrific opportunity to see how good my coding skills are (spoiler alert: I was humbled much). We created a IPFS uploader for physicians to upload personal health information (PHI) onto the Ethereum blockchain. As the one in charge of the backend, I initially intended to use Verbwire API to do all the uploading, but the documentation example doesn't work (which was hilarious), and so I switched to use Moralis instead. Funnily enough, this still won 'Most Innovative Use of Verbwire API' thanks to our ingenious idea. That, or a challenge with awards for 10 groups, got 10 groups signing up.",
         "tags":
@@ -72,6 +73,7 @@
     {
         "title": "Pomodoro Website",
         "img": "pomodoro.png",
+        "white_bg": true,
         "header": "All-in-one productivity enabler: to-do list, pomodoro timer, and Spotify music control",
         "story": "This was an idea that was briefly mentioned during my first hackathon, and I thought it would be really cool to build myself. I found that many of my distractions were caused by switching between applications to see my to-do list, re-wind my timer and switch the current song playing on my Spotify. By keeping all of the things that I would ever need while studying in one place, I found that my studying efficiency significantly increased! This was a weird project to build. Weird as in dealing with things ranging from building this project backwards from Spotify's sample code to get a functional music player, and the replacing request with fetch(), then to Axios. All because request is deprecated and fetch() isn't natively supported in NodeJS!",
         "tags":
@@ -111,6 +113,7 @@
     {
         "title": "Personal Website",
         "img": "website.png",
+        "white_bg": true,
         "header": "A virtual presentation of myself; what you're seeing right now!",
         "story": "Yeah, I'm pretty sure I know how to use semicolons. This was a very fun project for me. Don't need any wix or weebly here >:). It took me about 3 days to get through TheNetNinja's ReactJS tutorials and then essentially forever to get this website up and going. If I had any regrets in life, that would be having a preference in improvising over planning. Being totally honest, the design for this webpage in my head is way cooler.",
         "tags":
@@ -136,6 +139,26 @@
     },
     {
         "title": "Tip Tap Type",
+        "img": "tip_tap_type.png",
+        "header": "Minimalistic typing game from a high school project",
+        "story": "This is a Greenfoot project that I worked on with a few of my high school friends. The primarily objective of this project was to practically use data structures, with the theme of creating a word-related game. This was a daunting project, but we managed to give it everything it needs to be called a game (music, sound effects, animations, and UI).",
+        "tags": 
+            [
+                {
+                    "title": "Greenfoot",
+                    "link": "https://www.greenfoot.org/download"
+                }
+            ],
+        "desc": 
+        [
+            "Coded in the worst IDE ever known to humanity",
+            "Developed the core typing algorithm using an implemented Stack data structure",
+            "Enhanced finter-typing endurance because it's Java"
+        ],
+        "github": "https://github.com/yoyozhuang10/P1E-TipTapType"
+    },
+    {
+        "title": "After This Semester...",
         "img": "tip_tap_type.png",
         "header": "Minimalistic typing game from a high school project",
         "story": "This is a Greenfoot project that I worked on with a few of my high school friends. The primarily objective of this project was to practically use data structures, with the theme of creating a word-related game. This was a daunting project, but we managed to give it everything it needs to be called a game (music, sound effects, animations, and UI).",

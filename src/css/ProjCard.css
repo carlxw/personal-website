@@ -22,8 +22,10 @@
 
 .proj_desc {
     padding:        1rem;
-} .proj_desc > h1, p {
+} .proj_desc > h1, .proj_desc > p {
     color:          black;  
+    max-width:      100%;
+    overflow:       hidden;
 } .proj_desc > h1 {
     font-size:      150%;
     font-weight:    bold;
@@ -55,4 +57,16 @@
 	color: black;
 } .card_icon:hover {
 	color: blue;
+}
+
+#proj_info {
+    opacity:    0.5;
+    transition: 0.3s;
+    position:   absolute;
+    top:        1rem;
+    right:      1rem;
+    z-index:    1;
+} #proj_info:hover {
+    opacity:    1;
+    cursor:     pointer;
 }

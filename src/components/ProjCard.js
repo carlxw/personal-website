@@ -1,4 +1,4 @@
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillInfoCircle } from "react-icons/ai";
 import { SiDevpost, SiYoutube } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
 import { FaLock } from "react-icons/fa";
@@ -22,8 +22,13 @@ const ProjCard = ({ proj }) => {
                         <Tooltip id="lock_msg" />
                     </>
                 }
-                
-            </div>
+                <AiFillInfoCircle 
+                    id="proj_info" 
+                    style={{ color: proj.white_bg ? "black" : "white" }} 
+                    size={ 35 }
+                    onClick={ () => console.log("This item has been clicked") }
+                />
+            </div> 
             <div className="proj_desc">
                 <h1 style={{ color: "black" }}>{ proj.title }</h1>
                 <hr />
@@ -57,5 +62,6 @@ const ProjCard = ({ proj }) => {
         </div>
     );
 }
+
 
 export default ProjCard;
