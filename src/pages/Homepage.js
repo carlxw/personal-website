@@ -1,14 +1,21 @@
 import image from "../data/img/cartoonme.png";
-
-import config from "../data/json/text.json";
+import text from "../data/json/homepage_text.json";
 
 const Hello = () => {   
     const date = new Date();
-    const welcome_msg1 = config.welcome1.replace("{ INSERT_AGE }", date.getFullYear() - 2004);
-    const welcome_msg2 = config.welcome2;
 
     return (
-        <></>
+        <div className="homepage flex-row">
+            <div className="homepage_left flex-col">
+                <h1 id="homepage_h1">You get free money</h1>
+                <div id="homepage_text">
+                    { text.map(x => <p>{ x.replace("{ INSERT_AGE }", date.getFullYear() - 2004) }</p>)}
+                </div>
+            </div>
+            <div className="homepage_right">
+                <img id="hello_img" src={ image } alt="Cartoon me" />
+            </div>
+        </div>
     );
 }
 

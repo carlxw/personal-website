@@ -11,6 +11,8 @@
 .footer_socials {
     gap: 10em;
     flex-grow: 1;
+} .footer_socials > a:hover {
+    color: rgb(27, 66, 225);
 }
 
 .footer_toggle {

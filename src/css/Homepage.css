@@ -1,34 +1,36 @@
-.hello {
+.homepage {
     height: 90vh;
+    justify-content: space-evenly;
+} .homepage > div {
+    /* For equal div width */
+    flex: 1;
+}
+
+.homepage_left, .homepage_right {
+    text-align: center;
+    margin: auto;
+}
+
+.homepage_left {
+    gap: 64px;
+    text-align: left;
+    justify-content: center;
+    margin-left: 64px;
+} #homepage_h1 {
+    font-weight: bold;
+    font-size: 580%;
+} #homepage_text > p {
+    margin-top: 32px;
+} #homepage_text > p:first-child {
+    margin-top: 0;
+}
+
+.homepage_right {
     align-items: center;
-    padding: 0 7.5em;
-} .hello-left, .hello-right {
-    width: 40vw;
-}
-
-/* Set image size */
-.hello-right {
-    width: 35vw;
-    border-radius: 1em;
-    object-fit: cover;
-    border: 0.5em solid white;
-    margin-left: auto;
-}
-
-/* Style left side */
-.hello-left, .hello-left-main {
-    gap: 2em;
-} .hello-txt {
-    gap: 0.75em;
-} .hello-txt > p {
-    color: white;
-}
-
-/* Style small text. It reveals when the left text is hovered */
-#hello-msg {
-    opacity: 0;
-    font-size: 0.75em;
-    color: white;
-} .hello-left-main:hover ~ #hello-msg {
-    opacity: 1;
+    justify-content: center;
+} #hello_img {
+    height: 640px;
+    border-radius: 1rem;
+    border: 8px white solid;
+    margin: auto;
 }

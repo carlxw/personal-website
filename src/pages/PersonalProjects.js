@@ -7,9 +7,12 @@ const PersonalProjects = () => {
     );
 
     return (
-        <div className="personal_projects">
-            { projects }
-        </div>
+        <>
+            <h1>Project Hub</h1>
+            <div className="personal_projects">
+                { projects }
+            </div>
+        </>
     );
 }
 
