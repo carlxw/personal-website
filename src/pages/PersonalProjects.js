@@ -4,7 +4,7 @@ import { useState } from "react";
 const jsonArr = require("../data/json/personal-projects.json");
 
 const PersonalProjects = () => {
-    const [data, setData] = useState();
+    const [data, setData] = useState({});
 
     const projects = jsonArr.map((x, idx) => 
         <ProjCard style={{ margin: "5rem", }} proj={ x } setData={ setData } key={ idx }  />
@@ -13,7 +13,7 @@ const PersonalProjects = () => {
     return (
         <>
             <h1>Project Hub</h1>
-            <Overlay data={ data } />
+            { data && <Overlay data={ data } /> }
             <div className="personal_projects">
                 { projects }
             </div>
