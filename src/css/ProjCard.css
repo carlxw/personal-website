@@ -29,9 +29,9 @@
 } .proj_desc > h1 {
     font-size:      150%;
     font-weight:    bold;
-} .proj_desc > h1:hover {
+}/* .proj_desc > h1:hover {
 	cursor:         pointer;
-}
+} */
 
 .proj_buttons {
 	justify-content: center;

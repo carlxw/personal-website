@@ -3,6 +3,13 @@
     white-space:    nowrap;
     overflow-x:     scroll;
     overflow-y:     hidden;
+    
+    /* Prevent user from highlighting */
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
 } .proj_card {
     margin-left:    64px;
 } .proj_card:first-child {

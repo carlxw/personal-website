@@ -9,7 +9,7 @@ const Hello = () => {
             <div className="homepage_left flex-col">
                 <h1 id="homepage_h1">You get free money</h1>
                 <div id="homepage_text">
-                    { text.map(x => <p>{ x.replace("{ INSERT_AGE }", date.getFullYear() - 2004) }</p>)}
+                    { text.map((x, idx) => <p key={ idx }>{ x.replace("{ INSERT_AGE }", date.getFullYear() - 2004) }</p>)}
                 </div>
             </div>
             <div className="homepage_right">
