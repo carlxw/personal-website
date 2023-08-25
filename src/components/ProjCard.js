@@ -4,8 +4,9 @@ import { FiExternalLink } from "react-icons/fi";
 import { FaLock } from "react-icons/fa";
 import { Tooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
+import { on } from "../components/Overlay";
 
-const ProjCard = ({ proj }) => {
+const ProjCard = ({ proj, setData }) => {
     return (
         <div className="proj_card">
             <div className="proj_img">
@@ -26,7 +27,10 @@ const ProjCard = ({ proj }) => {
                     id="proj_info" 
                     style={{ color: proj.white_bg ? "black" : "white" }} 
                     size={ 35 }
-                    onClick={ () => console.log("This item has been clicked") }
+                    onClick={() => {
+                        setData(proj.title);
+                        on();
+                    }}
                 />
             </div> 
             <div className="proj_desc">

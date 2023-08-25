@@ -18,6 +18,7 @@ import "./css/Scrollbar.css";
 import "./css/Navbar.css";
 import "./css/Homepage.css";
 import "./css/ProjCard.css";
+import "./css/Overlay.css";
 import "./css/404.css";
 import "./css/Mobile.css";
 import "./css/Footer.css";
