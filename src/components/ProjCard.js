@@ -28,7 +28,8 @@ const ProjCard = ({ proj, setData }) => {
                     style={{ color: proj.white_bg ? "black" : "white" }} 
                     size={ 35 }
                     onClick={() => {
-                        setData({a: proj.title, b: proj.desc, c: 123});
+                        setData(proj);
+                        console.log(proj);
                         on();
                     }}
                 />

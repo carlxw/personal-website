@@ -8,8 +8,8 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    background-color: rgba(0, 0, 0, 1);
-    display: none;
+    background-color: rgb(0, 0, 0);
+    display: block;
     border-radius: 1rem;
     padding: 48px;
-}
+} 

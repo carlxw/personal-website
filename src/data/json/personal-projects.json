@@ -20,7 +20,7 @@
                     "link": "https://www.npmjs.com/package/play-dl"
                 }
             ],
-        "desc": 
+        "desc_points": 
         [
             "Backend Discord bot that takes user input from chat and streams audio from a YouTube source",
             "Utilized object-oriented programming abstraction and encapsulation to promote code maintainability and modularity",
@@ -60,7 +60,7 @@
                     "link": "https://www.npmjs.com/package/axios"
                 }
             ],
-        "desc": 
+        "desc_points": 
         [
             "Used \"Verbwire\" API to upload PDF files containing PHI onto the Ethereum blockchain",
             "Developed a failsafe system where if uploading via Verbwire failed, Moralis will be used instead (on early implementations; this was omitted on final submission)",
@@ -99,7 +99,7 @@
                     "link": "https://developer.spotify.com/documentation/web-playback-sdk"
                 }
             ],
-        "desc": 
+        "desc_points": 
         [
             "Notion-styled  to-do list with editing capabilities",
             "Fully deployed web application, frontend being hosted on GitHub pages, and backend hosted on Render",
@@ -127,7 +127,7 @@
                     "link": "https://www.npmjs.com/package/react-device-detect"
                 }
             ],
-        "desc": 
+        "desc_points": 
         [
             "Learned ReactJS and CSS in a short time frame (1 week) to develop a personal website",
             "Features a detection of mobile web clients to implore users not to see this site on their small screen",
@@ -149,7 +149,7 @@
                     "link": "https://www.greenfoot.org/download"
                 }
             ],
-        "desc": 
+        "desc_points": 
         [
             "Coded in the worst IDE ever known to humanity",
             "Developed the core typing algorithm using an implemented Stack data structure",
@@ -169,7 +169,7 @@
                     "link": "https://www.greenfoot.org/download"
                 }
             ],
-        "desc": 
+        "desc_points": 
         [
             "Coded in the worst IDE ever known to humanity",
             "Developed the core typing algorithm using an implemented Stack data structure",
