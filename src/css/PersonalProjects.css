@@ -1,5 +1,5 @@
 .personal_projects {
-    padding:        5% 2.5%;
+    padding:        2.5% 2.5% 5% 2.5%;
     white-space:    nowrap;
     overflow-x:     scroll;
     overflow-y:     hidden;
@@ -14,4 +14,13 @@
     margin-left:    64px;
 } .proj_card:first-child {
     margin-left:    0;
+}
+
+.proj_text {
+    padding: 2.5% 0 1.25% 2.5%;
+} #proj_h1 {
+    font-size: 64px;
+    margin-bottom: 36px;
+} .proj_text > div {
+    gap: 16px;
 }

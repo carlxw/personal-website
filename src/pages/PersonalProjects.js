@@ -12,7 +12,13 @@ const PersonalProjects = () => {
 
     return (
         <>
-            <h1>Project Hub</h1>
+            <div className="proj_text">
+                <h1 id="proj_h1">Project Hub</h1>
+                <div className="flex-col">
+                    <p>Explore around! Scroll to the right! Try some of the (hopefully) cool things I made</p>
+                    <p>Most of the things I showcase here were built with the intention to solve some kind of problem!</p>
+                </div>
+            </div>
             { data && <Overlay data={ data } /> }
             <div className="personal_projects">
                 { projects }
