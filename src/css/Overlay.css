@@ -1,6 +1,6 @@
 #overlay {
-    position: absolute;
-    z-index: 5;
+    position: fixed;
+    z-index: 1;
     width: 90vw;
     height: 90vh;
     top: 0;
@@ -8,8 +8,73 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     display: block;
     border-radius: 1rem;
     padding: 48px;
 } 
+
+.overlay_upper {
+    gap: 48px;
+} #proj_title {
+    font-weight: bold;
+} .overlay_upper > img {
+    border-radius: 1rem;
+    height: 256px;
+    border: 3px black solid;
+
+    /* For trasparent images */
+    background-color: rgb(255, 255, 255);
+} #overlay_hr {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    height: 3px;
+    margin: 1rem 0 1rem 0;
+} #proj_desc {
+    font-style: italic;
+} ul, li {
+    color: rgb(0, 0, 0);
+} 
+
+.overlay_left > h1 {
+    margin-bottom: 0.5rem;
+} .overlay_left > * {
+    color: black;
+} #proj_story {
+    margin: 0 0 1rem 0;
+} #points_list {
+    margin: 0 0 0.25rem 0;
+} #points_list:last-child {
+    margin: 0;
+}
+
+.overlay_footer {
+    margin-top: auto;
+    position: absolute;
+    bottom: 128px;
+    width: 94%;
+    gap: 1.5rem;
+    align-items: center;
+    line-height: normal;
+} .overlay_footer > p, .overlay_footer > a {
+    color: black;
+} #ext_link_icon {
+    padding: 0 0 2px 0;
+    margin: 0 0 0 4px;
+}
+
+/* ======================= */
+
+.close_button {
+    background-color: rgb(212, 65, 65);
+    border-radius: 1rem;
+    width: fit-content;
+    padding: 6px 12px;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    vertical-align: bottom;
+    transform: translate(-50%, -50%);
+} .close_button:hover {
+    cursor: pointer;
+}
