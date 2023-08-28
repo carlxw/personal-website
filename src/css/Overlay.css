@@ -1,6 +1,6 @@
 #overlay {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     width: 90vw;
     height: 90vh;
     top: 0;
@@ -13,6 +13,20 @@
     border-radius: 1rem;
     padding: 48px;
 } 
+
+#overlay_dim {
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+}
 
 .overlay_upper {
     gap: 48px;
@@ -48,15 +62,15 @@
     margin: 0;
 }
 
-.overlay_footer {
+.overlay_tags {
     margin-top: auto;
     position: absolute;
-    bottom: 128px;
+    bottom: 40px;
     width: 94%;
     gap: 1.5rem;
     align-items: center;
     line-height: normal;
-} .overlay_footer > p, .overlay_footer > a {
+} .overlay_tags > p, .overlay_tags > a {
     color: black;
 } #ext_link_icon {
     padding: 0 0 2px 0;
@@ -69,12 +83,13 @@
     background-color: rgb(212, 65, 65);
     border-radius: 1rem;
     width: fit-content;
-    padding: 6px 12px;
+    padding: 8px 14px;
     position: absolute;
-    bottom: 8px;
-    left: 50%;
+    bottom: 12px;
+    right: 0px;
     vertical-align: bottom;
     transform: translate(-50%, -50%);
+    font-size: 24px;
 } .close_button:hover {
     cursor: pointer;
 }
