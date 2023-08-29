@@ -8,20 +8,10 @@
 *::-webkit-scrollbar {
     height: 7px;
     width: 7px;
+    scrollbar-color: grey transparent;
 }
 
 *::-webkit-scrollbar-track {
-    border-radius: 3px;
-    background-color: transparent;
-}
-
-*::-webkit-scrollbar-track:hover {
-    background-color: #B8C0C2;
-    background-color: transparent;
-}
-
-*::-webkit-scrollbar-track:active {
-    background-color: #B8C0C2;
     background-color: transparent;
 }
 

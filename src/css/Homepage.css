@@ -19,6 +19,7 @@
 } #homepage_h1 {
     font-weight: bold;
     font-size: 580%;
+    text-decoration: underline;
 } #homepage_text > p {
     margin-top: 32px;
 } #homepage_text > p:first-child {

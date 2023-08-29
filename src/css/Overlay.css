@@ -1,7 +1,7 @@
 #overlay {
     position: fixed;
-    z-index: 2;
-    width: 90vw;
+    z-index: 3;
+    width: 70vw;
     height: 90vh;
     top: 0;
     left: 0;
@@ -14,19 +14,36 @@
     padding: 48px;
 } 
 
-#overlay_dim {
+#overlay_background {
+    /* https://cssgradient.io/ */
     position: fixed;
-    z-index: 1;
-    width: 100vw;
-    height: 100vh;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgb(66,61,152);
+    background: linear-gradient(90deg, rgba(66,61,152,1) 0%, rgba(121,53,131,1) 25%, rgba(60,60,150,1) 57%, rgba(7,153,182,1) 100%);
+    width: 72vw;
+    height: 94vh;
+    z-index: 2;
     display: block;
+    border-radius: 1rem;
 }
+
+/* ==================== OVERLAY DIM ===================== */
+
+#overlay_dim {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    display: block;
+    z-index: 1;
+}
+
+/* =================== OVERLAY CONTENT ====================== */
 
 .overlay_upper {
     gap: 48px;
@@ -62,22 +79,30 @@
     margin: 0;
 }
 
+
+/* ============ FOOTER =========== */
+
+.overlay_footer_hr {
+    position: absolute;
+    bottom: 50%;
+}
+
 .overlay_tags {
-    margin-top: auto;
     position: absolute;
     bottom: 40px;
     width: 94%;
     gap: 1.5rem;
     align-items: center;
     line-height: normal;
-} .overlay_tags > p, .overlay_tags > a {
+} .overlay_tags > * {
     color: black;
+    text-decoration: underline;
+} #proj_tags_p {
+    text-decoration: none;
 } #ext_link_icon {
     padding: 0 0 2px 0;
     margin: 0 0 0 4px;
 }
-
-/* ======================= */
 
 .close_button {
     background-color: rgb(212, 65, 65);

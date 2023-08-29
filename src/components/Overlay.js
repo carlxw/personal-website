@@ -1,13 +1,12 @@
 import { FiExternalLink } from "react-icons/fi";
 
+const elements = ["overlay", "overlay_dim", "overlay_background"];
 const off = () => {
-    document.getElementById("overlay").style.display = "none";
-    document.getElementById("overlay_dim").style.display = "none";
+    elements.forEach(x => document.getElementById(x).style.display = "none");
 }
 
 const on = () => {
-    document.getElementById("overlay").style.display = "block";
-    document.getElementById("overlay_dim").style.display = "block";
+    elements.forEach(x => document.getElementById(x).style.display = "block");
 }
 
 const Overlay = ({ data }) => { 
@@ -23,31 +22,35 @@ const Overlay = ({ data }) => {
     if (Object.keys(data).length !== 0) return (
         <>
             <div id="overlay">
-                <div className="overlay_upper flex-row" onClick={ off }>
-                    <div className="overlay_left flex-col">
-                        <h1 id="proj_title">{ data?.title }</h1>
-                        <p id="proj_desc">{ data?.header }</p>
-                        <hr id="overlay_hr" /> 
-                        <p id="proj_story">{ `"${ data?.story }"` }</p>
-                        <ul>{ desc }</ul>
-                    </div>
-                    
-                    <img src={ require(`../data/img/${ data?.img }`) } alt="Project logo" />
-                </div>
-
-                <div className="overlay_footer flex-row">
-                    <div className="overlay_tags flex-row">
-                        <p>Tags:</p>
-                        { data?.tags && tags }
+                    <div className="overlay_upper flex-row">
+                        <div className="overlay_left flex-col">
+                            <h1 id="proj_title">{ data?.title }</h1>
+                            <p id="proj_desc">{ data?.header }</p>
+                            <hr id="overlay_hr" /> 
+                            <p id="proj_story">{ `"${ data?.story }"` }</p>
+                            <ul>{ desc }</ul>
+                        </div>
+                        
+                        {/* Overlay right */}
+                        <img src={ require(`../data/img/${ data?.img }`) } alt="Project logo" />
                     </div>
 
-                    <div className="close_button" onClick={ off }>
-                        Close
+                    <hr id="overlay_hr" className="overlay_footer_hr" />
+
+                    <div className="overlay_footer flex-row">
+                        <div className="overlay_tags flex-row">
+                            <p id="proj_tags_p">Tags:</p>
+                            { data?.tags && tags }
+                        </div>
+
+                        <div className="close_button" onClick={ off }>
+                            Close
+                        </div>
                     </div>
-                </div>
             </div>
+            <div id="overlay_background" />
 
-            <div id="overlay_dim"/>
+            <div id="overlay_dim" onClick={off} />
         </>
     );
 }

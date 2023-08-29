@@ -20,7 +20,7 @@
 }
 
 body {
-    overflow:   scroll;
+    overflow:   overlay;
     overflow-x: hidden;
 }
 
