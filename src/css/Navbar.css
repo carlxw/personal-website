@@ -15,13 +15,11 @@
 .link-pages {
     display: flex;
     gap: 3em;
-
     font-size: 1.25rem;
+
     /* Sets div to the right of the navbar */
     margin-left: auto;
-}
-
-/* Lower underline of links */
-.link-pages > a {
-    padding: 0.15em 0;
+    
+    line-height: normal;
+    vertical-align: center;
 }
