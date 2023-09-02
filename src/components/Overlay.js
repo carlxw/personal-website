@@ -12,7 +12,7 @@ const on = () => {
 const Overlay = ({ data }) => { 
     // Extract the tags and list-description
     const tags = data?.tags?.map((x, idx) => (
-        <a href={ x.link } target="_blank" rel="noreferrer" key={ `${idx}_tags` }>{ x.title }<FiExternalLink id="ext_link_icon" className="icon" /></a> 
+        <a href={ x.link } target="_blank" rel="noreferrer" key={ `${idx}_tags` }>{ x.title } { x.link && <FiExternalLink id="ext_link_icon" className="icon" /> }</a> 
     ));
 
     const desc = data?.desc_points?.map((x, idx) => (
@@ -43,9 +43,7 @@ const Overlay = ({ data }) => {
                             { data?.tags && tags }
                         </div>
 
-                        <div className="close_button" onClick={ off }>
-                            Close
-                        </div>
+                        <p className="close_button" onClick={ off }>Close</p>
                     </div>
             </div>
             <div id="overlay_background" />

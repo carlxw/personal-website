@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 3;
     width: 70vw;
-    height: 90vh;
+    height: 85vh;
     top: 0;
     left: 0;
     right: 0;
@@ -25,7 +25,7 @@
     background: rgb(66,61,152);
     background: linear-gradient(90deg, rgba(66,61,152,1) 0%, rgba(121,53,131,1) 25%, rgba(60,60,150,1) 57%, rgba(7,153,182,1) 100%);
     width: 72vw;
-    height: 94vh;
+    height: 89vh;
     z-index: 2;
     display: block;
     border-radius: 1rem;
@@ -89,8 +89,8 @@
 
 .overlay_tags {
     position: absolute;
-    bottom: 40px;
-    width: 94%;
+    bottom: 0px;
+    height: 100px;
     gap: 1.5rem;
     align-items: center;
     line-height: normal;
@@ -107,13 +107,11 @@
 .close_button {
     background-color: rgb(212, 65, 65);
     border-radius: 1rem;
-    width: fit-content;
-    padding: 8px 14px;
+    padding: 6px 10px;
     position: absolute;
-    bottom: 12px;
-    right: 0px;
-    vertical-align: bottom;
-    transform: translate(-50%, -50%);
+    bottom: 30px;
+    height: auto;
+    right: 32px;
     font-size: 24px;
 } .close_button:hover {
     cursor: pointer;

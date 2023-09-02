@@ -11,7 +11,7 @@ const PersonalProjects = () => {
     );
 
     return (
-        <>
+        <div className="proj_page">
             <div className="proj_text">
                 <h1 id="proj_h1">Project Hub</h1>
                 <div className="flex-col">
@@ -23,7 +23,7 @@ const PersonalProjects = () => {
             <div className="personal_projects">
                 { projects }
             </div>
-        </>
+        </div>
     );
 }
 

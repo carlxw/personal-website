@@ -41,25 +41,25 @@ const ProjCard = ({ proj, setData }) => {
                     {
                         proj.github &&
                         <a target="_blank" rel="noreferrer" href={ proj.github }>
-                            <AiFillGithub className="icon card_icon" size={50}/>
+                            <AiFillGithub className="icon card_icon" size={ 50 }/>
                         </a>
                     }
                     {
                         proj.devpost &&
                         <a target="_blank" rel="noreferrer" href={ proj.devpost }>
-                            <SiDevpost className="icon card_icon" size={50}/>
+                            <SiDevpost className="icon card_icon" size={ 50 }/>
                         </a>
                     }
                     {
                         proj.link &&
                         <a target="_blank" rel="noreferrer" href={ proj.link }>
-                            <FiExternalLink className="icon card_icon" size={50}/>
+                            <FiExternalLink className="icon card_icon" size={ 50 }/>
                         </a>
                     }
                     {
                         proj.demo &&
-                        <a target="_blank" rel="noreferrer" href={ proj.link }>
-                            <SiYoutube className="icon card_icon" size={50}/>
+                        <a target="_blank" rel="noreferrer" href={ proj.demo }>
+                            <SiYoutube className="icon card_icon" size={ 50 }/>
                         </a>
                     }
                 </div>
