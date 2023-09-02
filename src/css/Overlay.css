@@ -58,9 +58,8 @@
     /* For trasparent images */
     background-color: rgb(255, 255, 255);
 } #overlay_hr {
-    background-color: rgb(0, 0, 0);
-    border: none;
-    height: 3px;
+    display: block;
+    border-top: 3px solid black;
     margin: 1rem 0 1rem 0;
 } #proj_header {
     font-style: italic;
@@ -70,11 +69,9 @@
 
 .overlay_left {
     overflow-y: scroll;
-    overflow-wrap: normal;
     height: 100%;
     padding: 0 12px 0 0;
-}
-.overlay_left > h1 {
+} .overlay_left > h1 {
     margin-bottom: 0.5rem;
 } .overlay_left > * {
     color: black;
@@ -88,11 +85,6 @@
 
 
 /* ============ FOOTER =========== */
-
-.overlay_footer_hr {
-    position: absolute;
-    bottom: 50%;
-}
 
 .overlay_tags {
     position: absolute;
