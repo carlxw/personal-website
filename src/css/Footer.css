@@ -1,23 +1,28 @@
 .footer {
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 2em;
     align-items: center;
-    z-index: -1;
+    z-index: 0;
     position: relative;
 }
 
 .footer_logo {
-    flex-grow: 1;
+    flex: 1;
+
+    justify-content: flex-start;
 }
 
 .footer_socials {
     gap: 10em;
-    flex-grow: 1;
+    justify-content: center;
+    flex: 1;
 } .footer_socials > a:hover {
     color: rgb(27, 66, 225);
 }
 
 .footer_toggle {
     gap: 1em;
+    flex: 1;
+    justify-content: flex-end;
     align-items: center;
 }

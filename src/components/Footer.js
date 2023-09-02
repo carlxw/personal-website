@@ -1,9 +1,8 @@
 import { SiGithub, SiGmail, SiLinkedin, SiYoutube } from "react-icons/si";
 import ToggleSwitch from "./ToggleSwitch";
+import { Tooltip } from "react-tooltip";
 
 const Footer = () => {
-    const date = new Date();
-
     const toggleFont = (enable) => {
         document.querySelector(":root").style.setProperty("--font-family", enable ? "Open Sans" : "Consolas");
     }
@@ -12,7 +11,12 @@ const Footer = () => {
         <>
             <div className="footer flex-row">
                 <div className="footer_logo">
-                    <p>© Carl Wang { date.getFullYear() }</p>
+                    <p 
+                        style={{fontSize: "24px"}}
+                        data-tooltip-id="copyright_msg"
+                        data-tooltip-content="All mediae used and their modifications are under Creative Commons attributions, fair use/dealing, or authentically created by me."
+                    >© <Tooltip id="copyright_msg" noArrow="True" /></p>
+                    
                 </div>
 
                 <div className="footer_socials flex-row">
