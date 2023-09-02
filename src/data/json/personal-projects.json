@@ -3,7 +3,7 @@
         "title": "Rrythm Music Bot",
         "img": "rrythm.png",
         "protected": false,
-        "white_bg": true,
+        "white_bg": false,
         "header": "A modernized Rythm Bot clone created with my interpretation",
         "story": "Ever since Rythm got shut down in 2021 by YouTube, I noticed that my friends were spending less time hanging around on Discord voice calls during the pandemic isolation. Firstly, what the heck, YouTube. Not cool. Secondly, I pondered if I could remake the bot myself. An innocent Google search and a few YouTube videos eventually led me to develop a fully-functional backend Discord bot that I now locally host on my Raspberry Pi using a Python script. This project is one of my first major successes with programming and remains to be my proudest achievement as I applied concepts of object-oriented programming from my computer science class in high school",
         "tags": 
@@ -155,7 +155,7 @@
         "title": "Tip Tap Type",
         "img": "tip_tap_type.png",
         "protected": false,
-        "white_bg": false,
+        "white_bg": true,
         "header": "Minimalistic typing game from a high school project",
         "story": "This is a Greenfoot project that I worked on with a few of my high school friends. The primarily objective of this project was to practically use data structures, with the theme of creating a word-related game. This was a daunting project, but we managed to give it everything it needs to be called a game (music, sound effects, animations, and UI).",
         "tags": 
@@ -180,7 +180,7 @@
         "title": "Arduino Metronome",
         "img": "arduino_metronome.png",
         "protected": false,
-        "white_bg": false,
+        "white_bg": true,
         "header": "Why use an online metronome when you can learn Arduino, buy components, and code one up?",
         "story": "And I'll say it again! It's too boring to always take the simple path. That's why Michael Reeves ''turned a 5 hour task into a one-and-a-half month task'. Sorry to disappoint, but the metronome does not look like the image used to represent this project. After finishing this project, I'm definately wanting to work on an another Arduino project in the near future! Code and list of components used is available on GitHub",
         "tags": 

@@ -4,7 +4,7 @@
     overflow-x:     scroll;
     overflow-y:     hidden;
     
-    /* Prevent user from highlighting */
+    /* Prevent user from highlighting - Trying things if anyone ever reads this */
     user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
@@ -22,6 +22,7 @@
     font-size: 64px;
     margin-bottom: 36px;
     font-weight: bold;
+    /* text-align: center; */
 } .proj_text > div {
     gap: 16px;
 }

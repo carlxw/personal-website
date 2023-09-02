@@ -34,10 +34,13 @@ const ProjCard = ({ proj, setData }) => {
                     }}
                 />
             </div> 
-            <div className="proj_desc">
+
+            <div className="proj_title">
                 <h1 style={{ color: "black" }}>{ proj.title }</h1>
                 <hr />
-                <div className="proj_buttons flex-row">
+            </div>
+
+            <div className="proj_buttons flex-row">
                     {
                         proj.github &&
                         <a target="_blank" rel="noreferrer" href={ proj.github }>
@@ -63,7 +66,6 @@ const ProjCard = ({ proj, setData }) => {
                         </a>
                     }
                 </div>
-            </div>
         </div>
     );
 }

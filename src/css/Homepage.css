@@ -18,7 +18,7 @@
     margin-left: 64px;
 } #homepage_h1 {
     font-weight: bold;
-    font-size: 580%;
+    font-size: 96px;
     text-decoration: underline;
 } #homepage_text > p {
     margin-top: 32px;
@@ -30,7 +30,8 @@
     align-items: center;
     justify-content: center;
 } #hello_img {
-    height: 640px;
+    /* height: 640px; */
+    height: 70vh;
     border-radius: 1rem;
     border: 8px white solid;
     margin: auto;

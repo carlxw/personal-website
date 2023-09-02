@@ -11,7 +11,7 @@
     background-color: rgb(255, 255, 255);
     display: block;
     border-radius: 1rem;
-    padding: 48px;
+    padding: 48px
 } 
 
 #overlay_background {
@@ -47,6 +47,7 @@
 
 .overlay_upper {
     gap: 48px;
+    height: 95%;
 } #proj_title {
     font-weight: bold;
 } .overlay_upper > img {
@@ -61,12 +62,18 @@
     border: none;
     height: 3px;
     margin: 1rem 0 1rem 0;
-} #proj_desc {
+} #proj_header {
     font-style: italic;
 } ul, li {
     color: rgb(0, 0, 0);
 } 
 
+.overlay_left {
+    overflow-y: scroll;
+    overflow-wrap: normal;
+    height: 100%;
+    padding: 0 12px 0 0;
+}
 .overlay_left > h1 {
     margin-bottom: 0.5rem;
 } .overlay_left > * {

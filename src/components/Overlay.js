@@ -25,7 +25,7 @@ const Overlay = ({ data }) => {
                     <div className="overlay_upper flex-row">
                         <div className="overlay_left flex-col">
                             <h1 id="proj_title">{ data?.title }</h1>
-                            <p id="proj_desc">{ data?.header }</p>
+                            <p id="proj_header">{ data?.header }</p>
                             <hr id="overlay_hr" /> 
                             <p id="proj_story">{ `"${ data?.story }"` }</p>
                             <ul>{ desc }</ul>

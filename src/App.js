@@ -23,6 +23,7 @@ import "./css/404.css";
 import "./css/Mobile.css";
 import "./css/Footer.css";
 import "./css/Mobile.css";
+import "./css/MaxWidth.css";
 import "react-tooltip/dist/react-tooltip.css";
 
 // Animations

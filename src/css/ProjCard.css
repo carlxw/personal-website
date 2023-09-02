@@ -21,23 +21,23 @@
     border-radius: 11.5px 11.5px 0 0;
 }
 
-.proj_desc {
+.proj_title {
     padding:        1rem;
-} .proj_desc > h1, .proj_desc > p {
+} .proj_title > h1 {
     color:          black;  
     max-width:      100%;
     overflow:       hidden;
-} .proj_desc > h1 {
+} .proj_title > h1 {
     font-size:      150%;
     font-weight:    bold;
-}/* .proj_desc > h1:hover {
-	cursor:         pointer;
-} */
+}
 
 .proj_buttons {
 	justify-content: center;
 	padding: 10%;
 	gap: 24px;
+    position: relative;
+    bottom: 20px;
 }
 
 /* ================================================== */

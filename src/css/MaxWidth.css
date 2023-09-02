@@ -1,0 +1,44 @@
+/* 15" Laptop Display */
+@media screen and (max-width: 1550px) {
+    /* Homepage */
+    #homepage_h1 {
+        font-size: 78px;
+    }
+
+    #homepage_text > p {
+        font-size: 16.5px;
+    }
+
+    /* Personal Projects */
+    #proj_h1 {
+        font-size: 50px;
+    }
+
+    .proj_text {
+        font-size: 16.5px;
+        padding: 2.5% 2.5% 0 2.5%;
+    }
+
+    .proj_card {
+        height: 400px;
+        width: 275px;
+    }
+
+    .proj_buttons {
+        bottom: 26px;
+    }
+
+    #proj_h1 {
+        margin-bottom: 1.25rem;
+    } 
+
+    .proj_text > div {
+        gap: 12px;
+    }
+
+    .personal_projects {
+        padding: 2.5% 2.5% 3% 2.5%;
+    }
+
+    /* Proj Overlay */
+}
