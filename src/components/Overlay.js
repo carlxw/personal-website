@@ -7,6 +7,7 @@ const off = () => {
 
 const on = () => {
     elements.forEach(x => document.getElementById(x).style.display = "block");
+    document.getElementById("scroll_div").scroll(0, 0);
 }
 
 const Overlay = ({ data }) => { 
@@ -23,7 +24,10 @@ const Overlay = ({ data }) => {
         <>
             <div id="overlay">
                     <div className="overlay_upper flex-row">
-                        <div className="overlay_left flex-col">
+                        <div 
+                            id="scroll_div" 
+                            className="overlay_left outline flex-col"
+                        >
                             <h1 id="proj_title">{ data?.title }</h1>
                             <p id="proj_header">{ data?.header }</p>
                             <hr id="overlay_hr" /> 

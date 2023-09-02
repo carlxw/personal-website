@@ -3,7 +3,6 @@ import { SiDevpost, SiYoutube } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
 import { FaLock } from "react-icons/fa";
 import { Tooltip } from "react-tooltip";
-import "react-tooltip/dist/react-tooltip.css";
 import { on } from "../components/Overlay";
 
 const ProjCard = ({ proj, setData }) => {
@@ -29,7 +28,6 @@ const ProjCard = ({ proj, setData }) => {
                     size={ 35 }
                     onClick={() => {
                         setData(proj);
-                        console.log(proj);
                         on();
                     }}
                 />
