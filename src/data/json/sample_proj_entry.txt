@@ -1,0 +1,36 @@
+{
+    "title": "Rrythm Music Bot",
+    "img": "rrythm.png",
+    "protected": true,
+    "white_bg": true,
+    "header": "A modernized Rythm Bot clone created with my interpretation",
+    "story": "Ever since Rythm got shut down in 2021 by YouTube, I noticed that my friends were spending less time hanging around on Discord voice calls during the pandemic isolation. Firstly, what the heck, YouTube. Not cool. Secondly, I pondered if I could remake the bot myself. An innocent Google search and a few YouTube videos eventually led me to develop a fully-functional backend Discord bot that I now locally host on my Raspberry Pi using a Python script. This project is one of my first major successes with programming and remains to be my proudest achievement as I applied concepts of object-oriented programming from my computer science class in high school",
+    "tags": 
+        [
+            {
+                "title": "NodeJS",
+                "link": "https://nodejs.org/en/"
+            },
+            {
+                "title": "discord.js",
+                "link": "https://discord.js.org/#/"
+            },
+            {
+                "title": "play-dl",
+                "link": "https://www.npmjs.com/package/play-dl"
+            }
+        ],
+    "desc_points": 
+    [
+        "Backend Discord bot that takes user input from chat and streams audio from a YouTube source",
+        "Utilized object-oriented programming abstraction and encapsulation to promote code maintainability and modularity",
+        "Learned how to read API documentation, use version control (git), organize code in File Explorer, and structure code neatly with adaquate documentation",
+        "Implemented a customized queue data structure for music player functionality",
+        "Painfully understood the concept of Promises, async, await through raw trial and error",
+        "Coded without ChatGPT or AI tomfoolery"
+    ],
+    "github": "https://github.com/carlxw/rrythm",
+    "devpost": "http://devpost.com",
+    "demo": "https://drive.google.com",
+    "link": "https://demo-link.com"
+}

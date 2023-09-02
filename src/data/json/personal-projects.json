@@ -2,7 +2,8 @@
     {
         "title": "Rrythm Music Bot",
         "img": "rrythm.png",
-        "protected": true,
+        "protected": false,
+        "white_bg": true,
         "header": "A modernized Rythm Bot clone created with my interpretation",
         "story": "Ever since Rythm got shut down in 2021 by YouTube, I noticed that my friends were spending less time hanging around on Discord voice calls during the pandemic isolation. Firstly, what the heck, YouTube. Not cool. Secondly, I pondered if I could remake the bot myself. An innocent Google search and a few YouTube videos eventually led me to develop a fully-functional backend Discord bot that I now locally host on my Raspberry Pi using a Python script. This project is one of my first major successes with programming and remains to be my proudest achievement as I applied concepts of object-oriented programming from my computer science class in high school",
         "tags": 
@@ -29,11 +30,15 @@
             "Painfully understood the concept of Promises, async, await through raw trial and error",
             "Coded without ChatGPT or AI tomfoolery"
         ],
-        "github": "https://github.com/carlxw/rrythm"
+        "github": "https://github.com/carlxw/rrythm",
+        "devpost": null,
+        "demo": null,
+        "link": null
     },
     {
         "title": "HealthChain",
         "img": "healthchain.png",
+        "protected": false,
         "white_bg": true,
         "header": "DeltaHacks IX winner for \"Most Creative Use of Verbwire API\"",
         "story": "It was all one day when a friend of mine asked me to sign up with him for a hackathon hosted at his university. I was like \"why the heck not\"! After all, this seems like it'd be a terrific opportunity to see how good my coding skills are (spoiler alert: I was humbled much). We created a IPFS uploader for physicians to upload personal health information (PHI) onto the Ethereum blockchain. As the one in charge of the backend, I initially intended to use Verbwire API to do all the uploading, but the documentation example doesn't work (which was hilarious), and so I switched to use Moralis instead. Funnily enough, this still won 'Most Innovative Use of Verbwire API' thanks to our ingenious idea. That, or a challenge with awards for 10 groups, got 10 groups signing up.",
@@ -68,11 +73,14 @@
             "Victorious in the \"I-had-no-idea-what-I-was-doing-mindset-but-it-still-worked\" mindset"
         ],
         "github": "https://github.com/DeltaHacks-WebOfLife/HealthChain",
-        "devpost": "https://devpost.com/software/healthchain-hybn8i"
+        "devpost": "https://devpost.com/software/healthchain-hybn8i",
+        "demo": null,
+        "link": null
     },
     {
         "title": "Pomodoro Website",
         "img": "pomodoro.png",
+        "protected": false,
         "white_bg": true,
         "header": "All-in-one productivity enabler: to-do list, pomodoro timer, and Spotify music control",
         "story": "This was an idea that was briefly mentioned during my first hackathon, and I thought it would be really cool to build myself. I found that many of my distractions were caused by switching between applications to see my to-do list, re-wind my timer and switch the current song playing on my Spotify. By keeping all of the things that I would ever need while studying in one place, I found that my studying efficiency significantly increased! This was a weird project to build. Weird as in dealing with things ranging from building this project backwards from Spotify's sample code to get a functional music player, and the replacing request with fetch(), then to Axios. All because request is deprecated and fetch() isn't natively supported in NodeJS!",
@@ -108,11 +116,14 @@
             "fetch()/Axios HTTP request calls made to Spotify to harness API features"
         ],
         "github": "https://github.com/carlxw/pomodoro-website",
+        "devpost": null,
+        "demo": null,
         "link": "https://carlxw.dev/pomodoer/"
     },
     {
         "title": "Personal Website",
         "img": "website.png",
+        "protected": false,
         "white_bg": true,
         "header": "A virtual presentation of myself; what you're seeing right now!",
         "story": "Yeah, I'm pretty sure I know how to use semicolons. This was a very fun project for me. Don't need any wix or weebly here >:). It took me about 3 days to get through TheNetNinja's ReactJS tutorials and then essentially forever to get this website up and going. If I had any regrets in life, that would be having a preference in improvising over planning. Being totally honest, the design for this webpage in my head is way cooler.",
@@ -135,11 +146,16 @@
             "Attempted to study modern web design, but 2010 called, saying that they love my design",
             "Perfected the art of Ctrl+C and Ctrl+V"
         ],
-        "github": "https://github.com/carlxw/personal-website"
+        "github": "https://github.com/carlxw/personal-website",
+        "devpost": null,
+        "demo": null,
+        "link": null
     },
     {
         "title": "Tip Tap Type",
         "img": "tip_tap_type.png",
+        "protected": false,
+        "white_bg": false,
         "header": "Minimalistic typing game from a high school project",
         "story": "This is a Greenfoot project that I worked on with a few of my high school friends. The primarily objective of this project was to practically use data structures, with the theme of creating a word-related game. This was a daunting project, but we managed to give it everything it needs to be called a game (music, sound effects, animations, and UI).",
         "tags": 
@@ -155,26 +171,44 @@
             "Developed the core typing algorithm using an implemented Stack data structure",
             "Enhanced finger-typing endurance because it's Java"
         ],
-        "github": "https://github.com/yoyozhuang10/P1E-TipTapType"
+        "github": "https://github.com/yoyozhuang10/P1E-TipTapType",
+        "devpost": null,
+        "demo": null,
+        "link": null
     },
     {
-        "title": "After This Semester...",
-        "img": "tip_tap_type.png",
-        "header": "Minimalistic typing game from a high school project",
-        "story": "This is a Greenfoot project that I worked on with a few of my high school friends. The primarily objective of this project was to practically use data structures, with the theme of creating a word-related game. This was a daunting project, but we managed to give it everything it needs to be called a game (music, sound effects, animations, and UI).",
+        "title": "Arduino Metronome",
+        "img": "arduino_metronome.png",
+        "protected": false,
+        "white_bg": false,
+        "header": "Why use an online metronome when you can learn Arduino, buy components, and code one up?",
+        "story": "And I'll say it again! It's too boring to always take the simple path. That's why Michael Reeves ''turned a 5 hour task into a one-and-a-half month task'. Sorry to disappoint, but the metronome does not look like the image used to represent this project. After finishing this project, I'm definately wanting to work on an another Arduino project in the near future! Code and list of components used is available on GitHub",
         "tags": 
-            [
-                {
-                    "title": "Greenfoot",
-                    "link": "https://www.greenfoot.org/download"
-                }
-            ],
+        [
+            {
+                "title": "Arduino UNO R3"
+            },
+            {
+                "title": "Breadboarding"
+            },
+            {
+                "title": "TinkerCAD",
+                "link": "https://www.tinkercad.com/"
+            }
+        ],
         "desc_points": 
         [
-            "Coded in the worst IDE ever known to humanity",
-            "Developed the core typing algorithm using an implemented Stack data structure",
-            "Enhanced finter-typing endurance because it's Java"
+            "Output displayed through LCD connected via I2C showing set BPM and metronome pulse",
+            "Thoroughly documented instructions and code so that anyone else can replicate and modify this project",
+            "Finally, applied knowledge learned from University to build a circuit",
+            "Prototyped in TinkerCAD for simulation purposes and for creating visuals and schematic",
+            "Fully configurable by providing a config.h file",
+            "Matured frusturation when writing tables in markdown",
+            "Discovered Arduino IDE v2 to release extreme levels of serotonin"
         ],
-        "github": "https://github.com/yoyozhuang10/P1E-TipTapType"
+        "github": "https://github.com/carlxw/arduino-metronome",
+        "devpost": null,
+        "demo": "https://drive.google.com/file/d/1ULIn-E9Hc5SD78-cg4Jfz9MGziXxmkPd/view?usp=sharing",
+        "link": null
     }
 ]
