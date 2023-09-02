@@ -48,9 +48,9 @@ const Overlay = ({ data }) => {
                         <p className="close_button" onClick={ off }>Close</p>
                     </div>
             </div>
-            <div id="overlay_background" />
 
-            <div id="overlay_dim" onClick={off} />
+            <div id="overlay_background" />
+            <div id="overlay_dim" onClick={ off } />
         </>
     );
 }
