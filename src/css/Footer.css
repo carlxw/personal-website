@@ -1,26 +1,37 @@
 .footer_copyright, .footer_socials, .footer_toggle {
-    padding: 2em;
+    vertical-align: middle;
+    display: inline-block;
     align-items: center;
+    width: fit-content;
+    flex: 1;
+    height: 86px;
+}
+
+.footer_copyright, .footer_toggle {
+    justify-content: flex-start;
+    margin: 0 48px;
 }
 
 .footer_copyright {
-    flex: 1;
-    justify-content: flex-start;
+    position: relative;
+    top: 24px;
+
+    font-size: 24px;
+    height: fit-content
 }
 
 .footer_socials {
     gap: 10em;
     justify-content: center;
-    flex: 1;
-} .footer_socials > a:hover {
-    color: rgb(27, 66, 225);
 }
 
 .footer_toggle {
-    gap: 1em;
-    flex: 1;
     justify-content: flex-end;
-    align-items: center;
-} .footer_toggle:hover {
-    cursor: pointer;
+}
+
+/* COPYRIGHT MESSAGE */
+#copyright_msg {
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
 }

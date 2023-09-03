@@ -48,3 +48,18 @@
 .outline {
     border: red 1px solid;
 }
+
+.hover_increase {
+    transition: transform 0.25s;
+} .hover_increase:hover {
+    transform: scale(1.15);
+}
+
+.no_hl {
+    /* Prevent user from highlighting - Trying things if anyone ever reads this */
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}

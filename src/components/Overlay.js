@@ -41,7 +41,7 @@ const Overlay = ({ data }) => {
                     </div>
 
                     <div className="overlay_footer flex-row">
-                        <div className="overlay_tags outline flex-row">
+                        <div className="overlay_tags flex-row">
                             <p id="proj_tags_p">Tags:</p>
                             { data?.tags && tags }
                         </div>
