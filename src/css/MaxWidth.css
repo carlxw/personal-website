@@ -42,3 +42,40 @@
 
     /* Proj Overlay */
 }
+
+/* iPad Landscape */
+@media screen and (max-width: 1180px) {
+    /* Homepage */
+    #homepage_h1 {
+        font-size: 60px;
+    }
+
+    #homepage_text > p {
+        font-size: 16.5px;
+    }
+
+    #hello_img {
+        height: 360px;
+    }
+
+    /* Proj Overlay */
+    #proj_title {
+        font-size: 40px;
+    }
+
+    #proj_header, #proj_story, ul, li {
+        font-size: 16px;
+    }
+
+    #proj_img {
+        height: 175px;
+    }
+
+    .overlay_tags {
+        overflow-x: scroll;
+        width: 70%;
+    } .overlay_tags > * {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}

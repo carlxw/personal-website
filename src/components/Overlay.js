@@ -36,11 +36,11 @@ const Overlay = ({ data }) => {
                         </div>
                         
                         {/* Overlay right */}
-                        <img src={ require(`../data/img/${ data?.img }`) } alt="Project logo" />
+                        <img id="proj_img" src={ require(`../data/img/${ data?.img }`) } alt="Project logo" />
                     </div>
 
                     <div className="overlay_footer flex-row">
-                        <div className="overlay_tags flex-row">
+                        <div className="overlay_tags outline flex-row">
                             <p id="proj_tags_p">Tags:</p>
                             { data?.tags && tags }
                         </div>

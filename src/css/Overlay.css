@@ -88,11 +88,12 @@
 
 .overlay_tags {
     position: absolute;
-    bottom: 0px;
-    height: 100px;
+    bottom: 32px;
+    height: fit-content;
     gap: 1.5rem;
     align-items: center;
     line-height: normal;
+    overflow-y: hidden;
 } .overlay_tags > * {
     color: black;
     text-decoration: underline;
