@@ -47,7 +47,6 @@
     position:   absolute;
     top:        1rem;
     left:       1rem;
-    z-index:    1;
 } #lock_msg {
     background-color:   white;
     color:              black;
@@ -66,7 +65,6 @@
     position:   absolute;
     top:        1rem;
     right:      1rem;
-    z-index:    1;
 } #proj_info:hover {
     opacity:    1;
     cursor:     pointer;

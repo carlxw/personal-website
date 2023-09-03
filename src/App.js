@@ -35,16 +35,14 @@ function App() {
         <div>
             <HashRouter>
                 <div id="app">
-                    <div className="content">
-                        <Navbar />
+                    <Navbar />
                         <Routes>
                             <Route path="/" element={ <Homepage /> } />
                             <Route path="/personal-website" element={ <Homepage />} />
                             <Route path="/personal_projects" element={ <PersonalProjects /> } />
                             <Route path="*" element={ <Error /> } />
                         </Routes>
-                        <Footer />
-                    </div>
+                    <Footer />
                 </div>
             </HashRouter>
         </div>

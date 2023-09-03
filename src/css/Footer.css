@@ -1,14 +1,10 @@
-.footer {
-    /* justify-content: space-between; */
+.footer_logo, .footer_socials, .footer_toggle {
     padding: 2em;
     align-items: center;
-    z-index: 0;
-    position: relative;
 }
 
 .footer_logo {
     flex: 1;
-
     justify-content: flex-start;
 }
 

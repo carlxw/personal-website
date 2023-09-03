@@ -22,6 +22,12 @@
 body {
     overflow:   overlay;
     overflow-x: hidden;
+    width: 100vw;
+    height: auto;
+}
+
+.content {
+    z-index: -1;
 }
 
 .icon {
