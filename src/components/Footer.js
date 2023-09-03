@@ -40,7 +40,7 @@ const Footer = () => {
 
                 <div className="footer_toggle flex-row">
                     <p 
-                        style={{ fontFamily: "consolas", fontSize: "23px" }}
+                        style={{ fontFamily: "consolas", fontSize: "22px" }}
                         onClick={() => {
                             toggleFont(!toggle);
                             toggle = !toggle;
