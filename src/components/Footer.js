@@ -3,9 +3,10 @@ import { SiGithub, SiGmail, SiLinkedin, SiYoutube } from "react-icons/si";
 import { Tooltip } from "react-tooltip";
 
 const Footer = () => {
-    // const toggleFont = (enable) => {
-    //     document.querySelector(":root").style.setProperty("--font-family", enable ? "Open Sans" : "Consolas");
-    // }
+    let toggle = false;
+    const toggleFont = (enable) => {
+        document.querySelector(":root").style.setProperty("--font-family", enable ? "Open Sans" : "Consolas");
+    }
 
     return (
         <>
@@ -38,9 +39,13 @@ const Footer = () => {
                 </div>
 
                 <div className="footer_toggle flex-row">
-                    <p style={{ fontFamily: "Open Sans", fontSize: "22px" }}>Aa</p>
-                    {/* <ToggleSwitch func={ toggleFont }/> */}
-                    <p style={{ fontFamily: "consolas", fontSize: "23px" }}>!Aa</p>
+                    <p 
+                        style={{ fontFamily: "consolas", fontSize: "23px" }}
+                        onClick={() => {
+                            toggleFont(!toggle);
+                            toggle = !toggle;
+                        }}
+                    >Dev Mode</p>
                 </div>
             </div>
         </>
