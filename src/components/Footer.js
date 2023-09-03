@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <>
             <div className="flex-row">
-                <div className="footer_logo">
+                <div className="footer_copyright">
                     <p 
                         style={{fontSize: "24px"}}
                         data-tooltip-id="copyright_msg"

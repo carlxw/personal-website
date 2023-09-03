@@ -79,3 +79,80 @@
         white-space: nowrap;
     }
 }
+
+/* Smartphone Vrtical */
+@media screen and (max-width: 412px) {
+    /* Navbar */
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        height: fit-content;
+    } #my-name {
+        align-self: center;
+    } .link-pages {
+        gap: 3rem;
+        margin: 0;
+    }
+
+    /* Footer */
+    .footer_copyright, .footer_toggle {
+        display: none;
+    } .footer_socials {
+        gap: 24px;
+    }
+
+    /* Homepage */
+    .homepage {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+    } .homepage_left {
+        padding: 2.5rem;
+        margin-left: 0;
+    } #homepage_h1 {
+        font-size: 56px;
+    } #homepage_text > p {
+        font-size: 16.5px;
+    } #hello_img {
+        height: 360px;
+    }
+
+    /* Projects Page */
+    .proj_text {
+        text-align: center;
+        margin: 24px 0;
+    } .personal_projects {
+        flex-direction: row;
+        padding: 16px calc(100vw - 85%) 64px calc(100vw - 85%);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #proj_title {
+        font-size: 40px;
+    }
+
+    #proj_header, #proj_story, ul, li {
+        font-size: 16px;
+    }
+
+    #proj_img {
+        height: 175px;
+    }
+
+    .overlay_tags {
+        overflow-x: scroll;
+        width: 70%;
+    } .overlay_tags > * {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
