@@ -24,6 +24,9 @@ const Overlay = ({ data }) => {
         <>
             <div id="overlay">
                     <div className="overlay_upper flex-row">
+                        {/* Overlay right */}
+                        <img id="proj_img" src={ require(`../data/img/${ data?.img }`) } alt="Project logo" />
+                        
                         <div 
                             id="scroll_div" 
                             className="overlay_left flex-col"
@@ -35,8 +38,6 @@ const Overlay = ({ data }) => {
                             <ul>{ desc }</ul>
                         </div>
                         
-                        {/* Overlay right */}
-                        <img id="proj_img" src={ require(`../data/img/${ data?.img }`) } alt="Project logo" />
                     </div>
 
                     <div className="overlay_footer flex-row">

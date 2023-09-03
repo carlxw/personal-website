@@ -126,33 +126,31 @@
     } .personal_projects {
         flex-direction: row;
         padding: 16px calc(100vw - 85%) 64px calc(100vw - 85%);
+        scroll-snap-type: x mandatory;
+    } .proj_card {
+        scroll-snap-align: center;
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    #proj_title {
-        font-size: 40px;
-    }
-
-    #proj_header, #proj_story, ul, li {
+    /* Overlay */
+    #overlay {
+        padding: 24px;
+    } .overlay_upper {
+        flex-direction: column;
+    } .overlay_tags {
+        /* I need to disable this on mobile view... */
+        display: none;
+    } #overlay_background {
+        width: 78vw
+    } #proj_title {
+        font-size: 30px;
+    } #proj_header, #proj_story, ul, li {
+        font-size: 14px;
+    } #proj_img {
+        height: auto;
+        width: 100%;
+    } .close_button {
+        bottom: 16px;
+        right: 18px;
         font-size: 16px;
-    }
-
-    #proj_img {
-        height: 175px;
-    }
-
-    .overlay_tags {
-        overflow-x: scroll;
-        width: 70%;
-    } .overlay_tags > * {
-        text-overflow: ellipsis;
-        white-space: nowrap;
     }
 }
