@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.111c18d8.css",
-    "main.js": "/static/js/main.87ff4374.js",
+    "main.css": "/static/css/main.344755b8.css",
+    "main.js": "/static/js/main.7c26f7bb.js",
     "static/media/cartoonme.png": "/static/media/cartoonme.c4fedcf58c76d5e41327.png",
     "static/media/website.png": "/static/media/website.187adcc980fa9015d148.png",
+    "static/media/arduino_metronome.png": "/static/media/arduino_metronome.74f214d4a20d7d2ce605.png",
     "static/media/healthchain.png": "/static/media/healthchain.e7ae39c05e0e3b6343bc.png",
     "static/media/pomodoro.png": "/static/media/pomodoro.9a4b47c33421d0478329.png",
     "static/media/tip_tap_type.png": "/static/media/tip_tap_type.f182066a375bb5ad59ea.png",
     "static/media/fitmecanada.png": "/static/media/fitmecanada.543beaf834bb6dca97f3.png",
     "static/media/rrythm.png": "/static/media/rrythm.0d4c83d0fcb8cfaa0f0a.png",
     "index.html": "/index.html",
-    "main.111c18d8.css.map": "/static/css/main.111c18d8.css.map",
-    "main.87ff4374.js.map": "/static/js/main.87ff4374.js.map"
+    "main.344755b8.css.map": "/static/css/main.344755b8.css.map",
+    "main.7c26f7bb.js.map": "/static/js/main.7c26f7bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.111c18d8.css",
-    "static/js/main.87ff4374.js"
+    "static/css/main.344755b8.css",
+    "static/js/main.7c26f7bb.js"
   ]
 }
