@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.344755b8.css",
-    "main.js": "/static/js/main.7c26f7bb.js",
+    "main.css": "/static/css/main.5f565424.css",
+    "main.js": "/static/js/main.436b6218.js",
     "static/media/cartoonme.png": "/static/media/cartoonme.c4fedcf58c76d5e41327.png",
     "static/media/website.png": "/static/media/website.187adcc980fa9015d148.png",
     "static/media/arduino_metronome.png": "/static/media/arduino_metronome.74f214d4a20d7d2ce605.png",
@@ -11,11 +11,11 @@
     "static/media/fitmecanada.png": "/static/media/fitmecanada.543beaf834bb6dca97f3.png",
     "static/media/rrythm.png": "/static/media/rrythm.0d4c83d0fcb8cfaa0f0a.png",
     "index.html": "/index.html",
-    "main.344755b8.css.map": "/static/css/main.344755b8.css.map",
-    "main.7c26f7bb.js.map": "/static/js/main.7c26f7bb.js.map"
+    "main.5f565424.css.map": "/static/css/main.5f565424.css.map",
+    "main.436b6218.js.map": "/static/js/main.436b6218.js.map"
   },
   "entrypoints": [
-    "static/css/main.344755b8.css",
-    "static/js/main.7c26f7bb.js"
+    "static/css/main.5f565424.css",
+    "static/js/main.436b6218.js"
   ]
 }
