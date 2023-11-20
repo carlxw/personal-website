@@ -2,12 +2,23 @@ import { FiExternalLink } from "react-icons/fi";
 
 const elements = ["overlay", "overlay_dim", "overlay_background"];
 const off = () => {
-    elements.forEach(x => document.getElementById(x).style.display = "none");
+    elements.forEach(x => {
+        let element = document.getElementById(x);
+        if (element) {
+            element.style.display = "none";
+        }
+    });
 }
 
 const on = () => {
-    elements.forEach(x => document.getElementById(x).style.display = "block");
-    document.getElementById("scroll_div").scroll(0, 0);
+    elements.forEach(x => {
+        let element = document.getElementById(x);
+        if (element) {
+            element.style.display = "block";
+        }
+    });
+    let scrollElement = document.getElementById("Element_div");
+    if (scrollElement) scrollElement.scroll(0, 0);
 }
 
 const Overlay = ({ data }) => { 
