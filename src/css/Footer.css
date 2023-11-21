@@ -1,4 +1,19 @@
-.footer_copyright, .footer_socials, .footer_toggle {
+.footer {
+    padding: 0 48px;
+}
+
+.copyright_icon, .toggle_icon {
+    align-self: center;
+} .copyright_icon:hover, .toggle_icon:hover {
+    cursor: pointer;
+} .copyright_icon {
+    font-size: 32px;
+    width: 30px;
+} .toggle_icon {
+    width: 51px;
+}
+
+.footer_socials {
     vertical-align: middle;
     display: inline-block;
     align-items: center;
@@ -7,26 +22,9 @@
     height: 86px;
 }
 
-.footer_copyright, .footer_toggle {
-    justify-content: flex-start;
-    margin: 0 48px;
-}
-
-.footer_copyright {
-    position: relative;
-    top: 24px;
-
-    font-size: 24px;
-    height: fit-content
-}
-
 .footer_socials {
     gap: 10em;
     justify-content: center;
-}
-
-.footer_toggle {
-    justify-content: flex-end;
 }
 
 /* COPYRIGHT MESSAGE */

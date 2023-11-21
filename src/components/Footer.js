@@ -3,29 +3,29 @@ import Copyright from "./Copyright";
 import { useState } from "react";
 
 const Footer = () => {
-    var toggleF = false;
+    const [toggleF, setToggleF] = useState(true);
+    const [showCopyright, toggleCopyright] = useState(false);
+
     const toggleFont = (enable) => {
-        toggleF = !toggleF;
         document.querySelector(":root").style.setProperty("--font-family", enable ? "Open Sans" : "Consolas");
+        setToggleF(enable); // Trigger the re-render
     }
 
-    const [showCopyright, toggleCopyright] = useState(false);
     return (
         <>
-            <div className="flex-row">
-                <div id="copyright" className="footer_copyright no_hl">
-                    <p 
-                        onClick={() => {
-                            toggleCopyright(!showCopyright);
+            <div className="footer flex-row">
+                <p 
+                    className="copyright_icon"
+                    onClick={() => {
+                        toggleCopyright(!showCopyright);
 
-                            // Scroll to bottom of page
-                            setTimeout(() => {
-                                document.body.scrollTop = document.body.scrollHeight;
-                                document.documentElement.scrollTop = document.documentElement.scrollHeight;
-                            }, 50);
-                        }}
-                    >©</p>
-                </div>
+                        // Scroll to bottom of page
+                        setTimeout(() => {
+                            document.body.scrollTop = document.body.scrollHeight;
+                            document.documentElement.scrollTop = document.documentElement.scrollHeight;
+                        }, 50);
+                    }}
+                >©</p>
 
                 <div className="footer_socials flex-row">
                     <a className="hover_increase" rel="noreferrer" href="https://linkedin.ca/in/carlxwang" target="_blank">
@@ -45,14 +45,13 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <div className="footer_toggle no_hl flex-row">
-                    <p 
-                        style={{ fontFamily: "consolas", fontSize: "22px" }}
-                        onClick={() => {
-                            toggleFont(!toggleF);
-                        }}
-                    >!;()</p>
-                </div>
+                <p 
+                    className="toggle_icon"
+                    style={{ fontFamily: "consolas", fontSize: "22px" }}
+                    onClick={() => {
+                        toggleFont(!toggleF);
+                    }}
+                >!;()</p>
             </div>
             { showCopyright && <Copyright /> }
         </>
