@@ -1,6 +1,5 @@
 .homepage {
     height: 90vh;
-    justify-content: space-evenly;
 } .homepage > div {
     /* For equal div width */
     flex: 1;
@@ -14,8 +13,8 @@
 .homepage_left {
     gap: 64px;
     text-align: left;
-    justify-content: center;
-    margin-left: 64px;
+    justify-content: center; 
+    margin-left: 80px; 
 } #homepage_h1 {
     font-weight: bold;
     font-size: 96px;
@@ -30,7 +29,6 @@
     align-items: center;
     justify-content: center;
 } #hello_img {
-    /* height: 640px; */
     height: 70vh;
     border-radius: 1rem;
     border: 8px white solid;
