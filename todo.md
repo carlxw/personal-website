@@ -15,3 +15,4 @@
     * Add arrow buttons to scroll in the personal projects page?
 * Bug fixes ✅
     * ~~When clicking project "i" for the first time, runtime error occurs with style~~
+    * remove redundant CSS code

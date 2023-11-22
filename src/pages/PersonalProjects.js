@@ -1,10 +1,9 @@
 import ProjCard from "../components/ProjCard";
-import { Overlay } from "../components/Overlay";
-import { useState } from "react";
 const jsonArr = require("../data/json/personal-projects.json");
 
-const PersonalProjects = () => {
-    const [data, setData] = useState({});
+// https://stackoverflow.com/questions/71323266/how-can-i-scroll-automatically-on-hover
+const PersonalProjects = ({setData}) => {
+    
 
     const projects = jsonArr.map((x, idx) => 
         <ProjCard style={{ margin: "5rem", }} proj={ x } setData={ setData } key={ idx }  />
@@ -19,7 +18,7 @@ const PersonalProjects = () => {
                     <p>Most of the things I showcase here were built with the intention to solve some kind of problem!</p>
                 </div>
             </div>
-            { data && <Overlay data={ data } /> }
+            
             <div className="personal_projects">
                 { projects }
             </div>

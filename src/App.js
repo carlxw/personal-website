@@ -30,19 +30,26 @@ import "./css/Animations.css";
 // Packages
 import { HashRouter, Routes, Route } from "react-router-dom";
 
+// Personal Projects Overlay
+import { Overlay } from "./components/Overlay";
+import { useState } from "react";
+
 function App() {
+    const [data, setData] = useState({});
+
     return (
         <div>
             <HashRouter>
                 <div id="app">
                     <Navbar />
-                        <Routes>
-                            <Route path="/" element={ <Homepage /> } />
-                            <Route path="/personal-website" element={ <Homepage />} />
-                            <Route path="/personal_projects" element={ <PersonalProjects /> } />
-                            <Route path="*" element={ <Error /> } />
-                        </Routes>
+                    <Routes>
+                        <Route path="/" element={ <Homepage /> } />
+                        <Route path="/personal-website" element={ <Homepage />} />
+                        <Route path="/personal_projects" element={ <PersonalProjects setData={ setData }/> } />
+                        <Route path="*" element={ <Error /> } />
+                    </Routes>
                     <Footer />
+                    { data && <Overlay data={ data } /> }
                 </div>
             </HashRouter>
         </div>

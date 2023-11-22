@@ -14,18 +14,18 @@ const Footer = () => {
     return (
         <>
             <div className="footer flex-row">
-                <p 
-                    className="copyright_icon"
-                    onClick={() => {
-                        toggleCopyright(!showCopyright);
-
-                        // Scroll to bottom of page
-                        setTimeout(() => {
-                            document.body.scrollTop = document.body.scrollHeight;
-                            document.documentElement.scrollTop = document.documentElement.scrollHeight;
-                        }, 50);
-                    }}
-                >©</p>
+                    <p 
+                        className="copyright_icon"
+                        onClick={() => {
+                            toggleCopyright(!showCopyright);
+                            
+                            // Scroll to bottom of page
+                            setTimeout(() => {
+                                document.body.scrollTop = document.body.scrollHeight;
+                                document.documentElement.scrollTop = document.documentElement.scrollHeight;
+                            }, 50);
+                        }}
+                    >©</p>
 
                 <div className="footer_socials flex-row">
                     <a className="hover_increase" rel="noreferrer" href="https://linkedin.ca/in/carlxwang" target="_blank">
@@ -45,13 +45,13 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <p 
-                    className="toggle_icon"
-                    style={{ fontFamily: "consolas", fontSize: "22px" }}
-                    onClick={() => {
-                        toggleFont(!toggleF);
-                    }}
-                >!;()</p>
+                    <p 
+                        className="toggle_icon"
+                        style={{ fontFamily: "consolas", fontSize: "22px" }}
+                        onClick={() => {
+                            toggleFont(!toggleF);
+                        }}
+                    >!;()</p>
             </div>
             { showCopyright && <Copyright /> }
         </>
