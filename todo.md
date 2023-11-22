@@ -5,7 +5,7 @@
 * Fix title page ❌
     * Remove the text - it is too much
     * Name, position, etc.
-    * Implement a theme (changing the background, etc.)
+    * Implement a theme (changing the background, etc.) (https://www.makeuseof.com/css-background-patterns-examples/)
 * Personal projects ❌
     * Add YouTube note taker project
     * Add Office Scripts
