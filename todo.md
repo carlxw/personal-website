@@ -11,9 +11,9 @@
     * Add YouTube note taker project
     * Add Office Scripts
     * Add AutoSharpKey
-    * Close button - Add hover effect
+    * ~~Close button - Add hover effect~~
 * Functionality ❌
-    * Add arrow buttons to scroll in the personal projects page?
+    * ~~Add arrow buttons to scroll in the personal projects page?~~
 * Bug fixes ✅
     * ~~When clicking project "i" for the first time, runtime error occurs with style~~
     * remove redundant CSS code

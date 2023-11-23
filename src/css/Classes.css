@@ -55,6 +55,12 @@
     transform: scale(1.15);
 }
 
+.hover_increase_small {
+    transition: transform 0.25s;
+} .hover_increase_small:hover {
+    transform: scale(1.075);
+}
+
 .no_hl {
     /* Prevent user from highlighting - Trying things if anyone ever reads this */
     user-select: none;

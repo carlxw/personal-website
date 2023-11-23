@@ -57,7 +57,7 @@ const Overlay = ({ data }) => {
                             { data?.tags && tags }
                         </div>
 
-                        <p className="close_button" onClick={ off }>Close</p>
+                        <p className="close_button hover_increase_small" onClick={ off }>Close</p>
                     </div>
             </div>
 

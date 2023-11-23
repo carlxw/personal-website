@@ -1,5 +1,5 @@
 .personal_projects {
-    padding:        2.5% 2.5% 5% 2.5%;
+    padding:        2.5% 100px 5% 100px;
     white-space:    nowrap;
     overflow-x:     scroll;
     overflow-y:     hidden;
@@ -18,4 +18,18 @@
     /* text-align: center; */
 } .proj_text > div {
     gap: 16px;
+}
+
+/* Controls the hover-scrolling */
+.left_scroll, .right_scroll {
+    position: absolute;
+    top: 60vh;
+    z-index: 4;
+    color: rgba(89, 176, 128, 0.555)
+} .left_scroll:hover, .right_scroll:hover {
+    color: rgb(21, 210, 210);
+} .left_scroll {
+    left: 30px;
+} .right_scroll {
+    right: 25px;
 }

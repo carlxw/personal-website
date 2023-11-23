@@ -41,8 +41,8 @@ const Navbar = () => {
         <nav className="navbar flex-row flex-center">
             <h1 id="my-name">Carl Wang</h1>
             <div className="link-pages">
-                <Link onClick={() => { run("home") }} style={ home ? active : {} } to="/">Home</Link>
-                <Link onClick={() => { run("proj") }} style={ proj ? active : {} } to="/personal_projects">Personal Projects</Link>
+                <Link className="hover_increase_small" onClick={() => { run("home") }} style={ home ? active : {} } to="/">Home</Link>
+                <Link className="hover_increase_small" onClick={() => { run("proj") }} style={ proj ? active : {} } to="/personal_projects">Personal Projects</Link>
             </div>
         </nav>
     );
