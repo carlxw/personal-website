@@ -117,6 +117,8 @@
         font-size: 16.5px;
     } #hello_img {
         height: 360px;
+    } #up_arrow, #down_arrow {
+        display: none;
     }
 
     /* Projects Page */

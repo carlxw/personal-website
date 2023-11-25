@@ -35,3 +35,15 @@
     border: 8px white solid;
     margin: auto;
 }
+
+/* EyeCandy Animations */
+#down_arrow, #up_arrow {
+    position: absolute;
+    width: fit-content;
+} #down_arrow {
+    top: 95vh;
+    right: calc(100vw / 2.035);
+} #up_arrow {
+    top: 6vh;
+    right: 100px;
+}

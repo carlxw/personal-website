@@ -7,6 +7,9 @@ const Hello = () => {
     useEffect(() => {
         const down = document.querySelector("#down_arrow");
         down.classList.add("animate__animated", "animate__flip", "animate__slow", "animate__infinite");
+
+        const up = document.querySelector("#up_arrow");
+        up.classList.add("animate__animated", "animate__flip", "animate__slow", "animate__infinite");
     }, []);
 
     return (
@@ -25,6 +28,7 @@ const Hello = () => {
                 </div>
             </div>
             <p id="down_arrow">▼</p>
+            <p id="up_arrow">▲</p>
         </div>
     );
 }
