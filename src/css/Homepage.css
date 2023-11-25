@@ -1,5 +1,6 @@
 .homepage {
     height: 90vh;
+    width: 100%;
 } .homepage > div {
     /* For equal div width */
     flex: 1;

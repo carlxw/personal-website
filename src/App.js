@@ -22,6 +22,8 @@ import "./css/Overlay.css";
 import "./css/404.css";
 import "./css/MaxWidth.css";
 import "./css/Footer.css";
+import "./css/HomepageAnimations.css";
+import "animate.css";
 import "react-tooltip/dist/react-tooltip.css";
 
 // Animations
