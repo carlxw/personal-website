@@ -42,7 +42,7 @@ const Navbar = () => {
             <h1 id="my-name">Carl Wang</h1>
             <div className="link-pages">
                 <Link className="hover_increase_small" onClick={() => { run("home") }} style={ home ? active : {} } to="/">Home</Link>
-                <Link className="hover_increase_small" onClick={() => { run("proj") }} style={ proj ? active : {} } to="/personal_projects">Personal Projects</Link>
+                <Link className="hover_increase_small" onClick={() => { run("proj") }} style={ proj ? active : {} } to="/projects_hub">Personal Projects</Link>
             </div>
         </nav>
     );

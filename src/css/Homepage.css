@@ -47,4 +47,6 @@
 } #up_arrow {
     top: 6.5vh;
     right: 114px;
+} #down_arrow:hover {
+    cursor: pointer;
 }

@@ -46,7 +46,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={ <Homepage /> } />
                         <Route path="/personal-website" element={ <Homepage />} />
-                        <Route path="/personal_projects" element={ <PersonalProjects setData={ setData }/> } />
+                        <Route path="/projects_hub" element={ <PersonalProjects setData={ setData }/> } />
                         <Route path="*" element={ <Error /> } />
                     </Routes>
                     <Footer />
