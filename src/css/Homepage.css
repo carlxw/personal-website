@@ -40,10 +40,11 @@
 #down_arrow, #up_arrow {
     position: absolute;
     width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
 } #down_arrow {
     top: 95vh;
     right: calc(100vw / 2.035);
 } #up_arrow {
     top: 6.5vh;
-    right: 100px;
+    right: 114px;
 }

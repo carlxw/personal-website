@@ -9,6 +9,17 @@ const Footer = () => {
     const toggleFont = (enable) => {
         document.querySelector(":root").style.setProperty("--font-family", enable ? "Open Sans" : "Consolas");
         setToggleF(enable); // Trigger the re-render
+
+        // Change the homepage h1 text to prevent overflow
+        const homepageh1 = document.querySelector("#homepage_h1");
+        const projArrow = document.querySelector("#up_arrow");
+        if (!enable) {
+            homepageh1.style.fontSize = "4.5vw";
+            projArrow.style.right = "128px";
+        } else {
+            homepageh1.style.fontSize = "96px";
+            projArrow.style.right = "114px";
+        }
     }
 
     return (
@@ -21,8 +32,14 @@ const Footer = () => {
                             
                             // Scroll to bottom of page
                             setTimeout(() => {
-                                document.body.scrollTop = document.body.scrollHeight;
-                                document.documentElement.scrollTop = document.documentElement.scrollHeight;
+                                window.scrollTo( {
+                                    top: document.body.scrollHeight,
+                                    behavior: "smooth"
+                                });
+
+                                // Instant scroll behaviour
+                                // document.body.scrollTop = document.body.scrollHeight;
+                                // document.documentElement.scrollTop = document.documentElement.scrollHeight;
                             }, 50);
                         }}
                     >©</p>
