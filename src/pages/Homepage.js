@@ -27,8 +27,8 @@ const Hello = () => {
                     <img id="hello_img" src={ image } alt="Cartoon me" />
                 </div>
             </div>
-            <p id="down_arrow">▼</p>
-            <p id="up_arrow">▲</p>
+            <p id="down_arrow" style={{fontSize: "14px"}}>▼</p>
+            <p id="up_arrow" style={{fontSize: "14px"}}>▲</p>
         </div>
     );
 }
