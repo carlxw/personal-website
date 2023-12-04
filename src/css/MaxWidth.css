@@ -80,14 +80,15 @@
     }
 }
 
-/* Smartphone Vrtical */
-@media screen and (max-width: 412px) {
+/* Smartphone Vertical */
+@media screen and (max-width: 500px) {
     /* Navbar */
     .navbar {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
         height: fit-content;
+        padding: 1em 32px
     } #my-name {
         align-self: center;
     } .link-pages {

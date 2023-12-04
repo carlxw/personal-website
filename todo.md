@@ -15,6 +15,9 @@
 * Functionality ❌
     * ~~Add arrow buttons to scroll in the personal projects page?~~
     * revisit displays and different views 
+    * disable scrolling on overlay popup
+    * click arrow for a jump scroll
+    * implement a backend easier entry adding???
 * Bug fixes ✅
     * ~~When clicking project "i" for the first time, runtime error occurs with style~~
     * remove redundant CSS code
