@@ -210,5 +210,66 @@
         "devpost": null,
         "demo": "https://drive.google.com/file/d/1ULIn-E9Hc5SD78-cg4Jfz9MGziXxmkPd/view?usp=sharing",
         "link": null
+    },
+    {
+        "title": "YouTube NoteTaker",
+        "img": "temp.png",
+        "protected": false,
+        "white_bg": true,
+        "header": "A Chrome Extension that helps you record study notes while watching a YouTube video!",
+        "story": "I think we've all been there once. You want to learn something, and there is no better place to start other than YouTube videos! But man, what a pain it is sometimes to take notes when simultaneously watching a YouTube video. You could have a split-screen setup: left-side YouTube video, right-side some note taking app; you could have 2 monitors: YouTube video on one, notetaking app on the other; or god forbid: using pen and paper while watching YouTube. Ok then, what about a Chrome Extension companion that makes things easier? You see what I'm trying to say?!?!?",
+        "tags": 
+            [
+                {
+                    "title": "ReactJS",
+                    "link": "https://nodejs.org/en/"
+                },
+                {
+                    "title": "Chrome Extension Boilerplate",
+                    "link": "asdfasdfasfasdfasdfasdf"
+                }
+            ],
+        "desc_points": 
+        [
+            "Pure client-side Chrome Extension built using ReactJS and Webpack (thanks to someone's amazing boilerplate code) to write annotations as one watches YouTube videos",
+            "Self-implemented pure-JS rich-text editor for easy Markdown writing, with Ctrl-B/I/U shortcuts for ease of text-editing",
+            "Download a Markdown folder once you finish with your notes, all formatted for you to view on a Markdown reader",
+            "Undergone the worst development workflow as there is NO way to effectively debug, leaving the only method to console.log > compile > realize console.log was written incorrectly > re-compile > test, for EVERY. SINGLE. THING. I. NEED. TO. TEST."
+        ],
+        "github": "https://github.com/carlxw/youtube-notetaker",
+        "devpost": null,
+        "demo": null,
+        "link": null
+    },
+    {
+        "title": "AutoSharpKey",
+        "img": "temp.png",
+        "protected": false,
+        "white_bg": true,
+        "header": "Because everyone needs some kind of automation software while at work",
+        "story": "I think we've all been there once. You want to learn something, and there is no better place to start other than YouTube videos! But man, what a pain it is sometimes to take notes when simultaneously watching a YouTube video. You could have a split-screen setup: left-side YouTube video, right-side some note taking app; you could have 2 monitors: YouTube video on one, notetaking app on the other; or god forbid: using pen and paper while watching YouTube. Ok then, what about a Chrome Extension companion that makes things easier? You see what I'm trying to say?!?!?",
+        "tags": 
+            [
+                {
+                    "title": "C#",
+                    "link": null
+                },
+                {
+                    "title": ".NET",
+                    "link": null
+                },
+                {
+                    "title": "Win32 API",
+                    "link": null
+                }
+            ],
+        "desc_points": 
+        [
+            "Coolio doolio"
+        ],
+        "github": "https://github.com/carlxw/AutoSharpKey",
+        "devpost": null,
+        "demo": null,
+        "link": null
     }
 ]

@@ -15,6 +15,8 @@ const PersonalProjects = ({setData}) => {
         const left = document.querySelector(".arrow-container .left_scroll");
         const right = document.querySelector(".arrow-container .right_scroll");
 
+        if (!nav || !left || !right) return () => {};
+
         let idx;
 
         const scrollLeft = () => {
