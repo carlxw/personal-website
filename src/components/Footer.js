@@ -14,11 +14,15 @@ const Footer = () => {
         const homepageh1 = document.querySelector("#homepage_h1");
         const projArrow = document.querySelector("#up_arrow");
         if (!enable) {
-            homepageh1.style.fontSize = "4.5vw";
-            projArrow.style.right = "128px";
+            if (homepageh1 && projArrow) {
+                homepageh1.style.fontSize = "4.5vw";
+                projArrow.style.right = "128px";
+            } 
         } else {
-            homepageh1.style.fontSize = "96px";
-            projArrow.style.right = "114px";
+            if (homepageh1 && projArrow) {
+                homepageh1.style.fontSize = "96px";
+                projArrow.style.right = "114px";
+            } 
         }
     }
 

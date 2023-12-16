@@ -52,10 +52,10 @@ const Overlay = ({ data }) => {
                     </div>
 
                     <div className="overlay_footer flex-row">
-                        <div className="overlay_tags flex-row">
+                        <span className="overlay_tags flex-row">
                             <p id="proj_tags_p">Tags:</p>
                             { data?.tags && tags }
-                        </div>
+                        </span>
 
                         <p className="close_button hover_increase_small" onClick={ off }>Close</p>
                     </div>
