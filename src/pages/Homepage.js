@@ -28,7 +28,7 @@ const Hello = () => {
                     <div id="homepage_text">
                         <p>Just kidding! Now that I have your attention, Hi! My name is Carl and I am a { date.getFullYear() - 2004 } years old student studying Electrical Engineering at the University of Waterloo!</p>
                         <p>My favourite quote is from Bill Gates: <em>“I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.”</em></p>
-                        <p>If you ever want to connect, feel free to find my socials (doxxing resources) below!</p>
+                        <p>If you ever want to connect, feel free to find my socials below!</p>
                     </div>
                 </div>
                 <div className="homepage_right">

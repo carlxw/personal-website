@@ -213,7 +213,7 @@
     },
     {
         "title": "YouTube NoteTaker",
-        "img": "temp.png",
+        "img": "youtube_notetaker.png",
         "protected": false,
         "white_bg": true,
         "header": "A Chrome Extension that helps you record study notes while watching a YouTube video!",
@@ -233,8 +233,9 @@
         [
             "Pure client-side Chrome Extension built using ReactJS and Webpack (thanks to someone's amazing boilerplate code) to write annotations as one watches YouTube videos",
             "Self-implemented pure-JS rich-text editor for easy Markdown writing, with Ctrl-B/I/U shortcuts for ease of text-editing",
-            "Download a Markdown folder once you finish with your notes, all formatted for you to view on a Markdown reader",
-            "Undergone the worst development workflow as there is NO way to effectively debug, leaving the only method to console.log > compile > realize console.log was written incorrectly > re-compile > test, for EVERY. SINGLE. THING. I. NEED. TO. TEST."
+            "Download a Markdown file once you finish with your notes, all formatted for you to view on a Markdown reader",
+            "Undergone the worst development workflow as there is NO way to effectively debug, leaving the only method to console.log > compile > realize console.log was written incorrectly > re-compile > test, for EVERY. SINGLE. THING. I. NEED. TO. TEST.",
+            "Completed project objectives using said compile method to after discover that it had React render-on-file-save features"
         ],
         "github": "https://github.com/carlxw/youtube-notetaker",
         "devpost": null,
@@ -243,11 +244,11 @@
     },
     {
         "title": "AutoSharpKey",
-        "img": "temp.png",
+        "img": "autosharpkey.png",
         "protected": false,
         "white_bg": true,
         "header": "Because everyone needs some kind of automation software while at work",
-        "story": "I think we've all been there once. You want to learn something, and there is no better place to start other than YouTube videos! But man, what a pain it is sometimes to take notes when simultaneously watching a YouTube video. You could have a split-screen setup: left-side YouTube video, right-side some note taking app; you could have 2 monitors: YouTube video on one, notetaking app on the other; or god forbid: using pen and paper while watching YouTube. Ok then, what about a Chrome Extension companion that makes things easier? You see what I'm trying to say?!?!?",
+        "story": "'Hey IT guy', may I use AutoHotkey at work? No? Oh dang, guess carpal tunnel still awaits me at the end of each workday then! Oh what's that? C# code is completely fine? Ok, I'll just make my own AutoHotkey I guess! - And that was the birth of this little project. Let's face it, all of us needs automation to do the work that nobody wants to do. A little effort today can go a long way starting tomorrow.",
         "tags": 
             [
                 {
@@ -265,7 +266,10 @@
             ],
         "desc_points": 
         [
-            "Coolio doolio"
+            ".NET console application built with WinAPI to mimic the core functions of AutoHotkey",
+            "Simultaneously learned how to build a keylogger, which unironically was sourced from Microsoft's blog",
+            "AutoHotkey-inspired function implementations and logic when writing Script/Macro",
+            "Java-induced PTSD after writing that ol' 'public static void Main(string[] args)'!"
         ],
         "github": "https://github.com/carlxw/AutoSharpKey",
         "devpost": null,
