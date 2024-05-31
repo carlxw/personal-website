@@ -1,7 +1,7 @@
 import { FiExternalLink } from "react-icons/fi";
 
 const elements = ["overlay", "overlay_dim", "overlay_background"];
-const off = () => {
+const overlayOff = () => {
     elements.forEach(x => {
         let element = document.getElementById(x);
         if (element) {
@@ -10,7 +10,7 @@ const off = () => {
     });
 }
 
-const on = () => {
+const overlayOn = () => {
     elements.forEach(x => {
         let element = document.getElementById(x);
         if (element) {
@@ -57,14 +57,14 @@ const Overlay = ({ data }) => {
                             { data?.tags && tags }
                         </span>
 
-                        <p className="close_button hover_increase_small" onClick={ off }>Close</p>
+                        <p className="close_button hover_increase_small" onClick={ overlayOff }>Close</p>
                     </div>
             </div>
 
             <div id="overlay_background" />
-            <div id="overlay_dim" onClick={ off } />
+            <div id="overlay_dim" onClick={ overlayOff } />
         </>
     );
 }
 
-export { Overlay, off, on };
+export { Overlay, overlayOff as off, overlayOn as on };

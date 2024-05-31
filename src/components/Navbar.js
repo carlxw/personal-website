@@ -7,7 +7,7 @@ const Navbar = () => {
         "borderBottom": "2px white solid"
     }  
 
-    // Booleans
+    // Booleans for navigation
     const [home, setHome] = useState(false);
     const [proj, setProj] = useState(false);
     const arr = [setHome, setProj];
@@ -22,10 +22,10 @@ const Navbar = () => {
     }, []);
 
     // When the page changes via Navbar
-    const run = (input) => {
+    const switchPage = (input) => {
         // Set all variables as false
         arr.forEach(x => x(false));
-
+        
         switch (input) {
             case "home":
                 setHome(true);
@@ -41,8 +41,8 @@ const Navbar = () => {
         <nav className="navbar flex-row flex-center">
             <h1 id="my-name">Carl Wang</h1>
             <div className="link-pages">
-                <Link className="hover_increase_small" onClick={() => { run("home") }} style={ home ? active : {} } to="/">Home</Link>
-                <Link className="hover_increase_small" onClick={() => { run("proj") }} style={ proj ? active : {} } to="/projects_hub">Personal Projects</Link>
+                <Link className="hover_increase_small" onClick={() => { switchPage("home") }} style={ home ? active : {} } to="/">Home</Link>
+                <Link className="hover_increase_small" onClick={() => { switchPage("proj") }} style={ proj ? active : {} } to="/projects_hub">Personal Projects</Link>
             </div>
         </nav>
     );
