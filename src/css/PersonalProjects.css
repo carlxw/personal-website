@@ -9,6 +9,15 @@
     margin-left:    0;
 }
 
+/* Hide the horizontal scrollbar */
+.personal_projects {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.personal_projects::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
 .proj_text {
     padding: 2.5% 0 1.25% 2.5%;
 } #proj_h1 {

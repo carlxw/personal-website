@@ -6,11 +6,11 @@ const Hello = () => {
 
     // Set the animations
     useEffect(() => {
-        const down = document.querySelector("#down_arrow");
-        down.classList.add("animate__animated", "animate__flip", "animate__slow", "animate__infinite");
+        const animatedDownArrow = document.querySelector("#down_arrow");
+        animatedDownArrow.classList.add("animate__animated", "animate__flip", "animate__slow", "animate__infinite");
 
-        const up = document.querySelector("#up_arrow");
-        up.classList.add("animate__animated", "animate__flip", "animate__slow", "animate__infinite");
+        const animatedUpArrow = document.querySelector("#up_arrow");
+        animatedUpArrow.classList.add("animate__animated", "animate__flip", "animate__slow", "animate__infinite");
     }, []);
 
     const scrollToBottom = () => {
