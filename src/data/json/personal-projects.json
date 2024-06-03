@@ -226,7 +226,7 @@
                 },
                 {
                     "title": "Chrome Extension Boilerplate",
-                    "link": "asdfasdfasfasdfasdfasdf"
+                    "link": "https://github.com/lxieyang/chrome-extension-boilerplate-react"
                 }
             ],
         "desc_points": 
@@ -273,6 +273,44 @@
         ],
         "github": "https://github.com/carlxw/AutoSharpKey",
         "devpost": null,
+        "demo": null,
+        "link": null
+    },
+    {
+        "title": "Nos Album",
+        "img": "nosalbum.png",
+        "protected": false,
+        "white_bg": true,
+        "header": "Immerse yourself in the past you once lived. Look around. Literally!",
+        "story": "Nos Album is a duo-developed (with Kenny Zhao) for UofTHacks X. This was singly-handedly the most hands-on learning I will ever do, considering this was a 24-hour speedrun WITH NO REST. Both of us were tired like hell once we submitted. Anyways, feel free to give it a run, and then probably find out it doesn't work(?) since this was only tested on an iPhone, and if I recall correctly, breaks on an Android...",
+        "tags": 
+            [
+                {
+                    "title": "React Native",
+                    "link": null
+                },
+                {
+                    "title": "Mobile Development",
+                    "link": null
+                },
+                {
+                    "title": "Expo Go",
+                    "link": "https://expo.dev/go"
+                },
+                {
+                    "title": "Figma",
+                    "link": null
+                }
+            ],
+        "desc_points": 
+        [
+            "Expo Go mobile app developed using JavaScript React Native, because screw Koltin and Swift",
+            "Wireframed a functional initial interface mockup using Figma so that we prevent ourselves from ego-coding (poorly improvising) the CSS",
+            "Made instant regret that we didn't use TypeScript after being 60% in development at 2am",
+            "Submitted one of the only non-AI chatbot projects because we're cool like that 😎"
+        ],
+        "github": "https://github.com/UofTHacks-XI",
+        "devpost": "https://devpost.com/software/nos-album?ref_content=my-projects-tab&ref_feature=my_projects",
         "demo": null,
         "link": null
     }
