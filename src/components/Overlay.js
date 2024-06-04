@@ -1,24 +1,32 @@
 import { FiExternalLink } from "react-icons/fi";
 
-const elements = ["overlay", "overlay_dim", "overlay_background"];
+const elements = ["overlay", "overlay_background", "overlay_border"];
+
 const overlayOff = () => {
-    elements.forEach(x => {
-        let element = document.getElementById(x);
+    // Run the animation
+    const domElements = elements.map(x => document.getElementById(x));
+    domElements.forEach(element => {
         if (element) {
-            element.style.display = "none";
+            element.style.animationName = "scale-down-center";
         }
     });
+
+    // Hide everything after 0.2s
+    setTimeout(() => domElements.forEach(element => element.style.display = "none"), 125);
+
+    // Just turn off the background
+    document.getElementById("overlay_background").style.display = "none";
 }
 
+// Worst hack - Calling function is enough to enable
 const overlayOn = () => {
     elements.forEach(x => {
-        let element = document.getElementById(x);
+        let element = document.getElementById(x); // Calling this function...
         if (element) {
             element.style.display = "block";
+            element.style.animationName = "scale-up-center";
         }
     });
-    let scrollElement = document.getElementById("Element_div");
-    if (scrollElement) scrollElement.scroll(0, 0);
 }
 
 const Overlay = ({ data }) => { 
@@ -61,8 +69,8 @@ const Overlay = ({ data }) => {
                     </div>
             </div>
 
-            <div id="overlay_background" />
-            <div id="overlay_dim" onClick={ overlayOff } />
+            <div id="overlay_border" />
+            <div id="overlay_background" onClick={ overlayOff } />
         </>
     );
 }

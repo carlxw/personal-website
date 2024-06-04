@@ -14,7 +14,7 @@
     padding: 48px
 } 
 
-#overlay_background {
+#overlay_border {
     /* https://cssgradient.io/ */
     position: fixed;
     top: 0;
@@ -33,7 +33,7 @@
 
 /* ==================== OVERLAY DIM ===================== */
 
-#overlay_dim {
+#overlay_background {
     height: 100vh;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.5);

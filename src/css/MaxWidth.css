@@ -150,7 +150,7 @@
     } .overlay_tags {
         /* I need to disable this on mobile view... */
         display: none;
-    } #overlay_background {
+    } #overlay_border {
         width: 78vw
     } #proj_title {
         font-size: 30px;

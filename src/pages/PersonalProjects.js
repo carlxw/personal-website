@@ -4,9 +4,7 @@ import { FaChevronCircleRight, FaChevronCircleLeft } from "react-icons/fa";
 const jsonArr = require("../data/json/personal-projects.json");
 
 const PersonalProjects = ({setData}) => {
-    const projects = jsonArr.map((x, idx) => 
-        <ProjCard style={{ margin: "5rem", }} proj={ x } setData={ setData } key={ idx } />
-);
+    const projects = jsonArr.map((x, idx) => <ProjCard style={{ margin: "5rem", }} proj={ x } setData={ setData } key={ idx } />);
 
     // Enable Hover-Scrolling on component mount
     // https://stackoverflow.com/questions/71323266/how-can-i-scroll-automatically-on-hover
