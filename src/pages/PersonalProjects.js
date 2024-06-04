@@ -3,31 +3,31 @@ import { useEffect } from "react";
 import { FaChevronCircleRight, FaChevronCircleLeft } from "react-icons/fa";
 const jsonArr = require("../data/json/personal-projects.json");
 
-// https://stackoverflow.com/questions/71323266/how-can-i-scroll-automatically-on-hover
 const PersonalProjects = ({setData}) => {
     const projects = jsonArr.map((x, idx) => 
         <ProjCard style={{ margin: "5rem", }} proj={ x } setData={ setData } key={ idx } />
-    );
+);
 
     // Enable Hover-Scrolling on component mount
+    // https://stackoverflow.com/questions/71323266/how-can-i-scroll-automatically-on-hover
     useEffect(() => {
         const nav = document.querySelector(".personal_projects");
         const left = document.querySelector(".arrow-container .left_scroll");
         const right = document.querySelector(".arrow-container .right_scroll");
 
-        if (!nav || !left || !right) return () => {};
+        if (!nav || !left || !right) return;
 
         let idx;
 
         const scrollLeft = () => {
             idx = setInterval(() => {
-                nav.scrollLeft -= 3;
+                nav.scrollLeft -= 3.14;
             }, 1);
         };
 
         const scrollRight = () => {
             idx = setInterval(() => {
-                nav.scrollLeft += 3;
+                nav.scrollLeft += 3.14;
             }, 1);
         };
 
@@ -61,9 +61,9 @@ const PersonalProjects = ({setData}) => {
                 </div>
             </div>
 
-            <div class="arrow-container">
-                <div class="left_scroll hover_increase"><FaChevronCircleLeft size={ 40 } /></div>
-                <div class="right_scroll hover_increase"><FaChevronCircleRight size={ 40 } /></div>
+            <div className="arrow-container">
+                <div className="left_scroll hover_increase"><FaChevronCircleLeft size={ 40 } /></div>
+                <div className="right_scroll hover_increase"><FaChevronCircleRight size={ 40 } /></div>
             </div>
 
             <div className="personal_projects">
