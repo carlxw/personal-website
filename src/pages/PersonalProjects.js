@@ -54,8 +54,9 @@ const PersonalProjects = ({setData}) => {
             <div className="proj_text">
                 <h1 id="proj_h1">Projects Hub</h1>
                 <div className="flex-col">
-                    <p>Explore around! Scroll to the right! Try some of the (hopefully) cool things I made!</p>
-                    <p>Most of the things I showcase here were built with the intention to solve some kind of problem, or make my life easier.</p>
+                    {/* <p>Explore around! Scroll to the right! Try some of the (hopefully) cool things I made!</p> */}
+                    <p>Scroll down! Scroll up! Scroll to the right (I recommend doing this more)! Check out some of the (hopefully) cool things I made!</p>
+                    <p>Most of the proejcts I showcase here were built with the intention to solve some kind of problem, or make my life easier.</p>
                 </div>
             </div>
 
