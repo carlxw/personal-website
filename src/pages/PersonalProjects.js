@@ -3,9 +3,11 @@ import { useEffect } from "react";
 import { FaChevronCircleRight, FaChevronCircleLeft } from "react-icons/fa";
 const jsonArr = require("../data/json/personal-projects.json");
 
+const INITIAL_VELOCITY = 3.14;
+const ACCELERATION_DELTA = 0.025;
 const PersonalProjects = ({setData}) => {
     const projects = jsonArr.map((x, idx) => <ProjCard style={{ margin: "5rem", }} proj={ x } setData={ setData } key={ idx } />);
-
+    
     // Enable Hover-Scrolling on component mount
     // https://stackoverflow.com/questions/71323266/how-can-i-scroll-automatically-on-hover
     useEffect(() => {
@@ -15,22 +17,25 @@ const PersonalProjects = ({setData}) => {
 
         if (!nav || !left || !right) return;
 
-        let idx;
+        let idx, acceleration = 0;
 
         const scrollLeft = () => {
             idx = setInterval(() => {
-                nav.scrollLeft -= 3.14;
+                nav.scrollLeft -= INITIAL_VELOCITY - acceleration;
+                acceleration -= ACCELERATION_DELTA;
             }, 1);
         };
 
         const scrollRight = () => {
             idx = setInterval(() => {
-                nav.scrollLeft += 3.14;
+                nav.scrollLeft += INITIAL_VELOCITY + acceleration;
+                acceleration += ACCELERATION_DELTA;
             }, 1);
         };
 
         const stopScroll = () => {
             clearInterval(idx);
+            acceleration = 0;
         };
 
         left.addEventListener("mouseenter", scrollLeft);
@@ -61,8 +66,8 @@ const PersonalProjects = ({setData}) => {
             </div>
 
             <div className="arrow-container">
-                <div className="left_scroll hover_increase"><FaChevronCircleLeft size={ 40 } /></div>
-                <div className="right_scroll hover_increase"><FaChevronCircleRight size={ 40 } /></div>
+                <div className="left_scroll hover_increase"><FaChevronCircleLeft size={40}/></div>
+                <div className="right_scroll hover_increase"><FaChevronCircleRight size={40}/></div>
             </div>
 
             <div className="personal_projects">

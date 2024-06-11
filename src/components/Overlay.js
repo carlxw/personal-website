@@ -12,7 +12,7 @@ const overlayOff = () => {
     });
 
     // Hide everything after 0.2s
-    setTimeout(() => domElements.forEach(element => element.style.display = "none"), 125);
+    setTimeout(() => domElements.forEach(element => element.style.display = "none"), 100);
 
     // Just turn off the background
     document.getElementById("overlay_background").style.display = "none";

@@ -33,9 +33,10 @@
     position: absolute;
     top: 60vh;
     z-index: 4;
-    color: rgba(157, 176, 166, 0.555)
+    color: rgba(212, 212, 212, 0.555)
 } .left_scroll:hover, .right_scroll:hover {
-    color: rgb(21, 210, 210);
+    color: rgb(108, 233, 174);
+    outline: 1px;
 } .left_scroll {
     left: 30px;
 } .right_scroll {
