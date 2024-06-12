@@ -4,19 +4,15 @@ import image from "../data/img/cartoonme.png";
 const Hello = () => {   
     const date = new Date();
 
-    // Set the animations
     useEffect(() => {
         const animatedDownArrow = document.querySelector("#down_arrow");
         animatedDownArrow.classList.add("animate__animated", "animate__flip", "animate__slow", "animate__infinite");
-
-        const animatedUpArrow = document.querySelector("#up_arrow");
-        animatedUpArrow.classList.add("animate__animated", "animate__flip", "animate__slow", "animate__infinite");
     }, []);
 
     const scrollToBottom = () => {
         window.scrollTo( {
             top: document.body.scrollHeight,
-            behavior: "smooth"
+            behavior: "smooth",
         });
     }
 
@@ -36,7 +32,6 @@ const Hello = () => {
                 </div>
             </div>
             <p id="down_arrow" style={{fontSize: "14px"}} onClick={ scrollToBottom }>▼</p>
-            <p id="up_arrow" style={{fontSize: "14px"}}>▲</p>
         </div>
     );
 }
