@@ -1,48 +1,30 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
-    // CSS Styling
-    const active = {
-        "borderBottom": "2px white solid"
-    }  
-
-    // Booleans for navigation
+    const active = { "borderBottom": "2px white solid" }
+    const url = useLocation();
     const [home, setHome] = useState(false);
     const [proj, setProj] = useState(false);
-    const arr = [setHome, setProj];
+    const navigationPages = useMemo(() => [setHome, setProj], []);
 
-    // Detect the page user is on when user first loads site. Only runs once
+    // Detect when the user changes URL
     useEffect(() => {
-        if (document.URL.includes("/#/personal_projects")) {
+        navigationPages.forEach(x => x(false));
+        if (url.pathname === "/projects_hub") {
             setProj(true);
         } else {
             setHome(true);
         }
-    }, []);
-
-    // When the page changes via Navbar
-    const switchPage = (input) => {
-        // Set all variables as false
-        arr.forEach(x => x(false));
-        
-        switch (input) {
-            case "home":
-                setHome(true);
-                break;
-            case "proj":
-                setProj(true);
-                break;
-            default: return;
-        }
-    }
+    }, [url, navigationPages]);
 
     return (
         <nav className="navbar flex-row flex-center">
             <h1 id="my-name">Carl Wang</h1>
             <div className="link-pages">
-                <Link className="hover_increase_small" onClick={() => { switchPage("home") }} style={ home ? active : {} } to="/">Home</Link>
-                <Link className="hover_increase_small" onClick={() => { switchPage("proj") }} style={ proj ? active : {} } to="/projects_hub">Personal Projects</Link>
+                <Link className="hover_increase_small" style={ home ? active : {} } to="/">Home</Link>
+                <Link className="hover_increase_small" style={ proj ? active : {} } to="/projects_hub">Personal Projects</Link>
             </div>
         </nav>
     );

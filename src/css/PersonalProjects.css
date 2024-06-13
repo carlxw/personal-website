@@ -3,6 +3,7 @@
     white-space:    nowrap;
     overflow-x:     scroll;
     overflow-y:     hidden;
+    height: 70vh
 } .proj_card {
     margin-left:    64px;
 } .proj_card:first-child {

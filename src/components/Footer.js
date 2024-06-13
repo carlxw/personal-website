@@ -74,7 +74,7 @@ const Footer = () => {
                 </div>
                     <p 
                         className="toggle_icon"
-                        style={{ fontFamily: "consolas", fontSize: "22px" }}
+                        style={{ fontFamily: "Inconsolata", fontSize: "22px" }}
                         onClick={() => {
                             toggleFont(!toggleF);
                         }}
