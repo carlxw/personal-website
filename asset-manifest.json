@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.808a2629.css",
-    "main.js": "/static/js/main.c89f9c1a.js",
+    "main.css": "/static/css/main.d6db290f.css",
+    "main.js": "/static/js/main.2ec650ba.js",
     "static/media/cartoonme.png": "/static/media/cartoonme.c4fedcf58c76d5e41327.png",
     "static/media/autosharpkey.png": "/static/media/autosharpkey.2109a46f44d0f7bfe987.png",
     "static/media/website.png": "/static/media/website.187adcc980fa9015d148.png",
     "static/media/youtube_notetaker.png": "/static/media/youtube_notetaker.e5a91371511b4d8a93a3.png",
     "static/media/arduino_metronome.png": "/static/media/arduino_metronome.74f214d4a20d7d2ce605.png",
     "static/media/healthchain.png": "/static/media/healthchain.e7ae39c05e0e3b6343bc.png",
+    "static/media/nosalbum.png": "/static/media/nosalbum.b9e9b69d3367fde90a78.png",
     "static/media/pomodoro.png": "/static/media/pomodoro.9a4b47c33421d0478329.png",
     "static/media/tip_tap_type.png": "/static/media/tip_tap_type.f182066a375bb5ad59ea.png",
     "static/media/temp.png": "/static/media/temp.08ab5ada44cac48fdf2d.png",
     "static/media/fitmecanada.png": "/static/media/fitmecanada.543beaf834bb6dca97f3.png",
     "static/media/rrythm.png": "/static/media/rrythm.0d4c83d0fcb8cfaa0f0a.png",
     "index.html": "/index.html",
-    "main.808a2629.css.map": "/static/css/main.808a2629.css.map",
-    "main.c89f9c1a.js.map": "/static/js/main.c89f9c1a.js.map"
+    "main.d6db290f.css.map": "/static/css/main.d6db290f.css.map",
+    "main.2ec650ba.js.map": "/static/js/main.2ec650ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.808a2629.css",
-    "static/js/main.c89f9c1a.js"
+    "static/css/main.d6db290f.css",
+    "static/js/main.2ec650ba.js"
   ]
 }
