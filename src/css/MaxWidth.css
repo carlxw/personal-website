@@ -16,7 +16,7 @@
 
     .proj_text {
         font-size: 16.5px;
-        padding: 2.5% 2.5% 0 2.5%;
+        padding: 3.5% 2.5% 1% 2.5%;
     }
 
     .proj_card {
@@ -29,7 +29,7 @@
     }
 
     #proj_h1 {
-        margin-bottom: 1.25rem;
+        margin-bottom: 2.5rem;
     } 
 
     .proj_text > div {
