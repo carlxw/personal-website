@@ -1,12 +1,15 @@
 import ProjCard from "../components/ProjCard";
 import { useEffect } from "react";
 import { FaChevronCircleRight, FaChevronCircleLeft } from "react-icons/fa";
-const jsonArr = require("../data/json/personal-projects.json");
+import DownArrow from "../components/DownArrow";
+const JSON_DATA = require("../data/json/personal-projects.json");
 
 const INITIAL_VELOCITY = 3.14;
 const ACCELERATION_DELTA = 0.025;
 const PersonalProjects = ({setData}) => {
-    const projects = jsonArr.map((x, idx) => <ProjCard style={{ margin: "5rem", }} proj={ x } setData={ setData } key={ idx } />);
+    const projects = JSON_DATA.map((entry, idx) => (
+        <ProjCard style={{ margin: "5rem", }} proj={ entry } setData={ setData } key={ idx } />
+    ));
     
     // Enable Hover-Scrolling on component mount
     // https://stackoverflow.com/questions/71323266/how-can-i-scroll-automatically-on-hover
@@ -40,7 +43,6 @@ const PersonalProjects = ({setData}) => {
 
         left.addEventListener("mouseenter", scrollLeft);
         left.addEventListener("mouseleave", stopScroll);
-
         right.addEventListener("mouseenter", scrollRight);
         right.addEventListener("mouseleave", stopScroll);
 
@@ -59,7 +61,6 @@ const PersonalProjects = ({setData}) => {
             <div className="proj_text">
                 <h1 id="proj_h1">Projects Hub</h1>
                 <div className="flex-col">
-                    {/* <p>Explore around! Scroll to the right! Try some of the (hopefully) cool things I made!</p> */}
                     <p>Scroll down! Scroll up! Scroll to the right (I recommend doing this more)! Check out some of the (hopefully) cool things I made!</p>
                     <p>The projects I showcase here were built with the intention to solve some kind of problem, or make my life easier.</p>
                 </div>
@@ -73,6 +74,8 @@ const PersonalProjects = ({setData}) => {
             <div className="personal_projects">
                 { projects }
             </div>
+
+            <DownArrow />
         </div>
     );
 }

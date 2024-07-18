@@ -72,14 +72,17 @@ const Footer = () => {
                         <SiYoutube className="icon" size={25} />
                     </a>
                 </div>
-                    <p 
-                        className="toggle_icon"
-                        style={{ fontFamily: "Inconsolata", fontSize: "22px" }}
-                        onClick={() => {
-                            toggleFont(!toggleF);
-                        }}
-                    >!;()</p>
-                </div>
+                
+                <p 
+                    className="toggle_icon"
+                    style={{ fontFamily: "Inconsolata", fontSize: "22px" }}
+                    onClick={() => {
+                        toggleFont(!toggleF);
+                    }}
+                >
+                    !;()
+                </p>
+            </div>
             { showCopyright && <Copyright /> }
         </>
     );

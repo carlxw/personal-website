@@ -1,20 +1,8 @@
-import { useEffect } from "react";
+import DownArrow from "../components/DownArrow";
 import image from "../data/img/cartoonme.png";
 
 const Hello = () => {   
     const date = new Date();
-
-    useEffect(() => {
-        const animatedDownArrow = document.querySelector("#down_arrow");
-        animatedDownArrow.classList.add("animate__animated", "animate__flip", "animate__slow", "animate__infinite");
-    }, []);
-
-    const scrollToBottom = () => {
-        window.scrollTo( {
-            top: document.body.scrollHeight,
-            behavior: "smooth",
-        });
-    }
 
     return (
         <div>
@@ -31,7 +19,7 @@ const Hello = () => {
                     <img id="hello_img" src={ image } alt="Cartoon me" />
                 </div>
             </div>
-            <p id="down_arrow" style={{fontSize: "14px"}} onClick={ scrollToBottom }>▼</p>
+            <DownArrow />
         </div>
     );
 }

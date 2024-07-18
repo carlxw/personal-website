@@ -1,10 +1,10 @@
 import { FiExternalLink } from "react-icons/fi";
 
-const elements = ["overlay", "overlay_background", "overlay_border"];
+const ELEMENTS = ["overlay", "overlay_background", "overlay_border"];
 
 const overlayOff = () => {
     // Run the animation
-    const domElements = elements.map(x => document.getElementById(x));
+    const domElements = ELEMENTS.map(x => document.getElementById(x));
     domElements.forEach(element => {
         if (element) {
             element.style.animationName = "scale-down-center";
@@ -20,7 +20,7 @@ const overlayOff = () => {
 
 // Worst hack - Calling function is enough to enable
 const overlayOn = () => {
-    elements.forEach(x => {
+    ELEMENTS.forEach(x => {
         let element = document.getElementById(x); // Calling this function...
         if (element) {
             element.style.display = "block";
@@ -56,7 +56,6 @@ const Overlay = ({ data }) => {
                             <p id="proj_story">{ `"${ data?.story }"` }</p>
                             <ul>{ desc }</ul>
                         </div>
-                        
                     </div>
 
                     <div className="overlay_footer flex-row">
