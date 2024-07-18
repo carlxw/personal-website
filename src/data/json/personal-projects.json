@@ -313,5 +313,36 @@
         "devpost": "https://devpost.com/software/nos-album?ref_content=my-projects-tab&ref_feature=my_projects",
         "demo": null,
         "link": null
+    },
+    {
+        "title": "Sublet Scrapper",
+        "img": "nosalbum.png",
+        "protected": false,
+        "white_bg": true,
+        "header": "The terrible Waterloo housing market made me make this in 1 day",
+        "story": "",
+        "tags": 
+            [
+                {
+                    "title": "Python",
+                    "link": null
+                },
+                {
+                    "title": "Selenium",
+                    "link": null
+                },
+                {
+                    "title": "BeautifulSoup4",
+                    "link": null
+                }
+            ],
+        "desc_points": 
+        [
+            ""
+        ],
+        "github": "https://github.com/carlxw/sublet-facebook-scraper/tree/main",
+        "devpost": null,
+        "demo": null,
+        "link": null
     }
 ]
