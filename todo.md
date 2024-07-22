@@ -21,3 +21,7 @@
 * Bug fixes ✅
     * ~~When clicking project "i" for the first time, runtime error occurs with style~~
     * remove redundant CSS code
+
+# For 2024
+* Look into converting the website to TypeScript so I don't cry the next time I have to maintain the codebase
+* Start using MUI library to torch the CSS I have and prevent myself from writing another line of CSS

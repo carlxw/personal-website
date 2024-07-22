@@ -68,7 +68,7 @@
 } 
 
 .overlay_left {
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 100%;
     padding: 0 12px 0 0;
 } .overlay_left > h1 {
