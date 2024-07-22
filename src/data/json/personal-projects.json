@@ -316,11 +316,11 @@
     },
     {
         "title": "Sublet Scrapper",
-        "img": "nosalbum.png",
+        "img": "facebook_scrapper.png",
         "protected": false,
         "white_bg": true,
-        "header": "The terrible Waterloo housing market made me make this in 1 day",
-        "story": "",
+        "header": "The following blurb was written with pure anger and frusturation",
+        "story": "I'm quite serious. If I never had the thought to build this, I might be unironically homeless for my next school term, at the time of writing this. The market is terrible as someone who's (1) only on school for 4 months (2) can't live far from campus, and (3) a male, there's literally almost nothing! Sure I should hate the game over the players, but if the players are upcharging rent by $200 a month (which is, very illegal), I might as well hate everything, everywhere, all at once!",
         "tags": 
             [
                 {
@@ -338,7 +338,10 @@
             ],
         "desc_points": 
         [
-            ""
+            "Developed a web scraper designed to scrape the feed of Facebook groups, primarily to save me from losing a finger from all the scrolling to find a housing ad that suits my needs",
+            "Optimized scraping yield by meticulously risking my Facebook account from being banned by running the same automation over and over within a short time frame to identify the ideal parameters",
+            "Implemented a custom Excel-writer function to export over 120 data entries gathered from 5 Facebook groups for futher analysis",
+            "Intentionally lock the user out of their default Chrome browser so that they can touch grass and contemplate the meaning of live, instead of letting their brains rot on YouTube shorts. Not a bug, just a feature."
         ],
         "github": "https://github.com/carlxw/sublet-facebook-scraper/tree/main",
         "devpost": null,
