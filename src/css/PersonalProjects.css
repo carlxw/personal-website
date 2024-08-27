@@ -1,9 +1,8 @@
 .personal_projects {
-    padding:        2.5% 100px 5% 100px;
+    padding:        5vh 100px 5% 100px;
     white-space:    nowrap;
     overflow-x:     scroll;
     overflow-y:     hidden;
-    height: 63vh
 } .proj_card {
     margin-left:    64px;
 } .proj_card:first-child {
@@ -19,14 +18,14 @@
 }
 
 .proj_text {
-    padding: 2.5% 0 1.25% 2.5%;
+    padding: 2% 0 0 2.5%;
 } #proj_h1 {
     font-size: 64px;
     margin-bottom: 36px;
     font-weight: bold;
     /* text-align: center; */
 } .proj_text > div {
-    gap: 16px;
+    gap: 8px;
 }
 
 /* Controls the hover-scrolling */
