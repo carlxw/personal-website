@@ -3,7 +3,7 @@ import { SiDevpost, SiYoutube } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
 import { FaLock } from "react-icons/fa";
 import { Tooltip } from "react-tooltip";
-import { on } from "../components/Overlay";
+import { on } from "./Overlay";
 
 const ProjCard = ({ proj, setData }) => {
     return (
