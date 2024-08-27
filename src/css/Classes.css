@@ -1,50 +1,3 @@
-.flex-row {
-    display: flex;
-    flex-direction: row;
-}
-
-.flex-col {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-left {
-    align-items: left;
-    justify-content: left;
-}
-
-.flex-right {
-    align-items: right;
-    justify-content: right;
-}
-
-.flex-center {
-    align-items: center;
-    justify-content: center;
-}
-
-.padding {
-    padding: 1em 2em;
-}
-
-.extend {
-    /* Extend page */
-    margin: 1em 2em 3em 2em;
-}
-
-.h1-gap {
-    margin-bottom: 0.5em;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.h1-line {
-    border-bottom: 0.05em black solid;
-    padding-bottom: 0.3em;
-}
-
 .outline {
     border: red 1px solid;
 }
@@ -61,11 +14,6 @@
     transform: scale(1.075);
 }
 
-.no_hl {
-    /* Prevent user from highlighting - Trying things if anyone ever reads this */
-    user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
+.cursor_pointer:hover {
+    cursor: pointer;
 }

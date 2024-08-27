@@ -3,24 +3,19 @@ import { createTheme, ThemeProvider } from "@mui/material/styles"
 import { Box, CssBaseline } from "@mui/material"
 import Footer from "./Footer"
 import DownArrow from "./DownArrow"
-import { PropsWithChildren } from "react"
+import { PropsWithChildren, useMemo, useState } from "react"
 import React from "react"
 
+export type FontOptions = "Open Sans" | "Inconsolata"
+
 const PageWrapper = (props: PropsWithChildren ) => {
-    const theme = createTheme({
+    const [ fontFamily, setFontFamily ] = useState<FontOptions>("Open Sans")
+
+    const theme = useMemo(() => createTheme({
         typography: {
-            fontFamily: "Open Sans"
+            fontFamily: fontFamily,
         },
-        components: {
-            MuiButton: {
-                styleOverrides: {
-                    root: {
-                        fontFamily: "Open Sans",
-                    },
-                },
-            },
-        },
-    })
+    }), [fontFamily])
     
     return (
         <ThemeProvider theme={theme}>
@@ -30,7 +25,7 @@ const PageWrapper = (props: PropsWithChildren ) => {
                 {props.children}
                 {/* <DownArrow /> */}
             </Box>
-            <Footer />
+            <Footer fontFamily={fontFamily} setFontFamily={setFontFamily} />
         </ThemeProvider>
     )
 }

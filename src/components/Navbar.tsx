@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 import React from "react";
-import { AppBar, Divider, makeStyles, Stack, SxProps, Toolbar, Typography } from "@mui/material";
+import { AppBar, Divider, Stack, SxProps, Toolbar, Typography } from "@mui/material";
 
-const MUI_NAVBAR_SX: SxProps = { 
+const NAVBAR_SX: SxProps = { 
     backgroundColor: "inherit", 
     boxShadow: "none", 
     height: "10vh",
@@ -23,7 +23,7 @@ const Navbar = () => {
     const url = useLocation()
     const [home, setHome] = useState<boolean>(false)
     const [proj, setProj] = useState<boolean>(false)
-    const NAVIGATION_PAGES = [setHome, setProj]
+    const NAVIGATION_PAGES = useMemo(() => [setHome, setProj], [])
     
     // Detect when the user changes URL
     useEffect(() => {
@@ -41,7 +41,7 @@ const Navbar = () => {
     ]
 
     return (
-        <AppBar position="static" sx={{ ...MUI_NAVBAR_SX }}>
+        <AppBar position="static" sx={{ ...NAVBAR_SX }}>
             <Toolbar sx={{ mr: 1 }}>
                 <Typography variant="h4" sx={{ flexGrow: 1, fontWeight: "bold" }}>Carl Wang</Typography>
                 <Stack direction="row" gap={7}>
