@@ -2,10 +2,9 @@
 import Homepage from "./pages/Homepage";
 import PersonalProjects from "./pages/PersonalProjects";
 import Error from "./pages/404";
-import Footer from "./components/Footer";
 
 // Components
-import Navbar from "./components/Navbar";
+import PageWrapper from "./components/PageWrapper";
 
 // Styling
 import "./css/Reset.css";
@@ -35,26 +34,53 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import { Overlay } from "./components/Overlay";
 import { useState } from "react";
 
-function App() {
+const App = () => {
     const [data, setData] = useState({});
-
+    const APP_CONFIG = [
+        { path: "/", element: <HomePageAppWrapper /> },
+        { path: "/personal_website", element: <HomePageAppWrapper /> },
+        { path: "/projects_hub", element: <PersonalProjectsAppWrapper setData={setData} /> },
+        { path: "/*", element: <ErrorAppWrapper /> },
+    ]
+    
     return (
-        <div>
-            <HashRouter>
-                <div id="app">
-                    <Navbar />
-                    <Routes>
-                        <Route path="/" element={ <Homepage /> } />
-                        <Route path="/personal-website" element={ <Homepage />} />
-                        <Route path="/projects_hub" element={ <PersonalProjects setData={ setData }/> } />
-                        <Route path="*" element={ <Error /> } />
-                    </Routes>
-                    <Footer />
-                    { data && <Overlay data={ data } /> }
-                </div>
-            </HashRouter>
-        </div>
+        <HashRouter>
+            <div id="app">
+                <Routes>
+                    {
+                        APP_CONFIG.map(config => (
+                            <Route {...config} />
+                        ))
+                    }
+                </Routes>
+                { data && <Overlay data={ data } /> }
+            </div>
+        </HashRouter>
     );
+}
+
+const HomePageAppWrapper = () => {
+    return (
+        <PageWrapper>
+            <Homepage />
+        </PageWrapper>
+    )
+}
+
+const PersonalProjectsAppWrapper = (props) => {
+    return (
+        <PageWrapper>
+            <PersonalProjects {...props} />
+        </PageWrapper>
+    )
+}
+
+const ErrorAppWrapper = () => {
+    return (
+        <PageWrapper>
+            <Error />
+        </PageWrapper>
+    )
 }
 
 export default App;

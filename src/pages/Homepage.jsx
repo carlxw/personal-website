@@ -1,4 +1,3 @@
-import DownArrow from "../components/DownArrow";
 import image from "../data/img/cartoonme.png";
 
 const Hello = () => {   
@@ -19,7 +18,6 @@ const Hello = () => {
                     <img id="hello_img" src={ image } alt="Cartoon me" />
                 </div>
             </div>
-            <DownArrow />
         </div>
     );
 }

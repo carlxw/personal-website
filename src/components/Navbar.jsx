@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import { useState, useEffect, useMemo } from "react";
 import { useLocation } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => {
+    const { height } = props
     const active = { "borderBottom": "2px white solid" }
     const url = useLocation();
     const [home, setHome] = useState(false);
@@ -20,7 +21,7 @@ const Navbar = () => {
     }, [url, navigationPages]);
 
     return (
-        <nav className="navbar flex-row flex-center">
+        <nav style={{ height: height }} className="navbar flex-row flex-center">
             <h1 id="my-name">Carl Wang</h1>
             <div className="link-pages">
                 <Link className="hover_increase_small" style={ home ? active : {} } to="/">Home</Link>

@@ -75,8 +75,6 @@ const PersonalProjects = ({setData}) => {
             <div className="personal_projects">
                 { projects }
             </div>
-
-            <DownArrow />
         </div>
     );
 }
