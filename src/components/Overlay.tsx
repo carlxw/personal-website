@@ -1,3 +1,4 @@
+import React from "react";
 import { FiExternalLink } from "react-icons/fi";
 
 const ELEMENTS = ["overlay", "overlay_background", "overlay_border"];
@@ -12,9 +13,13 @@ const overlayOff = () => {
     });
 
     // Hide everything after 0.2s
-    setTimeout(() => domElements.forEach(element => element.style.display = "none"), 100);
+    setTimeout(() => domElements.forEach(element => {
+        if (element) {
+            element.style.display = "none"
+        }
+    }), 100);
 
-    // Just turn off the background
+    // @ts-ignore: Just turn off the background
     document.getElementById("overlay_background").style.display = "none";
 }
 

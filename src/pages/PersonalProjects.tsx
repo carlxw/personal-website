@@ -1,3 +1,4 @@
+import React from "react";
 import ProjCard from "../components/ProjCard";
 import { useEffect } from "react";
 import { FaChevronCircleRight, FaChevronCircleLeft } from "react-icons/fa";
