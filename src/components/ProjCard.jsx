@@ -1,9 +1,9 @@
-import { AiFillGithub, AiFillInfoCircle } from "react-icons/ai";
-import { SiDevpost, SiYoutube } from "react-icons/si";
-import { FiExternalLink } from "react-icons/fi";
-import { FaLock } from "react-icons/fa";
-import { Tooltip } from "react-tooltip";
-import { on } from "./Overlay";
+import { AiFillGithub, AiFillInfoCircle } from "react-icons/ai"
+import { SiDevpost, SiYoutube } from "react-icons/si"
+import { FiExternalLink } from "react-icons/fi"
+import { FaLock } from "react-icons/fa"
+import { Tooltip } from "react-tooltip"
+import { on } from "./Overlay"
 
 const ProjCard = ({ proj, setData }) => {
     return (
@@ -27,8 +27,8 @@ const ProjCard = ({ proj, setData }) => {
                     style={{ color: proj.white_bg ? "black" : "white" }} 
                     size={ 35 }
                     onClick={() => {
-                        setData(proj);
-                        on();
+                        setData(proj)
+                        on()
                     }}
                 />
             </div> 
@@ -65,8 +65,8 @@ const ProjCard = ({ proj, setData }) => {
                     }
                 </div>
         </div>
-    );
+    )
 }
 
 
-export default ProjCard;
+export default ProjCard

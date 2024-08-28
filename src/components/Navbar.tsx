@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-import { useState, useEffect, useMemo } from "react";
-import { useLocation } from "react-router-dom";
-import React from "react";
-import { AppBar, Divider, Stack, SxProps, Toolbar, Typography } from "@mui/material";
+import { Link } from "react-router-dom"
+import { useState, useEffect, useMemo } from "react"
+import { useLocation } from "react-router-dom"
+import React from "react"
+import { AppBar, Divider, Stack, SxProps, Toolbar, Typography } from "@mui/material"
 
 const NAVBAR_SX: SxProps = { 
     backgroundColor: "inherit", 
@@ -58,4 +58,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Navbar

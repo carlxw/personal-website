@@ -1,48 +1,48 @@
-import React from "react";
-import { FiExternalLink } from "react-icons/fi";
+import React from "react"
+import { FiExternalLink } from "react-icons/fi"
 
-const ELEMENTS = ["overlay", "overlay_background", "overlay_border"];
+const ELEMENTS = ["overlay", "overlay_background", "overlay_border"]
 
 const overlayOff = () => {
     // Run the animation
-    const domElements = ELEMENTS.map(x => document.getElementById(x));
+    const domElements = ELEMENTS.map(x => document.getElementById(x))
     domElements.forEach(element => {
         if (element) {
-            element.style.animationName = "scale-down-center";
+            element.style.animationName = "scale-down-center"
         }
-    });
+    })
 
     // Hide everything after 0.2s
     setTimeout(() => domElements.forEach(element => {
         if (element) {
             element.style.display = "none"
         }
-    }), 100);
+    }), 100)
 
     // @ts-ignore: Just turn off the background
-    document.getElementById("overlay_background").style.display = "none";
+    document.getElementById("overlay_background").style.display = "none"
 }
 
 // Worst hack - Calling function is enough to enable
 const overlayOn = () => {
     ELEMENTS.forEach(x => {
-        let element = document.getElementById(x); // Calling this function...
+        let element = document.getElementById(x) // Calling this function...
         if (element) {
-            element.style.display = "block";
-            element.style.animationName = "scale-up-center";
+            element.style.display = "block"
+            element.style.animationName = "scale-up-center"
         }
-    });
+    })
 }
 
 const Overlay = ({ data }) => { 
     // Extract the tags and list-description
     const tags = data?.tags?.map((x, idx) => (
         <a href={ x.link } target="_blank" rel="noreferrer" key={ `${idx}_tags` }>{ x.title }{ x.link && <FiExternalLink id="ext_link_icon" className="icon" /> }</a> 
-    ));
+    ))
 
     const desc = data?.desc_points?.map((x, idx) => (
         <li className="points_list" style={{ "color": "black" }} key={ `${idx}_desc` }>{ x }</li>
-    ));
+    ))
 
     if (Object.keys(data).length !== 0) return (
         <>
@@ -76,7 +76,7 @@ const Overlay = ({ data }) => {
             <div id="overlay_border" />
             <div id="overlay_background" onClick={ overlayOff } />
         </>
-    );
+    )
 }
 
-export { Overlay, overlayOff as off, overlayOn as on };
+export { Overlay, overlayOff as off, overlayOn as on }

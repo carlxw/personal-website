@@ -1,10 +1,10 @@
-import { SiGithub, SiGmail, SiLinkedin, SiYoutube } from "react-icons/si";
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
-import Copyright from "./Copyright";
-import React from "react";
-import { Box, BoxProps, Button, Stack, StackProps } from "@mui/material";
-import { FontOptions } from "./PageWrapper";
+import { SiGithub, SiGmail, SiLinkedin, SiYoutube } from "react-icons/si"
+import { Dispatch, SetStateAction, useEffect, useState } from "react"
+import { useLocation } from "react-router-dom"
+import Copyright from "./Copyright"
+import React from "react"
+import { Box, BoxProps, Button, Stack, StackProps } from "@mui/material"
+import { FontOptions } from "./PageWrapper"
 
 const COMMON_SX = { color: "white", '&.MuiButton-root:hover': { bgcolor: 'transparent' } }
 const COPYRIGHT_SX = { fontSize: "28px", fontFamily: "Open Sans", ...COMMON_SX }
@@ -17,13 +17,13 @@ type FooterProps = {
 
 const Footer = (props: FooterProps) => {
     const { fontFamily, setFontFamily } = props
-    const [showCopyright, toggleCopyright] = useState<boolean>(false);
-    const url = useLocation();
+    const [showCopyright, toggleCopyright] = useState<boolean>(false)
+    const url = useLocation()
 
     // Whenever the URL changes, auto-hide the copyright in the footer
     useEffect(() => {
-        toggleCopyright(false);
-    }, [url]);
+        toggleCopyright(false)
+    }, [url])
 
     const toggleFont = () => {
         if (fontFamily === "Open Sans") {
@@ -34,15 +34,15 @@ const Footer = (props: FooterProps) => {
     }
 
     const copyrightOnClick = () => {
-        toggleCopyright(!showCopyright);
+        toggleCopyright(!showCopyright)
         
         // Scroll to bottom of page
         setTimeout(() => {
             window.scrollTo( {
                 top: document.body.scrollHeight,
                 behavior: "smooth"
-            });
-        }, 50);
+            })
+        }, 50)
     }
 
     const footerIcons = [
@@ -86,13 +86,13 @@ const Footer = (props: FooterProps) => {
                 
                 <Stack sx={{ml: "auto"}}>
                     <Button sx={{...FONT_TOGGLE_SX}} onClick={toggleFont} disableRipple>
-                        !;()
+                        !()
                     </Button>
                 </Stack>
             </Stack>
             { showCopyright && <Copyright /> }
         </>
-    );
+    )
 }
 
-export default Footer;
+export default Footer
