@@ -7,12 +7,11 @@ import { AppBar, Divider, Stack, SxProps, Toolbar, Typography } from "@mui/mater
 const NAVBAR_SX: SxProps = { 
     backgroundColor: "inherit", 
     boxShadow: "none", 
-    height: "10vh",
+    height: "7vh",
 }
 
 const NAVBAR_LINK_SX: SxProps = {
-    color: "white",
-    fontSize: "20px"
+    fontSize: "20px",
 }
 
 const ACTIVE_SX = { 
@@ -27,7 +26,7 @@ const Navbar = () => {
     
     // Detect when the user changes URL
     useEffect(() => {
-        NAVIGATION_PAGES.forEach(x => x(false));
+        NAVIGATION_PAGES.forEach(x => x(false))
         if (url.pathname === "/projects_hub") {
             setProj(true)
         } else {

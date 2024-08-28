@@ -1,12 +1,18 @@
 import Navbar from "./Navbar"
 import { createTheme, ThemeProvider } from "@mui/material/styles"
-import { Box, CssBaseline } from "@mui/material"
+import { CssBaseline, Stack } from "@mui/material"
 import Footer from "./Footer"
-import DownArrow from "./DownArrow"
 import { PropsWithChildren, useMemo, useState } from "react"
 import React from "react"
+import DownArrow from "./DownArrow"
 
 export type FontOptions = "Open Sans" | "Inconsolata"
+
+const PAGE_WRAPPER_SX = { 
+    height: "93vh", 
+    justifyContent: "center", 
+    alignItems: "center",
+}
 
 const PageWrapper = (props: PropsWithChildren ) => {
     const [ fontFamily, setFontFamily ] = useState<FontOptions>("Open Sans")
@@ -14,6 +20,9 @@ const PageWrapper = (props: PropsWithChildren ) => {
     const theme = useMemo(() => createTheme({
         typography: {
             fontFamily: fontFamily,
+            allVariants: {
+                color: "white",
+            },
         },
     }), [fontFamily])
     
@@ -21,10 +30,10 @@ const PageWrapper = (props: PropsWithChildren ) => {
         <ThemeProvider theme={theme}>
             <CssBaseline />
             <Navbar />
-            <Box sx={{ height: "90vh" }}>
+            <Stack sx={{ ...PAGE_WRAPPER_SX }}>
                 {props.children}
-                {/* <DownArrow /> */}
-            </Box>
+                <DownArrow />
+            </Stack>
             <Footer fontFamily={fontFamily} setFontFamily={setFontFamily} />
         </ThemeProvider>
     )
