@@ -63,9 +63,7 @@
     margin: 1rem 0 1rem 0;
 } #proj_header {
     font-style: italic;
-} ul, li {
-    color: rgb(0, 0, 0);
-} 
+}
 
 .overlay_left {
     overflow-y: auto;

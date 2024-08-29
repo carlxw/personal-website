@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom"
 import Copyright from "./Copyright"
 import React from "react"
 import { Box, BoxProps, Button, Stack, StackProps } from "@mui/material"
-import { FontOptions } from "./PageWrapper"
+import { FontOptions } from "../App"
 
 const COMMON_SX = { color: "white", '&.MuiButton-root:hover': { bgcolor: 'transparent' } }
 const COPYRIGHT_SX = { fontSize: "28px", fontFamily: "Open Sans", ...COMMON_SX }

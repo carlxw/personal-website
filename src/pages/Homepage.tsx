@@ -15,6 +15,7 @@ const IMAGE_BOX_PROPS: BoxProps & { alt: string, src: string } = {
     alt: "Cartoon me.",
     src: image,
     sx: { ...IMAGE_SX },
+    draggable: "false",
 }
 
 export const H1_SX: SxProps = { fontWeight: "bold", textDecoration: "underline", fontSize: "4.7em", whiteSpace: "nowrap" }

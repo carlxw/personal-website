@@ -2,10 +2,10 @@ import React from "react"
 import ProjCard from "../components/ProjCard"
 import { useEffect } from "react"
 import { FaChevronCircleRight, FaChevronCircleLeft } from "react-icons/fa"
-import { Stack, Typography } from "@mui/material"
+import { Box, Stack, Typography } from "@mui/material"
 import { H1_SX } from "./Homepage"
 
-type ProjectData = {
+export type ProjectData = {
     title: string,
     img: string,
     protected: boolean,
@@ -14,24 +14,25 @@ type ProjectData = {
     story: string,
     tags: { title: string, link: string }[],
     desc_points: string[],
-    github: string | null,
-    devpost: string | null,
-    demo: string | null,
-    link: string | null,
+    github: string | undefined,
+    devpost: string | undefined,
+    demo: string | undefined,
+    link: string | undefined,
 }
 
 const JSON_DATA: ProjectData[] = require("../data/json/personal_projects.json")
 const INITIAL_VELOCITY = 3.14
 const ACCELERATION_DELTA = 0.025
 
-const PersonalProjects = ({setData}) => {
+const PersonalProjects = (props: { setData: Function }) => {
     // Enable Hover-Scrolling on component mount
     // https://stackoverflow.com/questions/71323266/how-can-i-scroll-automatically-on-hover
     useEffect(() => {
         const nav = document.querySelector(".personal_projects")
-        const left = document.querySelector(".arrow-container .left_scroll")
-        const right = document.querySelector(".arrow-container .right_scroll")
+        const left = document.querySelector(".arrow_container .left_scroll")
+        const right = document.querySelector(".arrow_container .right_scroll")
 
+        console.log(nav, left, right)
         if (!nav || !left || !right) return
 
         let idx, acceleration = 0
@@ -71,27 +72,51 @@ const PersonalProjects = ({setData}) => {
     }, [])
 
     return (
-        <Stack direction="column">
-            <Stack gap={2} alignContent="flex-start">
-                <Typography variant="h1" sx={{ ...H1_SX }}>Projects Hub</Typography>
-                <Stack>
-                    <Typography variant="h6">Scroll down! Scroll up! Scroll to the right (I recommend doing this more)! Check out some of the (hopefully) cool things I made!</Typography>
-                    <Typography variant="h6">Did you know that you can scroll horizontally by holding the shift key? It's way cooler than using 2 fingers to swipe on the trackpad!</Typography>
-                </Stack>
+        <Stack direction="column" gap={3} alignContent="flex-start" justifyContent="flex-start" sx={{ height: "100%", maxWidth: "100%" }}>
+            <Stack>
+                <PageMessage />
             </Stack>
+            <HoverArrows />
+            <ProjectCards {...props} />
+        </Stack>
+    )
+}
 
-            {/* <Stack>
-                <Typography className="left_scroll hover_increase"><FaChevronCircleLeft size={40}/></Typography>
-                <Typography className="right_scroll hover_increase"><FaChevronCircleRight size={40}/></Typography>
-            </Stack> */}
+const PageMessage = () => {
+    return (
+        <Stack direction="column" gap={2} sx={{ pt: 5, pl: 5 }}>
+            <Typography variant="h1" sx={{ ...H1_SX }}>Projects Hub</Typography>
+            <Stack>
+                <Typography variant="h6">Scroll down! Scroll up! Scroll to the right (I recommend doing this more)! Check out some of the (hopefully) cool things I made!</Typography>
+                <Typography variant="h6">Did you know that you can scroll horizontally by holding the shift key? It's way cooler than using 2 fingers to swipe on the trackpad!</Typography>
+            </Stack>
+        </Stack>
+    )
+}
 
-            {/* <Stack direction="row">
-                { 
-                    JSON_DATA.map((entry, idx) => (
-                        <ProjCard style={{ margin: "5rem", }} proj={ entry } setData={ setData } key={ idx } />
-                    ))
-                }
-            </Stack> */}
+const HoverArrows = () => {
+    return (
+        <Box zIndex={1} className="arrow_container">
+            <Typography 
+                sx={{ position: "absolute", top: "60vh", left: 40 }}
+                className="left_scroll hover_increase"><FaChevronCircleLeft size={40}/>
+            </Typography>
+            <Typography 
+                sx={{ position: "absolute", top: "60vh", right: 40 }}
+                className="right_scroll hover_increase"><FaChevronCircleRight size={40}/>
+            </Typography>
+        </Box>
+    )
+}
+
+const ProjectCards = (props: { setData: Function }) => {
+    return (
+        <Stack direction="row" gap={10} alignSelf="flex-start" alignItems="center" sx={{ pl: 15, pr: 15, whiteSpace: "nowrap", overflowX: "scroll", overflowY: "auto", height: "100%", maxWidth: "100%" }} flexGrow="0" className="personal_projects">
+            { 
+                JSON_DATA.map((entry, i) => (
+                    <ProjCard project={entry} setData={props.setData} key={`projcard_${i}`} />
+                ))
+            }
         </Stack>
     )
 }

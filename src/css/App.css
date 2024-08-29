@@ -1,2 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+/* Hide the horizontal scrollbar */
+.personal_projects {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+} .personal_projects::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
