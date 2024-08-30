@@ -1,70 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
 
-:root {   
-    --work-exp-bg-colour: rgb(255, 255, 255);
-    --work-exp-font-colour: rgb(0, 0, 0);;
-
-    --proj-bg-colour: var(--work-exp-bg-colour);
-    --proj-font-colour: var(--work-exp-font-colour);
-    --proj-tags-bg-colour: rgb(38, 128, 180);
-
-    --contact-links-bg-colour: rgb(43, 184, 141);
-    --font-family: Open Sans;
+/* Hide the horizontal scrollbar */
+.hide_horizontal_scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+} .hide_horizontal_scrollbar::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 
-* {
-    margin: 0;
-    padding: 0;
-
-    box-sizing: border-box;
-}
-
-body {
-    overflow:   overlay;
-    overflow-x: hidden;
-    width: 100vw;
-    height: auto;
-}
-
-.content {
-    z-index: -1;
-}
-
-.icon {
-    vertical-align: middle;
-    size: 5em;
-}
-
-hr {
-    height: 2px;
-    background-color: black;
-    border: none;
-}
-
-/* Text styling */
-h1, h2, h3, h4, h5, p, a, button, li, ul, div {
-    font-family: var(--font-family);
-    color: white;
-} h1 {
-    font-size: 3rem;
-} p, li {
-    font-size: 1.25em;
-    line-height: 1.25em;
-}
-
-/* List styling */
-ul {
-    list-style-type: disc;
-    margin-left: 2em;
-} li {
-    padding-left: 0.5em;
-    line-height: 1.5em;
-}
-
-button {
-    border: none;
-    background-color: none;
-} button:hover {
-    cursor: pointer;
+#return_fake_msg {
+    background-color: rgb(0, 81, 255);
+    padding: 1em 1.5em;
+    border-radius: 1em;
+    text-align: center;
+} #return_fake_msg:hover {
+    background-color: rgb(43, 191, 211);
+} #return_real_msg:hover {
+    text-decoration: underline;
 }

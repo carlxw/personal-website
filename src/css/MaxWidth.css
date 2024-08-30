@@ -16,7 +16,7 @@
 
     .proj_text {
         font-size: 16.5px;
-        padding: 3.5% 2.5% 1% 2.5%;
+        /* padding: 3.5% 2.5% 1% 2.5%; */
     }
 
     .proj_card {
@@ -29,15 +29,15 @@
     }
 
     #proj_h1 {
-        margin-bottom: 2.5rem;
+        /* margin-bottom: 2.5rem; */
     } 
 
     .proj_text > div {
-        gap: 12px;
+        /* gap: 12px; */
     }
 
     .personal_projects {
-        padding: 2.5% 100px 3% 100px;
+        /* padding: 2.5% 100px 3% 100px; */
     }
 
     /* Proj Overlay */
