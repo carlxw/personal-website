@@ -3,7 +3,7 @@ import { Dispatch, SetStateAction, useEffect, useState } from "react"
 import { useLocation } from "react-router-dom"
 import Copyright from "./Copyright"
 import React from "react"
-import { Box, BoxProps, Button, Stack, StackProps } from "@mui/material"
+import { Box, BoxProps, Button, Link, Stack, StackProps } from "@mui/material"
 import { FontOptions } from "../App"
 
 const COMMON_SX = { color: "white", '&.MuiButton-root:hover': { bgcolor: 'transparent' } }
@@ -55,7 +55,7 @@ const Footer = (props: FooterProps) => {
     const BOX_CONFIG: BoxProps & { target: string, href?: string } = {
         className: "hover_increase",
         target: "_blank",
-        sx: { color: "white" },
+        sx: { color: "white", fontFamily: "Open Sans" },
     }
 
     const FOOTER_CONFIG: StackProps = {
@@ -69,7 +69,7 @@ const Footer = (props: FooterProps) => {
         <>
             <Stack {...FOOTER_CONFIG}>
                 <Stack sx={{mr: "auto"}}>
-                    <Button sx={{...COPYRIGHT_SX}} onClick={copyrightOnClick} disableRipple >
+                    <Button sx={{...COPYRIGHT_SX}} onClick={copyrightOnClick} disableRipple>
                         ©
                     </Button>
                 </Stack>
@@ -77,9 +77,9 @@ const Footer = (props: FooterProps) => {
                 <Stack direction="row" gap={15} alignSelf="center">
                     {
                         footerIcons.map(config => (
-                            <Box component="a" { ...BOX_CONFIG } href={config.href} sx={{ fontFamily: "Open Sans", color: "white" }}>
+                            <Link component="a" { ...BOX_CONFIG } href={config.href}>
                                 <config.icon size={30} />
-                            </Box>
+                            </Link>
                         ))
                     }
                 </Stack>      

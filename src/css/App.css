@@ -8,3 +8,14 @@
 } .personal_projects::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
+
+#return_fake_msg {
+    background-color: rgb(0, 81, 255);
+    padding: 1em 1.5em;
+    border-radius: 1em;
+    text-align: center;
+} #return_fake_msg:hover {
+    background-color: rgb(43, 191, 211);
+} #return_real_msg:hover {
+    text-decoration: underline;
+}
