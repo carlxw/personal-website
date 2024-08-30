@@ -1,5 +1,5 @@
 import React from "react"
-import ProjCard from "../components/ProjCard"
+import ProjectCard from "../components/ProjectCard"
 import { useEffect } from "react"
 import { FaChevronCircleRight, FaChevronCircleLeft } from "react-icons/fa"
 import { Box, Stack, Typography } from "@mui/material"
@@ -28,11 +28,10 @@ const PersonalProjects = (props: { setData: Function }) => {
     // Enable Hover-Scrolling on component mount
     // https://stackoverflow.com/questions/71323266/how-can-i-scroll-automatically-on-hover
     useEffect(() => {
-        const nav = document.querySelector(".personal_projects")
+        const nav = document.querySelector(".horizontal_scrolling")
         const left = document.querySelector(".arrow_container .left_scroll")
         const right = document.querySelector(".arrow_container .right_scroll")
 
-        console.log(nav, left, right)
         if (!nav || !left || !right) return
 
         let idx, acceleration = 0
@@ -72,7 +71,7 @@ const PersonalProjects = (props: { setData: Function }) => {
     }, [])
 
     return (
-        <Stack direction="column" gap={3} alignContent="flex-start" justifyContent="flex-start" sx={{ height: "100%", maxWidth: "100%" }}>
+        <Stack direction="column" gap={0} alignContent="flex-start" justifyContent="flex-start" sx={{ height: "100%", maxWidth: "100%" }} className="personal_projects">
             <Stack>
                 <PageMessage />
             </Stack>
@@ -111,10 +110,10 @@ const HoverArrows = () => {
 
 const ProjectCards = (props: { setData: Function }) => {
     return (
-        <Stack direction="row" gap={10} alignSelf="flex-start" alignItems="center" sx={{ pl: 15, pr: 15, whiteSpace: "nowrap", overflowX: "scroll", overflowY: "auto", height: "100%", maxWidth: "100%" }} flexGrow="0" className="personal_projects">
+        <Stack direction="row" alignItems="center" gap={10} sx={{ overflowX: "scroll", overflowY: "auto", padding: "0 15vh", height: "100%", maxWidth: "100%"}} className="horizontal_scrolling hide_horizontal_scrollbar">
             { 
                 JSON_DATA.map((entry, i) => (
-                    <ProjCard project={entry} setData={props.setData} key={`projcard_${i}`} />
+                    <ProjectCard project={entry} setData={props.setData} key={`projcard_${i}`} />
                 ))
             }
         </Stack>

@@ -7,11 +7,11 @@
     }
 }
 
-.navbar, .homepage, .proj_page, .footer {
+.homepage, .personal_projects, .footer {
     opacity: 0;
 }
 
-.navbar, .homepage, .proj_page, .footer {
+.homepage, .personal_projects, .footer {
     animation-name: fadein;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
@@ -19,23 +19,23 @@
 }
 
 /* Animate projects one at a time */
-.proj_card {
+.project_card {
     opacity: 0;
     animation-name: fadein;
     animation-duration: 0.75s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-} .proj_card:nth-child(1) {
+} .project_card:nth-child(1) {
     animation-name: fadein;
-} .proj_card:nth-child(2) {
+} .project_card:nth-child(2) {
     animation-delay: 0.15s;
-} .proj_card:nth-child(3) {
+} .project_card:nth-child(3) {
     animation-delay: 0.3s;
-} .proj_card:nth-child(4) {
+} .project_card:nth-child(4) {
     animation-delay: 0.45s;
-} .proj_card:nth-child(5) {
+} .project_card:nth-child(5) {
     animation-delay: 0.6s;
-} .proj_card:nth-child(6) {
+} .project_card:nth-child(6) {
     animation-delay: 0.75s;
 }
 

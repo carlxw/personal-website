@@ -6,8 +6,9 @@ import { overlayOn } from "./Overlay"
 import React from "react"
 import { Box, Button, Divider, Link, Stack, Typography } from "@mui/material"
 import { ProjectData } from "../pages/PersonalProjects"
+import { STACK_CENTRE } from "./PageWrapper"
 
-const ProjCard = (props: { project: ProjectData, setData: Function}) => {
+const ProjectCard = (props: { project: ProjectData, setData: Function}) => {
     const { project, setData } = props
     const buttons = [
         { key: "github", icon: AiFillGithub, },
@@ -17,7 +18,7 @@ const ProjCard = (props: { project: ProjectData, setData: Function}) => {
     ]
 
     return (
-        <Stack sx={{ border: 10, borderRadius: 10, background: "white" }} gap={1} className="hover_increase_smaller">
+        <Stack className="project_card hover_increase_smaller" sx={{ border: 10, borderRadius: 10, background: "white", height: "95%", maxHeight: "50vh", position: "relative" }} gap={1}>
             <Stack>
                 <Box component="img" alt="Project icon" src={ require(`../data/img/${ project.img }`) } sx={{height: "30vh", width: "30vh", borderStartStartRadius: 30, borderStartEndRadius: 30 }} draggable="false" />
                 {
@@ -29,11 +30,12 @@ const ProjCard = (props: { project: ProjectData, setData: Function}) => {
                             data-tooltip-id="lock_msg"
                             data-tooltip-content="This project is password-protected"
                         />
+                        {/* TODO: Reimplemnt this MUI Tooltip */}
                         {/* <Tooltip id="lock_msg" /> */}
                     </>
                 }
                 <AiFillInfoCircle 
-                    style={{ color: (project.white_bg ? "black" : "white"), position: "fixed", cursor: "pointer" }} 
+                    style={{ color: (project.white_bg ? "black" : "white"), position: "absolute", cursor: "pointer", top: 10, right: 10 }} 
                     size={ 35 }
                     onClick={() => {
                         setData(project)
@@ -45,7 +47,7 @@ const ProjCard = (props: { project: ProjectData, setData: Function}) => {
             <Typography variant="h5" style={{ fontWeight: "bold", color: "black" }}>{project.title}</Typography>
             <Divider sx={{ bgcolor: "black", height: 5 }} />
 
-            <Stack direction="row" gap={10} justifyContent="center" alignItems="center" height={100}>
+            <Stack direction="row" gap={5} {...STACK_CENTRE} height="100%">
                 {
                     buttons.map((config, i) => {
                         const destination = project[config.key]
@@ -63,4 +65,4 @@ const ProjCard = (props: { project: ProjectData, setData: Function}) => {
     )
 }
 
-export default ProjCard
+export default ProjectCard

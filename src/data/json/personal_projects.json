@@ -177,7 +177,7 @@
         "link": null
     },
     {
-        "title": "Arduino Metronome",
+        "title": "Arduinonome",
         "img": "arduino_metronome.png",
         "protected": false,
         "white_bg": true,
@@ -212,7 +212,7 @@
         "link": null
     },
     {
-        "title": "YouTube NoteTaker",
+        "title": "NoteTube",
         "img": "youtube_notetaker.png",
         "protected": false,
         "white_bg": true,
@@ -329,11 +329,11 @@
                 },
                 {
                     "title": "Selenium",
-                    "link": null
+                    "link": "https://www.selenium.dev/"
                 },
                 {
                     "title": "BeautifulSoup4",
-                    "link": null
+                    "link": "https://pypi.org/project/beautifulsoup4/"
                 }
             ],
         "desc_points": 

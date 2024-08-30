@@ -5,8 +5,6 @@ import { useEffect } from "react"
 const DOWN_ARROW_SX: SxProps = { 
     fontSize: "14px", 
     cursor: "pointer",
-    position: "absolute",
-    top: "93vh",
 }
 
 const DownArrow = () => {

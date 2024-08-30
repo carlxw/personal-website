@@ -1,6 +1,7 @@
 import { Box, Link, Stack, Typography } from "@mui/material"
 import React from "react"
 import { useState } from "react"
+import { STACK_CENTRE } from "../components/PageWrapper"
 
 const Error = () => {
     const [troll, setTroll] = useState(false)
@@ -20,10 +21,10 @@ const Error = () => {
     }
 
     return (
-        <Stack justifyContent="center" alignItems="center" gap={5}>
+        <Stack {...STACK_CENTRE} gap={5}>
             <Typography variant="h1" sx={{ fontWeight: "bold" }}>404 not found.</Typography>
             
-            <Stack justifyContent="center" alignItems="center" direction="column" gap={5}>
+            <Stack {...STACK_CENTRE} direction="column" gap={5}>
                 <Typography variant="h6">Woah there, stop trying to expose any lose ends I might have...</Typography>
                 <Link id="return_fake_msg" onClick={buttonOnClickFn} {...ATagProps}>
                     Lets get to where you should be right now
