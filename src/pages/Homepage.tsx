@@ -3,6 +3,8 @@ import image from "../data/img/cartoonme.png"
 import { Box, BoxProps, Stack, StackProps, SxProps, Typography } from "@mui/material"
 import { STACK_CENTRE } from "../components/PageWrapper"
 
+export const CENTER_ADJUSTMENT = { pt: "8vh" }
+
 const IMAGE_SX: SxProps = {
     borderRadius: 5,
     maxWidth: "33vw",
@@ -19,18 +21,17 @@ const IMAGE_BOX_PROPS: BoxProps & { alt: string, src: string } = {
     draggable: "false",
 }
 
-export const CENTER_ADJUSTMENT = { pt: "8vh" }
+const PAGE_CONFIG: StackProps = {
+    direction: "row",
+    sx: { pl: 10, pr: 10, ...CENTER_ADJUSTMENT },
+    gap: 15,
+    ...STACK_CENTRE,
+}
 
 export const H1_SX: SxProps = { fontWeight: "bold", textDecoration: "underline", fontSize: "4.7em", whiteSpace: "nowrap" }
 
 const Hello = () => {   
     const date = new Date()
-    const PAGE_CONFIG: StackProps = {
-        direction: "row",
-        sx: { pl: 10, pr: 10, ...CENTER_ADJUSTMENT },
-        gap: 15,
-        ...STACK_CENTRE,
-    }
 
     return (
         <Stack { ...PAGE_CONFIG } className="homepage">

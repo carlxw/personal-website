@@ -3,7 +3,7 @@ import { Dispatch, SetStateAction, useEffect, useState } from "react"
 import { useLocation } from "react-router-dom"
 import Copyright from "./Copyright"
 import React from "react"
-import { Box, BoxProps, Button, Link, Stack, StackProps } from "@mui/material"
+import { BoxProps, Button, Link, Stack, StackProps } from "@mui/material"
 import { FontOptions } from "../App"
 
 const COMMON_SX = { color: "white", '&.MuiButton-root:hover': { bgcolor: 'transparent' } }
